@@ -1,0 +1,997 @@
+{
+  "version": "1.0.0",
+  "lessons": [
+    {
+      "id": "1",
+      "title": "Bank Imposter Scam",
+      "summary": "Fake bank calls demanding your PIN",
+      "body": "They say \"Account frozen - verify now!\" from unknown numbers. Real banks never call asking for your PIN or password.",
+      "category": "phone",
+      "icon": "🚨",
+      "danger_signs": [
+        "Unknown caller",
+        "Creates panic",
+        "Asks for PIN/password",
+        "Demands immediate action"
+      ],
+      "safe_action": "Hang up → Call your real bank using the number on your card!"
+    },
+    {
+      "id": "2",
+      "title": "Prize Scam",
+      "summary": "\"You won?!\" fake lottery calls",
+      "body": "Callers claim you won a prize but need to pay fees first. Real prizes are free - no payment required!",
+      "category": "phone",
+      "icon": "🎁",
+      "danger_signs": [
+        "Asks for payment upfront",
+        "Too good to be true",
+        "Pressure to act quickly",
+        "Won something you never entered"
+      ],
+      "safe_action": "Hang up → If it sounds too good to be true, it is!"
+    },
+    {
+      "id": "3",
+      "title": "Grandparent Scam",
+      "summary": "\"Grandkid in trouble\" emergency calls",
+      "body": "Call from unknown number saying \"I'm in jail - send gift cards now!\" They pretend to be your grandkid.",
+      "category": "phone",
+      "icon": "👴",
+      "danger_signs": [
+        "Unknown caller",
+        "Creates panic",
+        "Asks for wire/gift cards",
+        "Won't let you verify"
+      ],
+      "safe_action": "Hang up → Call your real grandkid directly to verify!"
+    },
+    {
+      "id": "4",
+      "title": "Tech Support Scam",
+      "summary": "\"PC hacked\" fake tech support",
+      "body": "Callers claim your computer is hacked and need remote access. Real tech support never calls you first.",
+      "category": "phone",
+      "icon": "💻",
+      "danger_signs": [
+        "Unsolicited tech support call",
+        "Asks for remote access",
+        "Demands payment",
+        "Creates fear about your device"
+      ],
+      "safe_action": "Hang up → Never give remote access to unknown callers!"
+    },
+    {
+      "id": "5",
+      "title": "IRS Tax Scam",
+      "summary": "Fake IRS calls demanding payment",
+      "body": "Callers claim you owe back taxes and must pay immediately or face arrest. The real IRS never calls demanding immediate payment.",
+      "category": "phone",
+      "icon": "📋",
+      "danger_signs": [
+        "Threatens arrest or legal action",
+        "Demands immediate payment",
+        "Asks for gift cards or wire transfer",
+        "Won't let you verify"
+      ],
+      "safe_action": "Hang up → The IRS sends letters, not threatening calls!"
+    },
+    {
+      "id": "6",
+      "title": "Social Security Scam",
+      "summary": "\"Your SSN is suspended\" fake calls",
+      "body": "Callers claim your Social Security number is suspended due to suspicious activity. Real SSA never calls about this.",
+      "category": "phone",
+      "icon": "🆔",
+      "danger_signs": [
+        "Claims SSN is suspended",
+        "Asks for personal information",
+        "Demands immediate action",
+        "Creates fear and urgency"
+      ],
+      "safe_action": "Hang up → Contact Social Security directly if concerned!"
+    },
+    {
+      "id": "7",
+      "title": "Romance Scam",
+      "summary": "Online dating fraud and fake relationships",
+      "body": "Scammers create fake profiles, build trust, then ask for money for emergencies. Real relationships don't ask for money.",
+      "category": "online",
+      "icon": "💔",
+      "danger_signs": [
+        "Asks for money early in relationship",
+        "Has excuses to never meet in person",
+        "Claims emergencies need money",
+        "Pressures you to send funds"
+      ],
+      "safe_action": "Stop contact → Never send money to someone you haven't met!"
+    },
+    {
+      "id": "8",
+      "title": "Phishing Email Scam",
+      "summary": "Fake emails trying to steal your info",
+      "body": "Emails that look real but are fake, asking you to click links or provide passwords. Real companies don't email asking for passwords.",
+      "category": "online",
+      "icon": "📧",
+      "danger_signs": [
+        "Urgent action required",
+        "Asks for password or account info",
+        "Suspicious sender email",
+        "Contains links to login"
+      ],
+      "safe_action": "Delete email → Never click links in suspicious emails!"
+    },
+    {
+      "id": "9",
+      "title": "Medicare Scam",
+      "summary": "Fake Medicare calls asking for card info",
+      "body": "Callers claim to be from Medicare and need your card number to send a new card. Real Medicare never calls asking for your card number.",
+      "category": "phone",
+      "icon": "🏥",
+      "danger_signs": [
+        "Unsolicited call from \"Medicare\"",
+        "Asks for Medicare card number",
+        "Claims you need a new card",
+        "Pressure to provide info immediately"
+      ],
+      "safe_action": "Hang up → Medicare sends cards by mail, never calls!"
+    },
+    {
+      "id": "10",
+      "title": "Utility Scam",
+      "summary": "\"Your power will be shut off\" fake calls",
+      "body": "Callers claim your utility bill is overdue and power will be shut off unless you pay now. Real utilities send written notices first.",
+      "category": "phone",
+      "icon": "⚡",
+      "danger_signs": [
+        "Threatens immediate shutoff",
+        "Demands payment by gift card",
+        "Won't let you verify account",
+        "Creates urgency and panic"
+      ],
+      "safe_action": "Hang up → Call your utility company directly to verify!"
+    },
+    {
+      "id": "11",
+      "title": "Sweepstakes Scam",
+      "summary": "\"You won!\" fake contest calls",
+      "body": "Callers claim you won a sweepstakes but need to pay taxes or fees first. Real sweepstakes never require payment to claim prizes.",
+      "category": "phone",
+      "icon": "🎰",
+      "danger_signs": [
+        "Claims you won without entering",
+        "Asks for payment to claim prize",
+        "Pressure to act quickly",
+        "Won't provide written confirmation"
+      ],
+      "safe_action": "Hang up → Real prizes are free, no fees required!"
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": "1-1",
+      "lesson_id": "1",
+      "question_type": "indicator",
+      "question": "What indicates a bank call is a scam?",
+      "correct_answer": "asks_pin",
+      "options": [
+        {
+          "id": "asks_pin",
+          "text": "Asks for your PIN or password",
+          "icon": "🚫"
+        },
+        {
+          "id": "known_number",
+          "text": "Calls from a known bank number",
+          "icon": "✅"
+        },
+        {
+          "id": "verifies_info",
+          "text": "Asks you to verify your account",
+          "icon": "❓"
+        }
+      ],
+      "explanation": "Real banks NEVER call asking for your PIN or password. This is the #1 red flag."
+    },
+    {
+      "id": "1-2",
+      "lesson_id": "1",
+      "question_type": "danger",
+      "question": "What's the danger if you give your PIN to a scammer?",
+      "correct_answer": "account_theft",
+      "options": [
+        {
+          "id": "account_theft",
+          "text": "They can steal all your money",
+          "icon": "🚫"
+        },
+        {
+          "id": "nothing",
+          "text": "Nothing, PINs are safe to share",
+          "icon": "❌"
+        },
+        {
+          "id": "spam_calls",
+          "text": "You'll get more spam calls",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Your PIN gives full access to your account. Scammers can drain your account immediately."
+    },
+    {
+      "id": "1-3",
+      "lesson_id": "1",
+      "question_type": "action",
+      "question": "What should you do when a caller claims your bank account is frozen?",
+      "correct_answer": "hang_up_call_bank",
+      "options": [
+        {
+          "id": "give_info",
+          "text": "Give them your account info to verify",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up_call_bank",
+          "text": "Hang up & call your bank directly",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_caller",
+          "text": "Ask them to verify who they are",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Always hang up and call your bank using the number on your card. Never trust incoming calls."
+    },
+    {
+      "id": "2-1",
+      "lesson_id": "2",
+      "question_type": "indicator",
+      "question": "What indicates a prize call is a scam?",
+      "correct_answer": "asks_payment",
+      "options": [
+        {
+          "id": "asks_payment",
+          "text": "Asks you to pay fees upfront",
+          "icon": "🚫"
+        },
+        {
+          "id": "congratulates",
+          "text": "Congratulates you on winning",
+          "icon": "✅"
+        },
+        {
+          "id": "asks_address",
+          "text": "Asks for your mailing address",
+          "icon": "❓"
+        }
+      ],
+      "explanation": "Real prizes are FREE. If they ask for payment, it's always a scam."
+    },
+    {
+      "id": "2-2",
+      "lesson_id": "2",
+      "question_type": "danger",
+      "question": "What's the danger of paying \"processing fees\" for a prize?",
+      "correct_answer": "lose_money",
+      "options": [
+        {
+          "id": "lose_money",
+          "text": "You lose money, no prize exists",
+          "icon": "🚫"
+        },
+        {
+          "id": "delay_prize",
+          "text": "Your prize will be delayed",
+          "icon": "❌"
+        },
+        {
+          "id": "tax_issues",
+          "text": "You'll owe taxes on the prize",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "There is no prize. Scammers take your money and disappear. You'll never see a prize."
+    },
+    {
+      "id": "2-3",
+      "lesson_id": "2",
+      "question_type": "action",
+      "question": "What should you say when someone claims you won a prize?",
+      "correct_answer": "hang_up",
+      "options": [
+        {
+          "id": "ask_details",
+          "text": "Ask for more details about the prize",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up",
+          "text": "Hang up immediately",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_entry",
+          "text": "Check if you entered the contest",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "If it sounds too good to be true, it is. Hang up - real prizes don't require payment."
+    },
+    {
+      "id": "3-1",
+      "lesson_id": "3",
+      "question_type": "indicator",
+      "question": "What indicates a \"grandkid in trouble\" call is a scam?",
+      "correct_answer": "unknown_number",
+      "options": [
+        {
+          "id": "unknown_number",
+          "text": "Call from unknown number",
+          "icon": "🚫"
+        },
+        {
+          "id": "sounds_like",
+          "text": "Voice sounds like your grandkid",
+          "icon": "❓"
+        },
+        {
+          "id": "knows_name",
+          "text": "Knows your grandkid's name",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Scammers use unknown numbers and won't let you verify. Real emergencies come from known numbers."
+    },
+    {
+      "id": "3-2",
+      "lesson_id": "3",
+      "question_type": "danger",
+      "question": "What's the danger of sending gift cards to a \"grandkid in jail\"?",
+      "correct_answer": "money_lost",
+      "options": [
+        {
+          "id": "money_lost",
+          "text": "Money is lost, can't be recovered",
+          "icon": "🚫"
+        },
+        {
+          "id": "legal_trouble",
+          "text": "You'll face legal trouble",
+          "icon": "❌"
+        },
+        {
+          "id": "more_requests",
+          "text": "They'll ask for more money",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Gift cards are untraceable. Once sent, the money is gone forever and can't be recovered."
+    },
+    {
+      "id": "3-3",
+      "lesson_id": "3",
+      "question_type": "action",
+      "question": "What should you do if someone claims to be your grandkid in trouble?",
+      "correct_answer": "call_directly",
+      "options": [
+        {
+          "id": "send_money",
+          "text": "Send money immediately to help",
+          "icon": "🚫"
+        },
+        {
+          "id": "call_directly",
+          "text": "Hang up & call your grandkid directly",
+          "icon": "✅"
+        },
+        {
+          "id": "ask_questions",
+          "text": "Ask them personal questions",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Always verify by calling your grandkid directly on their known number. Real emergencies can wait for verification."
+    },
+    {
+      "id": "4-1",
+      "lesson_id": "4",
+      "question_type": "indicator",
+      "question": "What indicates a tech support call is a scam?",
+      "correct_answer": "unsolicited_call",
+      "options": [
+        {
+          "id": "unsolicited_call",
+          "text": "They called you first",
+          "icon": "🚫"
+        },
+        {
+          "id": "company_name",
+          "text": "Uses a real company name",
+          "icon": "❓"
+        },
+        {
+          "id": "knows_computer",
+          "text": "Knows what computer you have",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real tech support NEVER calls you first. If they call unsolicited, it's always a scam."
+    },
+    {
+      "id": "4-2",
+      "lesson_id": "4",
+      "question_type": "danger",
+      "question": "What's the danger of giving remote access to your computer?",
+      "correct_answer": "full_control",
+      "options": [
+        {
+          "id": "full_control",
+          "text": "They can steal all your files and passwords",
+          "icon": "🚫"
+        },
+        {
+          "id": "slow_computer",
+          "text": "Your computer will run slower",
+          "icon": "❌"
+        },
+        {
+          "id": "viruses",
+          "text": "You'll get computer viruses",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Remote access gives them full control. They can steal passwords, files, and install malware."
+    },
+    {
+      "id": "4-3",
+      "lesson_id": "4",
+      "question_type": "action",
+      "question": "What should you do when someone claims your computer is hacked?",
+      "correct_answer": "hang_up",
+      "options": [
+        {
+          "id": "give_access",
+          "text": "Let them access your computer to fix it",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up",
+          "text": "Hang up immediately",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_company",
+          "text": "Ask them to verify their company",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Never give remote access to unknown callers. Hang up - real tech support doesn't call you."
+    },
+    {
+      "id": "5-1",
+      "lesson_id": "5",
+      "question_type": "indicator",
+      "question": "What indicates an IRS call is a scam?",
+      "correct_answer": "threatens_arrest",
+      "options": [
+        {
+          "id": "threatens_arrest",
+          "text": "Threatens immediate arrest",
+          "icon": "🚫"
+        },
+        {
+          "id": "asks_info",
+          "text": "Asks for your Social Security number",
+          "icon": "❓"
+        },
+        {
+          "id": "says_owed",
+          "text": "Says you owe back taxes",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "The real IRS NEVER threatens arrest over the phone. They send letters first, not threatening calls."
+    },
+    {
+      "id": "5-2",
+      "lesson_id": "5",
+      "question_type": "danger",
+      "question": "What's the danger if you pay \"back taxes\" via gift cards?",
+      "correct_answer": "money_stolen",
+      "options": [
+        {
+          "id": "money_stolen",
+          "text": "Money is stolen, IRS never gets it",
+          "icon": "🚫"
+        },
+        {
+          "id": "late_fees",
+          "text": "You'll owe late fees",
+          "icon": "❌"
+        },
+        {
+          "id": "audit",
+          "text": "You'll be audited",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "The IRS never accepts gift cards. Your money goes to scammers and you still owe real taxes."
+    },
+    {
+      "id": "5-3",
+      "lesson_id": "5",
+      "question_type": "action",
+      "question": "What should you do when someone claims to be from the IRS demanding payment?",
+      "correct_answer": "hang_up",
+      "options": [
+        {
+          "id": "pay_immediately",
+          "text": "Pay immediately to avoid arrest",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up",
+          "text": "Hang up - IRS sends letters, not calls",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_caller",
+          "text": "Ask them to verify their identity",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "The IRS sends letters by mail, not threatening phone calls. Hang up and ignore the call."
+    },
+    {
+      "id": "6-1",
+      "lesson_id": "6",
+      "question_type": "indicator",
+      "question": "What indicates a Social Security call is a scam?",
+      "correct_answer": "claims_suspended",
+      "options": [
+        {
+          "id": "claims_suspended",
+          "text": "Claims your SSN is suspended",
+          "icon": "🚫"
+        },
+        {
+          "id": "asks_verify",
+          "text": "Asks you to verify your identity",
+          "icon": "❓"
+        },
+        {
+          "id": "says_benefits",
+          "text": "Talks about your benefits",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Social Security numbers CANNOT be suspended. This is always a scam."
+    },
+    {
+      "id": "6-2",
+      "lesson_id": "6",
+      "question_type": "danger",
+      "question": "What's the danger of giving your SSN to a scammer?",
+      "correct_answer": "identity_theft",
+      "options": [
+        {
+          "id": "identity_theft",
+          "text": "They can steal your identity",
+          "icon": "🚫"
+        },
+        {
+          "id": "benefits_lost",
+          "text": "You'll lose your benefits",
+          "icon": "❌"
+        },
+        {
+          "id": "spam_calls",
+          "text": "More spam calls",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Your SSN can be used to open accounts, file taxes, and commit identity theft in your name."
+    },
+    {
+      "id": "6-3",
+      "lesson_id": "6",
+      "question_type": "action",
+      "question": "What should you do if someone claims your Social Security number is suspended?",
+      "correct_answer": "hang_up",
+      "options": [
+        {
+          "id": "provide_ssn",
+          "text": "Provide your SSN to verify",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up",
+          "text": "Hang up - SSNs can't be suspended",
+          "icon": "✅"
+        },
+        {
+          "id": "call_back",
+          "text": "Call Social Security to verify",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "SSNs cannot be suspended. Hang up immediately - this is always a scam."
+    },
+    {
+      "id": "7-1",
+      "lesson_id": "7",
+      "question_type": "indicator",
+      "question": "What indicates an online romance is a scam?",
+      "correct_answer": "asks_money",
+      "options": [
+        {
+          "id": "asks_money",
+          "text": "Asks for money early in relationship",
+          "icon": "🚫"
+        },
+        {
+          "id": "sends_photos",
+          "text": "Sends photos of themselves",
+          "icon": "❓"
+        },
+        {
+          "id": "talks_daily",
+          "text": "Talks to you every day",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real relationships don't ask for money. If they ask early on, it's a scam."
+    },
+    {
+      "id": "7-2",
+      "lesson_id": "7",
+      "question_type": "danger",
+      "question": "What's the danger of sending money to someone you've never met?",
+      "correct_answer": "money_lost",
+      "options": [
+        {
+          "id": "money_lost",
+          "text": "Money is lost, relationship is fake",
+          "icon": "🚫"
+        },
+        {
+          "id": "relationship_ends",
+          "text": "The relationship will end",
+          "icon": "❌"
+        },
+        {
+          "id": "more_requests",
+          "text": "They'll ask for more money",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "You'll lose your money and the \"relationship\" is fake. They'll disappear once you stop paying."
+    },
+    {
+      "id": "7-3",
+      "lesson_id": "7",
+      "question_type": "action",
+      "question": "What should you do if someone online asks for money?",
+      "correct_answer": "stop_contact",
+      "options": [
+        {
+          "id": "send_money",
+          "text": "Send money to help them",
+          "icon": "🚫"
+        },
+        {
+          "id": "stop_contact",
+          "text": "Stop contact immediately",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_story",
+          "text": "Ask for proof of their story",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Never send money to someone you haven't met. Real relationships don't ask for money."
+    },
+    {
+      "id": "8-1",
+      "lesson_id": "8",
+      "question_type": "indicator",
+      "question": "What indicates an email is a phishing scam?",
+      "correct_answer": "asks_password",
+      "options": [
+        {
+          "id": "asks_password",
+          "text": "Asks for your password",
+          "icon": "🚫"
+        },
+        {
+          "id": "company_logo",
+          "text": "Has a company logo",
+          "icon": "❓"
+        },
+        {
+          "id": "professional",
+          "text": "Looks professional",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real companies NEVER email asking for passwords. This is always a phishing scam."
+    },
+    {
+      "id": "8-2",
+      "lesson_id": "8",
+      "question_type": "danger",
+      "question": "What's the danger of clicking links in phishing emails?",
+      "correct_answer": "account_hacked",
+      "options": [
+        {
+          "id": "account_hacked",
+          "text": "Scammers can hack your account",
+          "icon": "🚫"
+        },
+        {
+          "id": "spam_folder",
+          "text": "More emails go to spam",
+          "icon": "❌"
+        },
+        {
+          "id": "slow_computer",
+          "text": "Your computer slows down",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Fake login pages steal your password, giving scammers full access to your account."
+    },
+    {
+      "id": "8-3",
+      "lesson_id": "8",
+      "question_type": "action",
+      "question": "What should you do with a suspicious email asking for your password?",
+      "correct_answer": "delete_email",
+      "options": [
+        {
+          "id": "click_link",
+          "text": "Click the link to verify",
+          "icon": "🚫"
+        },
+        {
+          "id": "delete_email",
+          "text": "Delete the email immediately",
+          "icon": "✅"
+        },
+        {
+          "id": "reply_verify",
+          "text": "Reply to verify it's real",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Never click links or reply. Delete suspicious emails - real companies don't email for passwords."
+    },
+    {
+      "id": "9-1",
+      "lesson_id": "9",
+      "question_type": "indicator",
+      "question": "What indicates a Medicare call is a scam?",
+      "correct_answer": "asks_card_number",
+      "options": [
+        {
+          "id": "asks_card_number",
+          "text": "Asks for your Medicare card number",
+          "icon": "🚫"
+        },
+        {
+          "id": "says_medicare",
+          "text": "Says they're from Medicare",
+          "icon": "❓"
+        },
+        {
+          "id": "talks_benefits",
+          "text": "Talks about your benefits",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real Medicare NEVER calls asking for your card number. They send cards by mail."
+    },
+    {
+      "id": "9-2",
+      "lesson_id": "9",
+      "question_type": "danger",
+      "question": "What's the danger of giving your Medicare card number to a scammer?",
+      "correct_answer": "medical_fraud",
+      "options": [
+        {
+          "id": "medical_fraud",
+          "text": "They can commit medical fraud in your name",
+          "icon": "🚫"
+        },
+        {
+          "id": "benefits_lost",
+          "text": "You'll lose your benefits",
+          "icon": "❌"
+        },
+        {
+          "id": "more_calls",
+          "text": "More scam calls",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Scammers can use your Medicare number to bill for fake services, causing medical fraud."
+    },
+    {
+      "id": "9-3",
+      "lesson_id": "9",
+      "question_type": "action",
+      "question": "What should you do when someone calls claiming to be from Medicare?",
+      "correct_answer": "hang_up",
+      "options": [
+        {
+          "id": "give_card_number",
+          "text": "Give them your Medicare card number",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up",
+          "text": "Hang up - Medicare sends mail, not calls",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_caller",
+          "text": "Ask them to verify their identity",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Medicare sends information by mail, not phone calls. Hang up immediately."
+    },
+    {
+      "id": "10-1",
+      "lesson_id": "10",
+      "question_type": "indicator",
+      "question": "What indicates a utility call is a scam?",
+      "correct_answer": "threatens_shutoff",
+      "options": [
+        {
+          "id": "threatens_shutoff",
+          "text": "Threatens immediate shutoff",
+          "icon": "🚫"
+        },
+        {
+          "id": "says_overdue",
+          "text": "Says your bill is overdue",
+          "icon": "❓"
+        },
+        {
+          "id": "asks_account",
+          "text": "Asks for your account number",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real utilities send written notices first. Immediate shutoff threats are always scams."
+    },
+    {
+      "id": "10-2",
+      "lesson_id": "10",
+      "question_type": "danger",
+      "question": "What's the danger of paying utility bills with gift cards?",
+      "correct_answer": "money_stolen",
+      "options": [
+        {
+          "id": "money_stolen",
+          "text": "Money is stolen, bill never paid",
+          "icon": "🚫"
+        },
+        {
+          "id": "late_fees",
+          "text": "You'll owe late fees",
+          "icon": "❌"
+        },
+        {
+          "id": "service_cut",
+          "text": "Your service will be cut off",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Utilities don't accept gift cards. Your money goes to scammers and your real bill remains unpaid."
+    },
+    {
+      "id": "10-3",
+      "lesson_id": "10",
+      "question_type": "action",
+      "question": "What should you do when someone threatens to shut off your utilities?",
+      "correct_answer": "call_utility",
+      "options": [
+        {
+          "id": "pay_gift_card",
+          "text": "Pay immediately with gift cards",
+          "icon": "🚫"
+        },
+        {
+          "id": "call_utility",
+          "text": "Hang up & call your utility directly",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_account",
+          "text": "Give them your account to verify",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Always hang up and call your utility company directly using the number on your bill."
+    },
+    {
+      "id": "11-1",
+      "lesson_id": "11",
+      "question_type": "indicator",
+      "question": "What indicates a sweepstakes call is a scam?",
+      "correct_answer": "never_entered",
+      "options": [
+        {
+          "id": "never_entered",
+          "text": "You never entered the contest",
+          "icon": "🚫"
+        },
+        {
+          "id": "congratulates",
+          "text": "Congratulates you on winning",
+          "icon": "❓"
+        },
+        {
+          "id": "asks_info",
+          "text": "Asks for your contact information",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "You can't win contests you never entered. This is always a scam."
+    },
+    {
+      "id": "11-2",
+      "lesson_id": "11",
+      "question_type": "danger",
+      "question": "What's the danger of paying \"taxes\" to claim a sweepstakes prize?",
+      "correct_answer": "lose_money",
+      "options": [
+        {
+          "id": "lose_money",
+          "text": "You lose money, no prize exists",
+          "icon": "🚫"
+        },
+        {
+          "id": "tax_penalty",
+          "text": "You'll owe tax penalties",
+          "icon": "❌"
+        },
+        {
+          "id": "prize_delayed",
+          "text": "Your prize will be delayed",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "There is no prize. Real sweepstakes never require payment. You'll lose your money."
+    },
+    {
+      "id": "11-3",
+      "lesson_id": "11",
+      "question_type": "action",
+      "question": "What should you do when someone claims you won a sweepstakes?",
+      "correct_answer": "hang_up",
+      "options": [
+        {
+          "id": "pay_taxes",
+          "text": "Pay the taxes to claim your prize",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up",
+          "text": "Hang up - real prizes are free",
+          "icon": "✅"
+        },
+        {
+          "id": "verify_entry",
+          "text": "Check if you entered the contest",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real prizes are free with no fees. Hang up immediately - this is always a scam."
+    }
+  ]
+}
