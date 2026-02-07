@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "lessons": [
     {
       "id": "1",
@@ -221,6 +221,11 @@
       "correct_answer": "asks_pin",
       "options": [
         {
+          "id": "verifies_info",
+          "text": "Says they're calling from your local branch",
+          "icon": "❓"
+        },
+        {
           "id": "asks_pin",
           "text": "Asks for your PIN or password",
           "icon": "🚫"
@@ -229,11 +234,6 @@
           "id": "known_number",
           "text": "Calls from a known bank number",
           "icon": "✅"
-        },
-        {
-          "id": "verifies_info",
-          "text": "Asks you to verify your account",
-          "icon": "❓"
         }
       ],
       "explanation": "Real banks NEVER call asking for your PIN or password. This is the #1 red flag."
@@ -271,19 +271,19 @@
       "correct_answer": "hang_up_call_bank",
       "options": [
         {
-          "id": "give_info",
-          "text": "Give them your account info to verify",
-          "icon": "🚫"
-        },
-        {
           "id": "hang_up_call_bank",
           "text": "Hang up & call your bank directly",
           "icon": "✅"
         },
         {
           "id": "verify_caller",
-          "text": "Ask them to verify who they are",
+          "text": "Stay on the line while they \"verify\" your account",
           "icon": "⚠️"
+        },
+        {
+          "id": "give_info",
+          "text": "Give them your account info to verify",
+          "icon": "🚫"
         }
       ],
       "explanation": "Always hang up and call your bank using the number on your card. Never trust incoming calls."
@@ -321,11 +321,6 @@
       "correct_answer": "lose_money",
       "options": [
         {
-          "id": "lose_money",
-          "text": "You lose money, no prize exists",
-          "icon": "🚫"
-        },
-        {
           "id": "delay_prize",
           "text": "Your prize will be delayed",
           "icon": "❌"
@@ -334,6 +329,11 @@
           "id": "tax_issues",
           "text": "You'll owe taxes on the prize",
           "icon": "⚠️"
+        },
+        {
+          "id": "lose_money",
+          "text": "You lose money, no prize exists",
+          "icon": "🚫"
         }
       ],
       "explanation": "There is no prize. Scammers take your money and disappear. You'll never see a prize."
@@ -351,14 +351,14 @@
           "icon": "🚫"
         },
         {
+          "id": "verify_entry",
+          "text": "Pay a fee to \"check\" if you won",
+          "icon": "⚠️"
+        },
+        {
           "id": "hang_up",
           "text": "Hang up immediately",
           "icon": "✅"
-        },
-        {
-          "id": "verify_entry",
-          "text": "Check if you entered the contest",
-          "icon": "⚠️"
         }
       ],
       "explanation": "If it sounds too good to be true, it is. Hang up - real prizes don't require payment."
@@ -371,11 +371,6 @@
       "correct_answer": "unknown_number",
       "options": [
         {
-          "id": "unknown_number",
-          "text": "Call from unknown number",
-          "icon": "🚫"
-        },
-        {
           "id": "sounds_like",
           "text": "Voice sounds like your grandkid",
           "icon": "❓"
@@ -384,6 +379,11 @@
           "id": "knows_name",
           "text": "Knows your grandkid's name",
           "icon": "⚠️"
+        },
+        {
+          "id": "unknown_number",
+          "text": "Call from unknown number",
+          "icon": "🚫"
         }
       ],
       "explanation": "Scammers use unknown numbers and won't let you verify. Real emergencies come from known numbers."
@@ -401,14 +401,14 @@
           "icon": "🚫"
         },
         {
-          "id": "legal_trouble",
-          "text": "You'll face legal trouble",
-          "icon": "❌"
-        },
-        {
           "id": "more_requests",
           "text": "They'll ask for more money",
           "icon": "⚠️"
+        },
+        {
+          "id": "legal_trouble",
+          "text": "You'll face legal trouble",
+          "icon": "❌"
         }
       ],
       "explanation": "Gift cards are untraceable. Once sent, the money is gone forever and can't be recovered."
@@ -421,18 +421,18 @@
       "correct_answer": "call_directly",
       "options": [
         {
-          "id": "send_money",
-          "text": "Send money immediately to help",
-          "icon": "🚫"
-        },
-        {
           "id": "call_directly",
           "text": "Hang up & call your grandkid directly",
           "icon": "✅"
         },
         {
+          "id": "send_money",
+          "text": "Send money immediately to help",
+          "icon": "🚫"
+        },
+        {
           "id": "ask_questions",
-          "text": "Ask them personal questions",
+          "text": "Send a small amount to verify it's really them",
           "icon": "⚠️"
         }
       ],
@@ -451,14 +451,14 @@
           "icon": "🚫"
         },
         {
-          "id": "company_name",
-          "text": "Uses a real company name",
-          "icon": "❓"
-        },
-        {
           "id": "knows_computer",
           "text": "Knows what computer you have",
           "icon": "⚠️"
+        },
+        {
+          "id": "company_name",
+          "text": "Uses a real company name",
+          "icon": "❓"
         }
       ],
       "explanation": "Real tech support NEVER calls you first. If they call unsolicited, it's always a scam."
@@ -471,14 +471,14 @@
       "correct_answer": "full_control",
       "options": [
         {
-          "id": "full_control",
-          "text": "They can steal all your files and passwords",
-          "icon": "🚫"
-        },
-        {
           "id": "slow_computer",
           "text": "Your computer will run slower",
           "icon": "❌"
+        },
+        {
+          "id": "full_control",
+          "text": "They can steal all your files and passwords",
+          "icon": "🚫"
         },
         {
           "id": "viruses",
@@ -496,9 +496,9 @@
       "correct_answer": "hang_up",
       "options": [
         {
-          "id": "give_access",
-          "text": "Let them access your computer to fix it",
-          "icon": "🚫"
+          "id": "verify_company",
+          "text": "Follow their instructions to open a website",
+          "icon": "⚠️"
         },
         {
           "id": "hang_up",
@@ -506,9 +506,9 @@
           "icon": "✅"
         },
         {
-          "id": "verify_company",
-          "text": "Ask them to verify their company",
-          "icon": "⚠️"
+          "id": "give_access",
+          "text": "Let them access your computer to fix it",
+          "icon": "🚫"
         }
       ],
       "explanation": "Never give remote access to unknown callers. Hang up - real tech support doesn't call you."
@@ -521,18 +521,18 @@
       "correct_answer": "threatens_arrest",
       "options": [
         {
+          "id": "asks_info",
+          "text": "Says you may be due a refund",
+          "icon": "❓"
+        },
+        {
           "id": "threatens_arrest",
           "text": "Threatens immediate arrest",
           "icon": "🚫"
         },
         {
-          "id": "asks_info",
-          "text": "Asks for your Social Security number",
-          "icon": "❓"
-        },
-        {
           "id": "says_owed",
-          "text": "Says you owe back taxes",
+          "text": "Sends a letter first before calling",
           "icon": "⚠️"
         }
       ],
@@ -546,9 +546,9 @@
       "correct_answer": "money_stolen",
       "options": [
         {
-          "id": "money_stolen",
-          "text": "Money is stolen, IRS never gets it",
-          "icon": "🚫"
+          "id": "audit",
+          "text": "You'll be audited",
+          "icon": "⚠️"
         },
         {
           "id": "late_fees",
@@ -556,9 +556,9 @@
           "icon": "❌"
         },
         {
-          "id": "audit",
-          "text": "You'll be audited",
-          "icon": "⚠️"
+          "id": "money_stolen",
+          "text": "Money is stolen, IRS never gets it",
+          "icon": "🚫"
         }
       ],
       "explanation": "The IRS never accepts gift cards. Your money goes to scammers and you still owe real taxes."
@@ -571,6 +571,11 @@
       "correct_answer": "hang_up",
       "options": [
         {
+          "id": "verify_caller",
+          "text": "Ask them to verify their identity",
+          "icon": "⚠️"
+        },
+        {
           "id": "pay_immediately",
           "text": "Pay immediately to avoid arrest",
           "icon": "🚫"
@@ -579,11 +584,6 @@
           "id": "hang_up",
           "text": "Hang up - IRS sends letters, not calls",
           "icon": "✅"
-        },
-        {
-          "id": "verify_caller",
-          "text": "Ask them to verify their identity",
-          "icon": "⚠️"
         }
       ],
       "explanation": "The IRS sends letters by mail, not threatening phone calls. Hang up and ignore the call."
@@ -596,19 +596,19 @@
       "correct_answer": "claims_suspended",
       "options": [
         {
-          "id": "claims_suspended",
-          "text": "Claims your SSN is suspended",
-          "icon": "🚫"
-        },
-        {
-          "id": "asks_verify",
-          "text": "Asks you to verify your identity",
-          "icon": "❓"
-        },
-        {
           "id": "says_benefits",
           "text": "Talks about your benefits",
           "icon": "⚠️"
+        },
+        {
+          "id": "asks_verify",
+          "text": "Says they're from the Social Security office",
+          "icon": "❓"
+        },
+        {
+          "id": "claims_suspended",
+          "text": "Claims your SSN is suspended",
+          "icon": "🚫"
         }
       ],
       "explanation": "Social Security numbers CANNOT be suspended. This is always a scam."
@@ -621,6 +621,11 @@
       "correct_answer": "identity_theft",
       "options": [
         {
+          "id": "spam_calls",
+          "text": "More spam calls",
+          "icon": "⚠️"
+        },
+        {
           "id": "identity_theft",
           "text": "They can steal your identity",
           "icon": "🚫"
@@ -629,11 +634,6 @@
           "id": "benefits_lost",
           "text": "You'll lose your benefits",
           "icon": "❌"
-        },
-        {
-          "id": "spam_calls",
-          "text": "More spam calls",
-          "icon": "⚠️"
         }
       ],
       "explanation": "Your SSN can be used to open accounts, file taxes, and commit identity theft in your name."
@@ -657,7 +657,7 @@
         },
         {
           "id": "call_back",
-          "text": "Call Social Security to verify",
+          "text": "Stay on the line so they can \"unsuspend\" it",
           "icon": "⚠️"
         }
       ],
@@ -671,6 +671,11 @@
       "correct_answer": "asks_money",
       "options": [
         {
+          "id": "talks_daily",
+          "text": "Talks to you every day",
+          "icon": "⚠️"
+        },
+        {
           "id": "asks_money",
           "text": "Asks for money early in relationship",
           "icon": "🚫"
@@ -679,11 +684,6 @@
           "id": "sends_photos",
           "text": "Sends photos of themselves",
           "icon": "❓"
-        },
-        {
-          "id": "talks_daily",
-          "text": "Talks to you every day",
-          "icon": "⚠️"
         }
       ],
       "explanation": "Real relationships don't ask for money. If they ask early on, it's a scam."
@@ -721,19 +721,19 @@
       "correct_answer": "stop_contact",
       "options": [
         {
-          "id": "send_money",
-          "text": "Send money to help them",
-          "icon": "🚫"
-        },
-        {
           "id": "stop_contact",
           "text": "Stop contact immediately",
           "icon": "✅"
         },
         {
           "id": "verify_story",
-          "text": "Ask for proof of their story",
+          "text": "Send money to help while you verify",
           "icon": "⚠️"
+        },
+        {
+          "id": "send_money",
+          "text": "Send money to help them",
+          "icon": "🚫"
         }
       ],
       "explanation": "Never send money to someone you haven't met. Real relationships don't ask for money."
@@ -771,11 +771,6 @@
       "correct_answer": "account_hacked",
       "options": [
         {
-          "id": "account_hacked",
-          "text": "Scammers can hack your account",
-          "icon": "🚫"
-        },
-        {
           "id": "spam_folder",
           "text": "More emails go to spam",
           "icon": "❌"
@@ -784,6 +779,11 @@
           "id": "slow_computer",
           "text": "Your computer slows down",
           "icon": "⚠️"
+        },
+        {
+          "id": "account_hacked",
+          "text": "Scammers can hack your account",
+          "icon": "🚫"
         }
       ],
       "explanation": "Fake login pages steal your password, giving scammers full access to your account."
@@ -801,14 +801,14 @@
           "icon": "🚫"
         },
         {
+          "id": "reply_verify",
+          "text": "Click the link to check if it's real",
+          "icon": "⚠️"
+        },
+        {
           "id": "delete_email",
           "text": "Delete the email immediately",
           "icon": "✅"
-        },
-        {
-          "id": "reply_verify",
-          "text": "Reply to verify it's real",
-          "icon": "⚠️"
         }
       ],
       "explanation": "Never click links or reply. Delete suspicious emails - real companies don't email for passwords."
@@ -821,11 +821,6 @@
       "correct_answer": "asks_card_number",
       "options": [
         {
-          "id": "asks_card_number",
-          "text": "Asks for your Medicare card number",
-          "icon": "🚫"
-        },
-        {
           "id": "says_medicare",
           "text": "Says they're from Medicare",
           "icon": "❓"
@@ -834,6 +829,11 @@
           "id": "talks_benefits",
           "text": "Talks about your benefits",
           "icon": "⚠️"
+        },
+        {
+          "id": "asks_card_number",
+          "text": "Asks for your Medicare card number",
+          "icon": "🚫"
         }
       ],
       "explanation": "Real Medicare NEVER calls asking for your card number. They send cards by mail."
@@ -851,14 +851,14 @@
           "icon": "🚫"
         },
         {
-          "id": "benefits_lost",
-          "text": "You'll lose your benefits",
-          "icon": "❌"
-        },
-        {
           "id": "more_calls",
           "text": "More scam calls",
           "icon": "⚠️"
+        },
+        {
+          "id": "benefits_lost",
+          "text": "You'll lose your benefits",
+          "icon": "❌"
         }
       ],
       "explanation": "Scammers can use your Medicare number to bill for fake services, causing medical fraud."
@@ -871,14 +871,14 @@
       "correct_answer": "hang_up",
       "options": [
         {
-          "id": "give_card_number",
-          "text": "Give them your Medicare card number",
-          "icon": "🚫"
-        },
-        {
           "id": "hang_up",
           "text": "Hang up - Medicare sends mail, not calls",
           "icon": "✅"
+        },
+        {
+          "id": "give_card_number",
+          "text": "Give them your Medicare card number",
+          "icon": "🚫"
         },
         {
           "id": "verify_caller",
@@ -896,6 +896,11 @@
       "correct_answer": "threatens_shutoff",
       "options": [
         {
+          "id": "asks_account",
+          "text": "Asks for your account number",
+          "icon": "⚠️"
+        },
+        {
           "id": "threatens_shutoff",
           "text": "Threatens immediate shutoff",
           "icon": "🚫"
@@ -904,11 +909,6 @@
           "id": "says_overdue",
           "text": "Says your bill is overdue",
           "icon": "❓"
-        },
-        {
-          "id": "asks_account",
-          "text": "Asks for your account number",
-          "icon": "⚠️"
         }
       ],
       "explanation": "Real utilities send written notices first. Immediate shutoff threats are always scams."
@@ -946,11 +946,6 @@
       "correct_answer": "call_utility",
       "options": [
         {
-          "id": "pay_gift_card",
-          "text": "Pay immediately with gift cards",
-          "icon": "🚫"
-        },
-        {
           "id": "call_utility",
           "text": "Hang up & call your utility directly",
           "icon": "✅"
@@ -959,6 +954,11 @@
           "id": "verify_account",
           "text": "Give them your account to verify",
           "icon": "⚠️"
+        },
+        {
+          "id": "pay_gift_card",
+          "text": "Pay immediately with gift cards",
+          "icon": "🚫"
         }
       ],
       "explanation": "Always hang up and call your utility company directly using the number on your bill."
@@ -996,11 +996,6 @@
       "correct_answer": "lose_money",
       "options": [
         {
-          "id": "lose_money",
-          "text": "You lose money, no prize exists",
-          "icon": "🚫"
-        },
-        {
           "id": "tax_penalty",
           "text": "You'll owe tax penalties",
           "icon": "❌"
@@ -1009,6 +1004,11 @@
           "id": "prize_delayed",
           "text": "Your prize will be delayed",
           "icon": "⚠️"
+        },
+        {
+          "id": "lose_money",
+          "text": "You lose money, no prize exists",
+          "icon": "🚫"
         }
       ],
       "explanation": "There is no prize. Real sweepstakes never require payment. You'll lose your money."
@@ -1026,14 +1026,14 @@
           "icon": "🚫"
         },
         {
+          "id": "verify_entry",
+          "text": "Pay a fee to \"check\" if you won",
+          "icon": "⚠️"
+        },
+        {
           "id": "hang_up",
           "text": "Hang up - real prizes are free",
           "icon": "✅"
-        },
-        {
-          "id": "verify_entry",
-          "text": "Check if you entered the contest",
-          "icon": "⚠️"
         }
       ],
       "explanation": "Real prizes are free with no fees. Hang up immediately - this is always a scam."
@@ -1046,11 +1046,6 @@
       "correct_answer": "scan_qr",
       "options": [
         {
-          "id": "scan_qr",
-          "text": "Asks you to scan a QR code to find out who sent it",
-          "icon": "🚫"
-        },
-        {
           "id": "has_label",
           "text": "Has a shipping label on it",
           "icon": "❓"
@@ -1059,6 +1054,11 @@
           "id": "unexpected",
           "text": "You weren't expecting a package",
           "icon": "⚠️"
+        },
+        {
+          "id": "scan_qr",
+          "text": "Asks you to scan a QR code to find out who sent it",
+          "icon": "🚫"
         }
       ],
       "explanation": "Real senders don't need you to scan a QR code to reveal who they are. A QR code that \"reveals the sender\" is often a trap to steal your card info."
@@ -1076,14 +1076,14 @@
           "icon": "🚫"
         },
         {
-          "id": "virus",
-          "text": "Your phone might get a virus",
-          "icon": "❌"
-        },
-        {
           "id": "spam",
           "text": "You'll get more spam",
           "icon": "⚠️"
+        },
+        {
+          "id": "virus",
+          "text": "Your phone might get a virus",
+          "icon": "❌"
         }
       ],
       "explanation": "Fake gift scams send you to a site that asks for your card to \"verify\" or \"claim\" the gift. They're after your payment info."
@@ -1096,14 +1096,14 @@
       "correct_answer": "dont_scan",
       "options": [
         {
-          "id": "scan_it",
-          "text": "Scan the QR code to see who sent it",
-          "icon": "🚫"
-        },
-        {
           "id": "dont_scan",
           "text": "Don't scan it - look up the company yourself if curious",
           "icon": "✅"
+        },
+        {
+          "id": "scan_it",
+          "text": "Scan the QR code to see who sent it",
+          "icon": "🚫"
         },
         {
           "id": "call_sender",
@@ -1126,14 +1126,14 @@
           "icon": "🚫"
         },
         {
-          "id": "large_amount",
-          "text": "Mentions a large purchase amount",
-          "icon": "❓"
-        },
-        {
           "id": "says_approved",
           "text": "Says a purchase was approved",
           "icon": "⚠️"
+        },
+        {
+          "id": "large_amount",
+          "text": "Mentions a large purchase amount",
+          "icon": "❓"
         }
       ],
       "explanation": "Real banks never ask for your full card number over the phone to dispute a charge. They already have your info."
@@ -1146,14 +1146,14 @@
       "correct_answer": "card_fraud",
       "options": [
         {
-          "id": "card_fraud",
-          "text": "They can use your card for fraud",
-          "icon": "🚫"
-        },
-        {
           "id": "charge_stays",
           "text": "The charge will stay on your account",
           "icon": "❌"
+        },
+        {
+          "id": "card_fraud",
+          "text": "They can use your card for fraud",
+          "icon": "🚫"
         },
         {
           "id": "account_frozen",
@@ -1171,9 +1171,9 @@
       "correct_answer": "call_bank",
       "options": [
         {
-          "id": "give_card",
-          "text": "Give them your card number to verify",
-          "icon": "🚫"
+          "id": "dispute_through_them",
+          "text": "Let them \"dispute\" it for you",
+          "icon": "⚠️"
         },
         {
           "id": "call_bank",
@@ -1181,9 +1181,9 @@
           "icon": "✅"
         },
         {
-          "id": "dispute_through_them",
-          "text": "Let them \"dispute\" it for you",
-          "icon": "⚠️"
+          "id": "give_card",
+          "text": "Give them your card number to verify",
+          "icon": "🚫"
         }
       ],
       "explanation": "Always call your bank yourself using the number on your card or statement. Never give card info to someone who contacted you."
@@ -1196,18 +1196,18 @@
       "correct_answer": "pressure_stay",
       "options": [
         {
-          "id": "pressure_stay",
-          "text": "They pressure you not to hang up",
-          "icon": "🚫"
-        },
-        {
           "id": "identifies_bank",
           "text": "They say the name of a real bank",
           "icon": "❓"
         },
         {
+          "id": "pressure_stay",
+          "text": "They pressure you not to hang up",
+          "icon": "🚫"
+        },
+        {
           "id": "asks_verify",
-          "text": "They ask you to verify your account",
+          "text": "They give you a case number",
           "icon": "⚠️"
         }
       ],
@@ -1221,9 +1221,9 @@
       "correct_answer": "no_verify",
       "options": [
         {
-          "id": "no_verify",
-          "text": "So you don't have time to verify or call the real company",
-          "icon": "🚫"
+          "id": "policy",
+          "text": "Their company policy requires it",
+          "icon": "⚠️"
         },
         {
           "id": "bad_connection",
@@ -1231,9 +1231,9 @@
           "icon": "❌"
         },
         {
-          "id": "policy",
-          "text": "Their company policy requires it",
-          "icon": "⚠️"
+          "id": "no_verify",
+          "text": "So you don't have time to verify or call the real company",
+          "icon": "🚫"
         }
       ],
       "explanation": "If you hang up and call the real number yourself, the scam fails. So they keep you on the line with urgency or threats."
@@ -1246,6 +1246,11 @@
       "correct_answer": "hang_up_anyway",
       "options": [
         {
+          "id": "ask_supervisor",
+          "text": "Ask to speak to a supervisor",
+          "icon": "⚠️"
+        },
+        {
           "id": "stay_on",
           "text": "Stay on the line to hear them out",
           "icon": "🚫"
@@ -1254,11 +1259,6 @@
           "id": "hang_up_anyway",
           "text": "Hang up anyway - real companies are fine with you calling back",
           "icon": "✅"
-        },
-        {
-          "id": "ask_supervisor",
-          "text": "Ask to speak to a supervisor",
-          "icon": "⚠️"
         }
       ],
       "explanation": "You can hang up anytime. Look up the real number and call back. Real banks and businesses are fine with it."
