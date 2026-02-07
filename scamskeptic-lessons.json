@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "lessons": [
     {
       "id": "1",
@@ -165,6 +165,51 @@
         "Won't provide written confirmation"
       ],
       "safe_action": "Hang up → Real prizes are free, no fees required!"
+    },
+    {
+      "id": "12",
+      "title": "Fake Gift Scam",
+      "summary": "Unrequested package with QR code to steal your card info",
+      "body": "A package arrives claiming to be a gift. A note says to scan a QR code to find out who sent it. The QR code takes you to a fake site that asks for your credit card to \"verify\" or \"claim\" the gift. Real senders never need your card info to tell you who gave a gift.",
+      "category": "online",
+      "icon": "📦",
+      "danger_signs": [
+        "Package you didn't order",
+        "Asks you to scan a QR code",
+        "QR leads to site asking for card info",
+        "Creates curiosity about \"who sent it\""
+      ],
+      "safe_action": "Don't scan the QR → Look up the company on the package yourself. Real senders don't need your card to reveal who sent a gift!"
+    },
+    {
+      "id": "13",
+      "title": "Pretend Charge Scam",
+      "summary": "Fake approval of a big purchase, then \"dispute\" to steal your card",
+      "body": "You get a call, text, or email saying a large purchase was approved (e.g. an iPhone for $1500). They ask if you want to dispute it, then say they need your card number to \"verify\" or \"cancel\" the charge. Real banks never ask for your full card details over the phone to dispute a charge.",
+      "category": "phone",
+      "icon": "💳",
+      "danger_signs": [
+        "Claims a large purchase you didn't make was approved",
+        "Offers to help you \"dispute\" the charge",
+        "Asks for card number or details to \"verify\"",
+        "Pressure to act before the charge posts"
+      ],
+      "safe_action": "Hang up → Call your bank directly using the number on your card or statement. Never give card info to someone who contacted you!"
+    },
+    {
+      "id": "14",
+      "title": "It's OK to Hang Up",
+      "summary": "Easiest way to avoid fraud is to hang up",
+      "body": "Scammers pressure you not to hang up—they create urgency or threaten consequences if you disconnect. Real banks and companies are fine with you calling back. The easiest way to avoid fraud is to hang up and call the real number yourself.",
+      "category": "phone",
+      "icon": "📵",
+      "danger_signs": [
+        "Pressure not to hang up",
+        "Threats or urgency if you disconnect",
+        "Says you can't call back or will lose your chance",
+        "Real companies never pressure you to stay on the line"
+      ],
+      "safe_action": "Hang up anytime → Look up the real number and call back. Real banks and businesses are fine with it!"
     }
   ],
   "quizQuestions": [
@@ -992,6 +1037,231 @@
         }
       ],
       "explanation": "Real prizes are free with no fees. Hang up immediately - this is always a scam."
+    },
+    {
+      "id": "12-1",
+      "lesson_id": "12",
+      "question_type": "indicator",
+      "question": "What indicates a \"gift\" package might be a scam?",
+      "correct_answer": "scan_qr",
+      "options": [
+        {
+          "id": "scan_qr",
+          "text": "Asks you to scan a QR code to find out who sent it",
+          "icon": "🚫"
+        },
+        {
+          "id": "has_label",
+          "text": "Has a shipping label on it",
+          "icon": "❓"
+        },
+        {
+          "id": "unexpected",
+          "text": "You weren't expecting a package",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real senders don't need you to scan a QR code to reveal who they are. A QR code that \"reveals the sender\" is often a trap to steal your card info."
+    },
+    {
+      "id": "12-2",
+      "lesson_id": "12",
+      "question_type": "danger",
+      "question": "What's the danger of scanning a QR code on an unrequested gift package?",
+      "correct_answer": "steal_card",
+      "options": [
+        {
+          "id": "steal_card",
+          "text": "The site can steal your credit card info",
+          "icon": "🚫"
+        },
+        {
+          "id": "virus",
+          "text": "Your phone might get a virus",
+          "icon": "❌"
+        },
+        {
+          "id": "spam",
+          "text": "You'll get more spam",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Fake gift scams send you to a site that asks for your card to \"verify\" or \"claim\" the gift. They're after your payment info."
+    },
+    {
+      "id": "12-3",
+      "lesson_id": "12",
+      "question_type": "action",
+      "question": "What should you do when you get an unrequested package that says to scan a QR code to find the sender?",
+      "correct_answer": "dont_scan",
+      "options": [
+        {
+          "id": "scan_it",
+          "text": "Scan the QR code to see who sent it",
+          "icon": "🚫"
+        },
+        {
+          "id": "dont_scan",
+          "text": "Don't scan it - look up the company yourself if curious",
+          "icon": "✅"
+        },
+        {
+          "id": "call_sender",
+          "text": "Call the number on the package",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Never scan QR codes on unsolicited packages. Real senders don't need your card to tell you who gave a gift."
+    },
+    {
+      "id": "13-1",
+      "lesson_id": "13",
+      "question_type": "indicator",
+      "question": "What indicates a \"charge dispute\" call or message is a scam?",
+      "correct_answer": "asks_card",
+      "options": [
+        {
+          "id": "asks_card",
+          "text": "Asks for your card number to \"verify\" or cancel the charge",
+          "icon": "🚫"
+        },
+        {
+          "id": "large_amount",
+          "text": "Mentions a large purchase amount",
+          "icon": "❓"
+        },
+        {
+          "id": "says_approved",
+          "text": "Says a purchase was approved",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real banks never ask for your full card number over the phone to dispute a charge. They already have your info."
+    },
+    {
+      "id": "13-2",
+      "lesson_id": "13",
+      "question_type": "danger",
+      "question": "What's the danger of giving your card info to someone who says a big charge was approved?",
+      "correct_answer": "card_fraud",
+      "options": [
+        {
+          "id": "card_fraud",
+          "text": "They can use your card for fraud",
+          "icon": "🚫"
+        },
+        {
+          "id": "charge_stays",
+          "text": "The charge will stay on your account",
+          "icon": "❌"
+        },
+        {
+          "id": "account_frozen",
+          "text": "Your account might be frozen",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Scammers use the \"dispute\" story to get your card details. Once they have them, they can make real charges."
+    },
+    {
+      "id": "13-3",
+      "lesson_id": "13",
+      "question_type": "action",
+      "question": "What should you do when someone says a large purchase was approved on your card?",
+      "correct_answer": "call_bank",
+      "options": [
+        {
+          "id": "give_card",
+          "text": "Give them your card number to verify",
+          "icon": "🚫"
+        },
+        {
+          "id": "call_bank",
+          "text": "Hang up and call your bank directly with the number on your card",
+          "icon": "✅"
+        },
+        {
+          "id": "dispute_through_them",
+          "text": "Let them \"dispute\" it for you",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Always call your bank yourself using the number on your card or statement. Never give card info to someone who contacted you."
+    },
+    {
+      "id": "14-1",
+      "lesson_id": "14",
+      "question_type": "indicator",
+      "question": "What indicates a caller might be a scammer?",
+      "correct_answer": "pressure_stay",
+      "options": [
+        {
+          "id": "pressure_stay",
+          "text": "They pressure you not to hang up",
+          "icon": "🚫"
+        },
+        {
+          "id": "identifies_bank",
+          "text": "They say the name of a real bank",
+          "icon": "❓"
+        },
+        {
+          "id": "asks_verify",
+          "text": "They ask you to verify your account",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Real companies don't pressure you to stay on the line. Scammers create urgency so you don't hang up and verify."
+    },
+    {
+      "id": "14-2",
+      "lesson_id": "14",
+      "question_type": "danger",
+      "question": "Why do scammers pressure you not to hang up?",
+      "correct_answer": "no_verify",
+      "options": [
+        {
+          "id": "no_verify",
+          "text": "So you don't have time to verify or call the real company",
+          "icon": "🚫"
+        },
+        {
+          "id": "bad_connection",
+          "text": "They're worried about a bad connection",
+          "icon": "❌"
+        },
+        {
+          "id": "policy",
+          "text": "Their company policy requires it",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "If you hang up and call the real number yourself, the scam fails. So they keep you on the line with urgency or threats."
+    },
+    {
+      "id": "14-3",
+      "lesson_id": "14",
+      "question_type": "action",
+      "question": "What should you do if a caller won't let you hang up to verify?",
+      "correct_answer": "hang_up_anyway",
+      "options": [
+        {
+          "id": "stay_on",
+          "text": "Stay on the line to hear them out",
+          "icon": "🚫"
+        },
+        {
+          "id": "hang_up_anyway",
+          "text": "Hang up anyway - real companies are fine with you calling back",
+          "icon": "✅"
+        },
+        {
+          "id": "ask_supervisor",
+          "text": "Ask to speak to a supervisor",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "You can hang up anytime. Look up the real number and call back. Real banks and businesses are fine with it."
     }
   ]
 }
