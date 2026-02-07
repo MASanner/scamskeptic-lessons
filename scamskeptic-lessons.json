@@ -1,5 +1,8 @@
 {
   "version": "1.0.2",
+  "latestAppVersion": "1.0.0",
+  "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
+  "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
   "lessons": [
     {
       "id": "1",
