@@ -12,7 +12,7 @@
       "category": "phone",
       "icon": "🏦",
       "scammer_says": "\"Hello, this is Sarah from First National Bank security team. We detected a suspicious charge of $2,450 on your debit card at an electronics store in Texas just 20 minutes ago. Did you make this purchase?\" \"To protect your account, I need to verify your identity right now. Can you tell me the numbers on the back of your debit card and your full address? If we don't act fast, someone could drain your entire account.\"",
-      "the_trick": "The scammer wants your debit card verification number (the 3-digit code on back) and personal details to make fake purchases or steal your money. They create urgency by claiming a recent \"suspicious charge\" to pressure you into sharing sensitive info immediately.",
+      "the_trick": "The scammer wants your card verification number (the 3-digit code on back) and personal details to make fake purchases or steal your money. They create urgency by claiming a recent \"suspicious charge\" to pressure you into sharing sensitive info immediately.",
       "consequences": "If they get your card details, they can buy thousands of dollars in goods online or withdraw cash from ATMs. Your bank account could be emptied in hours, and recovering the money might take months or never happen.",
       "danger_signs": [
         "Bank never asks for full card numbers over the phone.",
@@ -20,7 +20,7 @@
         "Caller ID shows unfamiliar or blocked number.",
         "They demand immediate action without giving you time to think."
       ],
-      "safe_action": "Hang up immediately. Call your bank using the number on your debit card or their official website (never use the number the caller gives you). Check your account online yourself to see if there's any real problem."
+      "safe_action": "Hang up immediately. Call your bank using the number on the back of your card or their official website (never use the number the caller gives you). Check your account online yourself to see if there's any real problem."
     },
     {
       "id": "2",
@@ -74,7 +74,7 @@
         "Payment requested via wire transfer, gift cards, or cryptocurrency.",
         "\"Lawyer\" or \"police\" refuse to give verifiable contact info."
       ],
-      "safe_action": "Hang up and call your real grandchild directly using a known phone number. Ask specific family questions only they would know. Never send money without verifying in person or through trusted channels."
+      "safe_action": "Hang up and call your real grandchild directly using a known phone number. Never send money without verifying in person or through trusted channels."
     },
     {
       "id": "5",
@@ -83,14 +83,14 @@
       "body": "Scammer claims unpaid utility bill and threatens immediate shutoff.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"This is the electric company collections department. Your account #4783921 is overdue by $678. We will disconnect your power in 30 minutes unless you pay now with a prepaid debit card or Bitcoin.\" \"Go to the store and buy a $678 Green Dot card. Read me the numbers over the phone to avoid blackout.\"",
+      "scammer_says": "\"This is the electric company collections department. Your account #4783921 is overdue by $678. We will disconnect your power in 30 minutes unless you pay now with a prepaid debit card.\" \"Go to the store and buy a $678 Green Dot card. Read me the numbers over the phone to avoid blackout.\"",
       "the_trick": "Scammer claims unpaid utility bill and threatens immediate shutoff. They demand instant payment via untraceable methods like prepaid cards or cryptocurrency to steal the money directly.",
       "consequences": "Once you give prepaid card numbers, the money vanishes instantly. No power gets disconnected because it was never your real utility company, and you can't get refunds from these payment methods.",
       "danger_signs": [
         "Real utilities send written bills and give 7-30 days notice.",
-        "Demand for immediate payment in prepaid cards or Bitcoin.",
+        "Demand for immediate payment in prepaid cards or other unusual payment method.",
         "Refusal to send bill statement or accept check/credit card.",
-        "Unfamiliar phone number, not your utility's official line."
+        "Unfamiliar phone number, not your utility's official line. (although sometimes they fake the name on Caller ID)"
       ],
       "safe_action": "Hang up. Call your utility company using the number on your bill or website. Check your account balance online or in person. Real companies never demand instant prepaid card payments over the phone."
     },
@@ -101,9 +101,9 @@
       "body": "Fake text or email about a \"missed delivery\" tricks you into clicking links or calling.",
       "category": "online",
       "icon": "⚠️",
-      "scammer_says": "\"Hi, this is package delivery service. We attempted delivery of your item #TX847392 today but couldn't reach you. There's a $3.95 redelivery fee or the package returns to sender tomorrow.\" \"Click this link or call 1-877-555-0198 to pay with your credit card. We need confirmation address too.\"",
+      "scammer_says": "\"Hi, this is Acme package delivery service. We attempted delivery of your item #TX847392 today but couldn't reach you. There's a $3.95 redelivery fee or the package returns to sender tomorrow.\" \"Click this link or call 1-877-555-0198 to pay with your credit card. We need confirmation address too.\"",
       "the_trick": "Fake text or email about a \"missed delivery\" tricks you into clicking links or calling. They collect credit card numbers and addresses under pretense of small \"redelivery fees.\"",
-      "consequences": "The link installs malware or phishing site steals banking logins. Your card gets maxed out, and no package ever existed. Small fee request lowers suspicion.",
+      "consequences": "The link installs malware or leads to phishing site that looks like a bank login, but steals your login information. Your card gets maxed out, and no package ever existed. Small fee request lowers suspicion.",
       "danger_signs": [
         "Unsolicited message about package you didn't order.",
         "Link to pay tiny fee ($1-5) or package \"returned.\"",
@@ -119,7 +119,7 @@
       "body": "Scammers call after real disasters pretending to be charity.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"Hello, I'm calling from Heartland Relief Fund for hurricane victims. We've set up emergency shelters but need $50 donations now. Can you read us your credit card number for a tax-deductible gift?\" \"Every dollar helps families right now. We'll mail receipt tomorrow.\"",
+      "scammer_says": "\"Hello, I'm calling from Heartland Relief Fund for hurricane victims. We've set up emergency shelters but need $50 donations now. Can you please help with donation right now? A contribution from your credit card number is tax-deductible!\" \"Every dollar helps families right now. We'll mail receipt tomorrow.\"",
       "the_trick": "Scammers call after real disasters pretending to be charity. They collect credit card donations directly over phone, but the fake organization keeps all money for themselves.",
       "consequences": "Your card info gets used for repeated unauthorized charges. No aid reaches victims, no tax receipt arrives, and legitimate charities lose trust from the scam confusion.",
       "danger_signs": [
@@ -146,7 +146,7 @@
         "Real companies email refunds, not call for access.",
         "They know purchase details to sound legitimate."
       ],
-      "safe_action": "Hang up. Check your real account (Amazon, store website) for legitimate refund notices. Companies deposit refunds automatically or mail checks — never need remote access."
+      "safe_action": "Hang up. Check your real account (Amazon, store website) for legitimate refund notices. Companies deposit refunds automatically or mail checks — they NEVER need remote access."
     },
     {
       "id": "9",
@@ -155,11 +155,11 @@
       "body": "Fake job offer pays you to buy gift cards, then send card numbers/photos.",
       "category": "online",
       "icon": "⚠️",
-      "scammer_says": "\"Congratulations! You applied for our mystery shopper position. Here's your first assignment: buy $950 in gift cards at the grocery store, take photos of receipts, then text us the card numbers for reimbursement.\" \"You'll earn $250 commission. Scratch off the back and read all numbers now.\"",
+      "scammer_says": "\"Congratulations! You have been approved for our mystery shopper position. Here's your first assignment: buy $950 in gift cards at the grocery store, take photos of receipts, then text us the card numbers for reimbursement.\" \"You'll be reimbursed for the purchase PLUS earn $250 commission! Scratch off the back and read all numbers now.\"",
       "the_trick": "Fake job offer pays you to buy gift cards, then send card numbers/photos. They use the cards immediately while promising reimbursement that never arrives.",
       "consequences": "You lose hundreds spent on gift cards. Scammers drain cards instantly for cash or online purchases. Legitimate employers never ask employees to buy gift cards for payment.",
       "danger_signs": [
-        "Job pays you to buy and send gift card numbers.",
+        "A job that pays you to buy and send gift card numbers.",
         "No formal application or interview process.",
         "Email/text from free services like Gmail.",
         "\"Too good to be true\" high pay for simple tasks."
@@ -173,7 +173,7 @@
       "body": "Builds fake online romance over weeks/months, then invents emergencies (sick relative, travel trouble) needing urgent wire transfers.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"Hi Linda, it's David from the dating site. I've fallen deeply for you. I'm a contractor overseas but had an emergency — my worker got sick and I need $1,800 for his surgery or lose my big project.\" \"Wire it to my account please? I'll repay double when I return next month ❤️\"",
+      "scammer_says": "\"Hi Linda, it's David from the dating site. I've enjoyed getting to know you over the past several weeks. I was planning to come visit, but my sister was in an accident and I gave her $1,800 for her surgery. Now I can't buy the $400 plane ticket to come see you.\" \"I'll get the money back from her when she recovers, and I'll pay you back then, but to get the ticket at this price, can you wire the cost of the ticket to my account please? I can't wait to see you! ❤️\"",
       "the_trick": "Builds fake online romance over weeks/months, then invents emergencies (sick relative, travel trouble) needing urgent wire transfers. Relationship provides emotional leverage for money requests.",
       "consequences": "Thousands sent over time via wire/gift cards, all unrecoverable. \"Sweetheart\" disappears after draining resources. Victims lose savings and suffer emotional betrayal.",
       "danger_signs": [
@@ -209,7 +209,7 @@
       "body": "Door-to-door \"repair\" claims urgent damage only they spotted.",
       "category": "phone",
       "icon": "🏠",
-      "scammer_says": "\"Ma'am, this is Mike's Roofing from down the street. I noticed your roof shingles loose while driving by. Storm damage like this costs $8,000 to fix later, but I can do it today for $2,800 cash.\" \"Pay half now, I'll start immediately before rain worsens it.\"",
+      "scammer_says": "\"Ma'am, this is Mike's Roofing from down the street. I noticed you have some damaged shingles while driving by. Storm damage like this costs $8,000 to fix later, but I can do it today for $2,800 cash.\" \"Pay half now, I'll start immediately before rain worsens it.\"",
       "the_trick": "Door-to-door \"repair\" claims urgent damage only they spotted. Takes large cash deposit then disappears or does shoddy work. Real roof issues don't require instant payment.",
       "consequences": "Lose thousands in deposits with no work done. Home damage worsens from neglect. Shoddy repairs fail quickly, costing double to fix properly later.",
       "danger_signs": [
