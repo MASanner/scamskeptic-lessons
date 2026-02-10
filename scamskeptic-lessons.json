@@ -1149,7 +1149,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "The link from the text may install malware and viruses, or it may take you to a "phishing" site where it mimics a bank login so they capture your login credentials. Your card gets maxed out, and no package ever existed."
+      "explanation": "The link from the text may install malware and viruses, or it may take you to a 'phishing' site where it mimics a bank login so they capture your login credentials. Your card gets maxed out, and no package ever existed."
     },
     {
       "id": "6-3",
@@ -1499,7 +1499,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "The IRS does not call, they send mail.  Any personal information you give to scammers can be used to commit identity theft, and financial information given to them will be used to access your accounts.
+      "explanation": "The IRS does not call, they send mail.  Any personal information you give to scammers can be used to commit identity theft, and financial information given to them will be used to access your accounts."
     },
     {
       "id": "11-2",
@@ -1705,7 +1705,7 @@
       "id": "14-1",
       "lesson_id": "14",
       "question_type": "indicator",
-      "question": "\Approved for a "$5,000 grant\". Requests $250 processing fee. Verdict?",
+      "question": "Approved for a \"$5,000 grant\". Requests $250 processing fee. Verdict?",
       "correct_answer": "scam_government_never_ch",
       "options": [
         {
@@ -1855,7 +1855,7 @@
       "id": "16-1",
       "lesson_id": "16",
       "question_type": "indicator",
-      "question": "While searching for an apartment, you are sent an email with an apartment listing that looks amazing but "will go fast".  They require a deposit before viewing. What do you do?",
+      "question": "While searching for an apartment, you are sent an email with an apartment listing that looks amazing but 'will go fast'.  They require a deposit before viewing. What do you do?",
       "correct_answer": "never_pay_without_in_per",
       "options": [
         {
