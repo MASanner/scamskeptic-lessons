@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -745,11 +745,11 @@
         },
         {
           "id": "the_bank_would_never_cal",
-          "text": "The bank would never call about this; it must be a scam.",
+          "text": "Ask for a supervisor.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number.  HANG UP and call back using a known number (from the back of your card, or from your statement)."
     },
     {
       "id": "1-2",
@@ -774,7 +774,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "If they get your card details, they can buy thousands of dollars in goods online or withdraw cash from ATMs. Your bank account could be emptied in hours, and recovering the money might take months or never happen."
+      "explanation": "If they get your card details, they can buy thousands of dollars in goods online or withdraw cash from ATMs. Your bank account could be emptied in hours, and recovering the money might take months or never happen.  Statements taken from trash cans can give scammers details they use to try to sound legitimate."
     },
     {
       "id": "1-3",
@@ -795,7 +795,7 @@
         },
         {
           "id": "your_bank_account_number",
-          "text": "Your bank account number from your checks.",
+          "text": "Your last purchase.",
           "icon": "⚠️"
         }
       ],
@@ -899,7 +899,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "A key red flag is being asked to allow a technician to have remote control of your computer.  They can quickly and secretively install software that lets them spy on you, and access accounts like your bank, investments, etc."
     },
     {
       "id": "3-2",
@@ -924,7 +924,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Remote access lets them steal passwords, bank info, photos, and personal documents. They can lock your files for ransom or use your computer for illegal activities, making you responsible."
+      "explanation": "Clicking on those popups can let scammers have remote access that lets them steal passwords, bank info, photos, and personal documents. They can lock your files for ransom or use your computer for illegal activities, making you responsible.  If there is a virus on your computer, take it to a reputable local repair company."
     },
     {
       "id": "3-3",
@@ -935,7 +935,7 @@
       "options": [
         {
           "id": "never_cold_call_about_co",
-          "text": "Never cold-call about computer viruses.",
+          "text": "Never call you directly about computer viruses.",
           "icon": "✅"
         },
         {
@@ -974,7 +974,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Even if they tell you their phone is lost or damaged, it never hurts to call and check. And if they don't answer (they may actually be in school!), call someone you know who would know their whereabouts."
     },
     {
       "id": "4-2",
@@ -999,7 +999,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Wire transfers and gift cards can't be reversed. You lose thousands with no way to recover, and real grandchildren in trouble wouldn't ask for secrecy or untraceable payments."
+      "explanation": "Wire transfers and gift cards can't be reversed. You lose thousands with no way to recover, and real grandchildren in trouble wouldn't ask for untraceable payments."
     },
     {
       "id": "4-3",
@@ -1010,7 +1010,7 @@
       "options": [
         {
           "id": "real_family_wouldn_t_hid",
-          "text": "Real family wouldn't hide emergencies from parents.",
+          "text": "The scammer really doesn't want you to verify the actual location of your grandchild.",
           "icon": "✅"
         },
         {
@@ -1024,7 +1024,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up and call your real grandchild directly using a known phone number. Ask specific family questions only they would know. Never send money without verifying in person or through trusted channels."
+      "explanation": "Hang up and call your real grandchild directly using a known phone number. Never send money without verifying in person or through trusted channels."
     },
     {
       "id": "5-1",
@@ -1049,7 +1049,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Utilities do not call to inform you they are cutting off service.  And a legitimate utility would have no problem if you called back through a trusted number.  (Be sure it's a verified number from your bill, not a number the caller provides.)"
     },
     {
       "id": "5-2",
@@ -1074,7 +1074,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Once you give prepaid card numbers, the money vanishes instantly. No power gets disconnected because it was never your real utility company, and you can't get refunds from these payment methods."
+      "explanation": "Be suspicious of anyone asking for an unusual payment method.  If you buy prepaid cards and give them the numbers, the money vanishes instantly. No power gets disconnected because it was never your real utility company, and you can't get refunds from these payment methods."
     },
     {
       "id": "5-3",
@@ -1105,7 +1105,7 @@
       "id": "6-1",
       "lesson_id": "6",
       "question_type": "indicator",
-      "question": "Text about \"missed package\" asks for $3.95 payment. Action?",
+      "question": "You receive a text about \"missed package\" that asks for $3.95 payment. Action?",
       "correct_answer": "delete_it_and_check_real",
       "options": [
         {
@@ -1124,18 +1124,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Never click a link in a text that you were not expecting."
     },
     {
       "id": "6-2",
       "lesson_id": "6",
       "question_type": "danger",
-      "question": "Real delivery companies charge redelivery fees how?",
+      "question": "How do real delivery companies charge for any fees due?",
       "correct_answer": "leave_door_tag_pay_via_o",
       "options": [
         {
           "id": "leave_door_tag_pay_via_o",
-          "text": "Leave door tag, pay via official website.",
+          "text": "Leave a door tag directing you to pay via official website, or send a notice in the mail.",
           "icon": "✅"
         },
         {
@@ -1145,11 +1145,11 @@
         },
         {
           "id": "always_free_second_attem",
-          "text": "Always free second attempt.",
+          "text": "Call you and demand prepaid gift card numbers over the phone.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "The link installs malware or phishing site steals banking logins. Your card gets maxed out, and no package ever existed. Small fee request lowers suspicion."
+      "explanation": "The link from the text may install malware and viruses, or it may take you to a "phishing" site where it mimics a bank login so they capture your login credentials. Your card gets maxed out, and no package ever existed."
     },
     {
       "id": "6-3",
@@ -1174,13 +1174,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Delete the message. Check your real delivery accounts (UPS, FedEx, USPS) using official apps or websites. Real companies leave notices at door or send from known email/text domains."
+      "explanation": "Delete the text message. Check your real delivery accounts (UPS, FedEx, USPS) using official apps or websites. Real companies leave notices at door."
     },
     {
       "id": "7-1",
       "lesson_id": "7",
       "question_type": "indicator",
-      "question": "Disaster charity calls for credit card donation. Do what?",
+      "question": "A disaster charity calls for credit card donation. What do you do?",
       "correct_answer": "hang_up_and_donate_throu",
       "options": [
         {
@@ -1190,7 +1190,7 @@
         },
         {
           "id": "give_card_if_they_promis",
-          "text": "Give card if they promise tax receipt.",
+          "text": "Give your card information if they promise tax receipt.",
           "icon": "🚫"
         },
         {
@@ -1199,7 +1199,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "A key red flag is being asked to share sensitive information to an unknown caller who pressures you to act immediately without verifying through a trusted number."
     },
     {
       "id": "7-2",
@@ -1224,7 +1224,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Your card info gets used for repeated unauthorized charges. No aid reaches victims, no tax receipt arrives, and legitimate charities lose trust from the scam confusion."
+      "explanation": "Scammers can use technology to imitate the Caller ID name of a legitimate charity. If you want to donate, hang up and call your charity of choice directly. Never provide donations directly to someone who calls you."
     },
     {
       "id": "7-3",
@@ -1255,17 +1255,17 @@
       "id": "8-1",
       "lesson_id": "8",
       "question_type": "indicator",
-      "question": "\"Refund department\" wants remote computer access. Why?",
+      "question": "Some calls from the \"Refund department\". They claim they need to issue a refund and need remote computer access to give it to you. Why?",
       "correct_answer": "to_install_malware_and_s",
       "options": [
         {
           "id": "to_install_malware_and_s",
-          "text": "To install malware and steal your info.",
+          "text": "To install malware and steal your information.",
           "icon": "✅"
         },
         {
           "id": "standard_refund_processi",
-          "text": "Standard refund processing step.",
+          "text": "It's a standard refund processing step.",
           "icon": "⚠️"
         },
         {
@@ -1274,7 +1274,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "The excitement of getting the money distracts from the risk of letting someone install software that could let them control your computer and steal information from it (like bank passwords)."
     },
     {
       "id": "8-2",
@@ -1299,7 +1299,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "They reverse charges from your accounts instead of refunding. Malware logs keystrokes, stealing all passwords and enabling account takeovers across banks and email."
+      "explanation": "They reverse charges from your accounts instead of refunding. No legitimate refund process requires software installation."
     },
     {
       "id": "8-3",
@@ -1310,7 +1310,7 @@
       "options": [
         {
           "id": "your_email_inbox",
-          "text": "Your email inbox.",
+          "text": "People you know.",
           "icon": "⚠️"
         },
         {
@@ -1330,26 +1330,26 @@
       "id": "9-1",
       "lesson_id": "9",
       "question_type": "indicator",
-      "question": "\"Mystery shopper\" job asks you to send gift card numbers. Verdict?",
+      "question": "A \"mystery shopper\" job asks you to send gift card numbers. Verdict?",
       "correct_answer": "scam_delete_immediately",
       "options": [
         {
           "id": "scam_delete_immediately",
-          "text": "Scam — delete immediately.",
+          "text": "You've spotted a scam — hang up immediately.",
           "icon": "✅"
         },
         {
           "id": "legitimate_first_assignm",
-          "text": "Legitimate first assignment.",
+          "text": "Try the legitimate first assignment.",
           "icon": "⚠️"
         },
         {
           "id": "ask_for_reimbursement_fi",
-          "text": "Ask for reimbursement first.",
+          "text": "Ask for a supervisor to verify.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Companies don't offer jobs over the phone without ever talking to you first.  Jobs that ask you to buy something and then be reimbursed are a scam."
     },
     {
       "id": "9-2",
@@ -1399,7 +1399,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Delete offer. Real mystery shopper jobs come from established companies with websites, paychecks, and never require you to buy gift cards. Search company name + \"scam\" online first."
+      "explanation": "Delete offer (if it is email) or hang up. Real mystery shopper jobs come from established companies with websites, paychecks, and never require you to buy gift cards. Search company name + \"scam\" online first."
     },
     {
       "id": "10-1",
@@ -1424,7 +1424,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "If the relationship is emotional but you've never met in real life, do not send money."
     },
     {
       "id": "10-2",
@@ -1449,7 +1449,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Thousands sent over time via wire/gift cards, all unrecoverable. \"Sweetheart\" disappears after draining resources. Victims lose savings and suffer emotional betrayal."
+      "explanation": "There have been cases where thousands of dollars were sent over time via wire/gift cards, all unrecoverable. The \"sweetheart\" disappears after draining resources. Victims lose savings and suffer emotional betrayal."
     },
     {
       "id": "10-3",
