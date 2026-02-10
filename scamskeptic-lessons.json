@@ -1780,7 +1780,7 @@
       "id": "15-1",
       "lesson_id": "15",
       "question_type": "indicator",
-      "question": "Text offers \"85% prescription discount.\" Asks Medicare number. Do what?",
+      "question": "You receive a text that offers \"85% prescription discount.\" and asks to reply with your Medicare number to enroll you. What do you do?",
       "correct_answer": "delete_never_share_medic",
       "options": [
         {
@@ -1799,13 +1799,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Do not share your Medicare information, especially to someone asking for it without you contacting them first."
     },
     {
       "id": "15-2",
       "lesson_id": "15",
       "question_type": "danger",
-      "question": "Legitimate prescription discounts from:",
+      "question": "You can get legitimate pharmacy discounts from:",
       "correct_answer": "goodrx_com_or_pharmacy_w",
       "options": [
         {
@@ -1824,7 +1824,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Medicare fraud billed to your number. Identity theft across healthcare system. Prescriptions denied when real claims flagged as suspicious. Years untangling medical records."
+      "explanation": "Providing strangers with your Medicare number can result in fraud billed to your number. Identity theft is rampant across the healthcare system. Prescriptions can be denied when real claims are flagged as suspicious. It can take a long time to untangle medical records once a scammer has used your account."
     },
     {
       "id": "15-3",
@@ -1849,13 +1849,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Delete message. Use legitimate discount cards from GoodRx.com or your pharmacy chain. Never share Medicare number with discount services. Report to Medicare at 1-800-MEDICARE."
+      "explanation": "Delete the text message asking for your number. Use legitimate discount cards from GoodRx.com or your pharmacy chain. Never share Medicare number with discount services. Report fraud to Medicare at 1-800-MEDICARE."
     },
     {
       "id": "16-1",
       "lesson_id": "16",
       "question_type": "indicator",
-      "question": "Apartment listing demands deposit before viewing. Action?",
+      "question": "While searching for an apartment, you are sent an email with an apartment listing that looks amazing but "will go fast".  They require a deposit before viewing. What do you do?",
       "correct_answer": "never_pay_without_in_per",
       "options": [
         {
@@ -1865,7 +1865,7 @@
         },
         {
           "id": "send_via_app_to_hold_uni",
-          "text": "Send via app to hold unit.",
+          "text": "Send a desposit through a payment app like Zelle or Venmo to hold unit.",
           "icon": "⚠️"
         },
         {
@@ -1874,13 +1874,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Reputable apartments won't require a deposit to tour the apartment."
     },
     {
       "id": "16-2",
       "lesson_id": "16",
       "question_type": "danger",
-      "question": "Safe apartment deposit payment:",
+      "question": "What are safe ways to give a deposit to a landlord?",
       "correct_answer": "cashier_s_check_after_pr",
       "options": [
         {
@@ -1890,7 +1890,7 @@
         },
         {
           "id": "app_transfer_before_seei",
-          "text": "App transfer before seeing unit.",
+          "text": "Zelle, Venmo or Paypal transfer before seeing unit.",
           "icon": "⚠️"
         },
         {
@@ -1899,7 +1899,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Lose deposit money instantly via app transfers. Homeless search restarts. Scammer repeats with next victim using same listing. Difficult recovery."
+      "explanation": "Non-standard payment methods are a big red flag.  High-pressure and tactics that cause fear of missing out are common ploys from scammers."  
     },
     {
       "id": "16-3",
@@ -1915,7 +1915,7 @@
         },
         {
           "id": "visiting_property_in_per",
-          "text": "Visiting property in person.",
+          "text": "Visiting the property in person and verifying the landlord company.",
           "icon": "✅"
         },
         {
@@ -1930,7 +1930,7 @@
       "id": "17-1",
       "lesson_id": "17",
       "question_type": "indicator",
-      "question": "Robocall says \"car warranty expires tomorrow.\" Do what?",
+      "question": "Robocall says \"car warranty expires tomorrow.\" What do you do?",
       "correct_answer": "hang_up_check_with_deale",
       "options": [
         {
@@ -1949,7 +1949,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Reputable warranty companies do not cold-call."
     },
     {
       "id": "17-2",
@@ -1974,7 +1974,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Waste thousands on useless coverage. Card charged repeatedly. No service when repairs needed. Legitimate warranties through dealer/manufacturer only."
+      "explanation": "Legitimate warranties are through dealer/manufacturer only, or a service that you engaged directly.  They will mail you with any renewal information."
     },
     {
       "id": "17-3",
@@ -1999,13 +1999,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Check real warranty through car dealer service department or manufacturer's website using VIN. Shop legitimate extended warranties through AAA or dealership only."
+      "explanation": "Hang up on any cold-calls about warranties.  They are never legitimate. Check real warranty through car dealer service department or manufacturer's website using VIN. Shop legitimate extended warranties through AAA or dealership only."
     },
     {
       "id": "18-1",
       "lesson_id": "18",
       "question_type": "indicator",
-      "question": "\"Social Security suspended\" demands SSN. Action?",
+      "question": "Call from the Social Security Administration saying that your\"Social Security is suspended\", and requests your SSN for verification. What do you do?",
       "correct_answer": "hang_up_check_ssa_gov_yo",
       "options": [
         {
@@ -2024,7 +2024,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Scammers like to get your full SSN to help open loans in your name (identity theft).  The SSA will never call and ask for your SSN."
     },
     {
       "id": "18-2",
@@ -2035,7 +2035,7 @@
       "options": [
         {
           "id": "mail_letter_only_never_p",
-          "text": "Mail letter only, never phone demands.",
+          "text": "Mail letter only, never phone.",
           "icon": "✅"
         },
         {
@@ -2049,7 +2049,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "SSN stolen enables identity theft, fake benefit claims, loans in your name. Benefits delayed while fraud investigated. Years cleaning up credit/government records."
+      "explanation": "The SSA uses mail, and will never ask for your SSN over the phone."
     },
     {
       "id": "18-3",
@@ -2065,7 +2065,7 @@
         },
         {
           "id": "ssa_gov_mysocialsecurity",
-          "text": "ssa.gov mySocialSecurity account.",
+          "text": "ssa.gov",
           "icon": "✅"
         },
         {
@@ -2074,23 +2074,23 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Create mySocialSecurity account at ssa.gov to check status. Contact SSA at 1-800-772-1213 using known number. Report scam to oig.ssa.gov."
+      "explanation": "Hang up. Create an account at ssa.gov to check status. Contact SSA at 1-800-772-1213 using known number. Report scam to oig.ssa.gov."
     },
     {
       "id": "19-1",
       "lesson_id": "19",
       "question_type": "indicator",
-      "question": "Cold call offers \"28% guaranteed returns.\" Verdict?",
+      "question": "Cold call offers \"28% guaranteed returns.\" on an investment (if you act fast!). Verdict?",
       "correct_answer": "scam_no_legitimate_guara",
       "options": [
         {
           "id": "scam_no_legitimate_guara",
-          "text": "Scam — no legitimate guaranteed high returns.",
+          "text": "Scam — no legitimate investor ever guarantees high returns.",
           "icon": "✅"
         },
         {
           "id": "great_investment_opportu",
-          "text": "Great investment opportunity.",
+          "text": "Could be a great investment opportunity.",
           "icon": "⚠️"
         },
         {
@@ -2099,7 +2099,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Legitimate investors do not cold call and promise returns."
     },
     {
       "id": "19-2",
@@ -2110,7 +2110,7 @@
       "options": [
         {
           "id": "sec_gov_or_finra_org_bro",
-          "text": "sec.gov or finra.org/brokercheck.",
+          "text": "adviserinfo.sec.gov or brokercheck.finra.org",
           "icon": "✅"
         },
         {
@@ -2124,7 +2124,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Complete loss of investment principal. Wire transfers unrecoverable. Fake company vanishes. Retirement savings wiped out chasing unrealistic returns."
+      "explanation": "Retirement planning and investment firms are highly regulated and should be easiliy verifiable on government websites."
     },
     {
       "id": "19-3",
@@ -2149,13 +2149,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Verify firm at sec.gov/EDGAR or finra.org/brokercheck. Work only with registered advisors. Investments promising guaranteed high returns = scams."
+      "explanation": "Hang up. Verify firm at adviserinfo.sec.gov or brokercheck.finra.org. Work only with registered advisors. Investments promising guaranteed high returns = scams."
     },
     {
       "id": "20-1",
       "lesson_id": "20",
       "question_type": "indicator",
-      "question": "\"Jury duty warrant\" demands prepaid card bail. Truth?",
+      "question": "\"Jury duty warrant\" demands prepaid card payment for bail to avoid arrest. Is that legitimate?",
       "correct_answer": "scam_police_never_take_p",
       "options": [
         {
@@ -2165,7 +2165,7 @@
         },
         {
           "id": "legitimate_warrant_payme",
-          "text": "Legitimate warrant payment.",
+          "text": "Sounds like a legitimate warrant payment.",
           "icon": "🚫"
         },
         {
@@ -2174,13 +2174,13 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Police do not call to collect money over the phone to avoid an arrest."
     },
     {
       "id": "20-2",
       "lesson_id": "20",
       "question_type": "danger",
-      "question": "Real arrest warrants served:",
+      "question": "Real arrest warrants are served:",
       "correct_answer": "in_person_by_uniformed_o",
       "options": [
         {
@@ -2190,16 +2190,16 @@
         },
         {
           "id": "phone_call_demanding_pay",
-          "text": "Phone call demanding payment.",
+          "text": "by a phone call demanding payment.",
           "icon": "🚫"
         },
         {
           "id": "email_notification_first",
-          "text": "Email notification first.",
+          "text": "with an email notification first.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Lose bail money via untraceable prepaid cards. Escalating \"fees\" for court costs. Terrorized into compliance. No warrant ever existed."
+      "explanation": "Warrants are not handled over the phone."
     },
     {
       "id": "20-3",
@@ -2215,16 +2215,16 @@
         },
         {
           "id": "courthouse_via_411_direc",
-          "text": "Courthouse via 411 directory assistance.",
+          "text": "the number the person on the phone provided.",
           "icon": "✅"
         },
         {
           "id": "sheriff_s_non_emergency",
-          "text": "Sheriff's non-emergency line.",
+          "text": "Sheriff's non-emergency line or the county courthouse by dialing 411.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Police arrest in person with uniform/warrant. Call local courthouse using 411 directory assistance number to verify status. Report to ftc.gov."
+      "explanation": "Hang up. Police arrest in person with uniform/warrant. Call local courthouse using 411 directory assistance number to verify status."
     },
     {
       "id": "21-1",
@@ -2235,7 +2235,7 @@
       "options": [
         {
           "id": "send_moneygram_for_deliv",
-          "text": "Send MoneyGram for delivery.",
+          "text": "Send MoneyGram to ensure prompt delivery.",
           "icon": "🚫"
         },
         {
@@ -2245,11 +2245,11 @@
         },
         {
           "id": "standard_handling_fee",
-          "text": "Standard handling fee.",
+          "text": "It's just a standard handling fee.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Real prizes do not require a payment to accept them."
     },
     {
       "id": "21-2",
@@ -2274,7 +2274,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "\"Fees\" escalate from hundreds to thousands. No prize delivered. Wire money permanently lost. Victim waits endlessly for nonexistent delivery."
+      "explanation": "\"Fees\" are not real, and once they have payment information, even for a small amount, they will keep charging your credit card. No prize will be delivered."
     },
     {
       "id": "21-3",
@@ -2295,22 +2295,22 @@
         },
         {
           "id": "moneygram_receipt_confir",
-          "text": "MoneyGram receipt confirmation.",
+          "text": "links I received via email or text.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Real sweepstakes winners notified by mail, never pay to collect. Verify at pch.com directly. Report to ftc.gov/complaint."
+      "explanation": "Hang up and/or delete texts or emails. Real sweepstakes winners are notified by mail, and never pay to collect. Verify at pch.com directly. Report to ftc.gov/complaint."
     },
     {
       "id": "22-1",
       "lesson_id": "22",
       "question_type": "indicator",
-      "question": "\"Free trial\" wants your credit card for $4.95. Do what?",
+      "question": "A \"free trial\" wants your credit card for $4.95 setup fee (but big savings are coming!). What do you do?",
       "correct_answer": "decline_use_prepaid_card",
       "options": [
         {
           "id": "decline_use_prepaid_card",
-          "text": "Decline — use prepaid cards only.",
+          "text": "Decline outright.  If it is a trial you initiated, use a small prepaid card with limited funds (only to the amount you're willing to lose).",
           "icon": "✅"
         },
         {
@@ -2324,7 +2324,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Free trials are common territory for scams that charge a small one-time fee, then large recurring fees that are hard to cancel."
     },
     {
       "id": "22-2",
@@ -2380,12 +2380,12 @@
       "id": "23-1",
       "lesson_id": "23",
       "question_type": "indicator",
-      "question": "\"Vaccine certificate\" wants Medicare number. Action?",
+      "question": "You are out of compliance until you have a \"vaccine certificate\". Supply your Medicare number to become compliant.  What do you do?",
       "correct_answer": "delete_real_docs_free_fr",
       "options": [
         {
           "id": "delete_real_docs_free_fr",
-          "text": "Delete — real docs free from doctors.",
+          "text": "Hang up or Delete — documents are free from doctors directly.",
           "icon": "✅"
         },
         {
@@ -2395,11 +2395,11 @@
         },
         {
           "id": "call_number_to_verify",
-          "text": "Call number to verify.",
+          "text": "Call the number the caller provided to verify.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Never give your Medicare number to strangers on the phone."
     },
     {
       "id": "23-2",
@@ -2424,38 +2424,38 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Medicare fraud destroys benefits. Identity theft across healthcare. Doctors refuse service when records flagged fraudulent."
+      "explanation": "Your doctor can provide any documentation required.  No need for other companies claiming to offer certificates."
     },
     {
       "id": "23-3",
       "lesson_id": "23",
       "question_type": "action",
-      "question": "Government never charges for:",
+      "question": "How do you get vaccine documentation?",
       "correct_answer": "vaccine_documentation",
       "options": [
         {
           "id": "passport_renewal",
-          "text": "Passport renewal.",
+          "text": "From strangers on the phone.",
           "icon": "⚠️"
         },
         {
           "id": "vaccine_documentation",
-          "text": "Vaccine documentation.",
+          "text": "From my doctor or pharmacy who provided the vaccine.",
           "icon": "✅"
         },
         {
           "id": "driver_s_license",
-          "text": "Driver's license.",
+          "text": "Third-party vaccine certificate providers.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Delete message. Real vaccine records from healthcare provider only. Medicare status at 1-800-MEDICARE. Report to ftc.gov."
+      "explanation": "Trust your local doctor.  Don't trust strangers on the phone."
     },
     {
       "id": "24-1",
       "lesson_id": "24",
       "question_type": "indicator",
-      "question": "\"Neighbor\" offers storage unit contents cheap. Do what?",
+      "question": "\"Neighbor\" offers storage unit contents cheap. What do you do?",
       "correct_answer": "verify_with_storage_faci",
       "options": [
         {
@@ -2474,7 +2474,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Giving cash to a stranger is risky.  They may walk away and you have no recourse."
     },
     {
       "id": "24-2",
@@ -2499,7 +2499,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Cash lost instantly. No storage unit exists. Scammer targets next neighborhood victim."
+      "explanation": "Legitimate auctions are announced in the paper and run by the storage company."
     },
     {
       "id": "24-3",
@@ -2530,26 +2530,26 @@
       "id": "25-1",
       "lesson_id": "25",
       "question_type": "indicator",
-      "question": "\"Toll violation\" demands prepaid card payment. Truth?",
+      "question": "\"Toll violation\" demands prepaid card payment. Is it legitmate?",
       "correct_answer": "scam_real_tolls_mail_inv",
       "options": [
         {
           "id": "scam_real_tolls_mail_inv",
-          "text": "Scam — real tolls mail invoices.",
+          "text": "It's a scam — real tolls mail invoices.",
           "icon": "✅"
         },
         {
           "id": "legitimate_collection_ca",
-          "text": "Legitimate collection call.",
+          "text": "Could be a legitimate collection call.",
           "icon": "⚠️"
         },
         {
           "id": "pay_to_clear_driving_rec",
-          "text": "Pay to clear driving record.",
+          "text": "I better pay to clear driving record.",
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Legitimate toll services will not call or text you to collect."
     },
     {
       "id": "25-2",
@@ -2574,7 +2574,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Prepaid card drained instantly. No tolls existed. License clean but money gone forever."
+      "explanation": "Only respond to mail, and by calling the official number on your account statement.  And only if YOU call (scammers can imitate the number for caller ID)."
     },
     {
       "id": "25-3",
@@ -2599,13 +2599,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Check toll balance at official state website (floridatolls.com, etc.). Real agencies mail bills first."
+      "explanation": "Hang up. Check toll balance at official state website. Real agencies mail bills first."
     },
     {
       "id": "26-1",
       "lesson_id": "26",
       "question_type": "indicator",
-      "question": "Grandchild + teacher call about stranded bus. Do what?",
+      "question": "Grandchild and a teacher call about stranded bus and needing some money to help. What do you do?",
       "correct_answer": "call_home_school_directl",
       "options": [
         {
@@ -2620,22 +2620,22 @@
         },
         {
           "id": "trust_coordinated_story",
-          "text": "Trust coordinated story.",
+          "text": "Trust the coordinated story since it is also a teacher.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Scammers will use two callers to give a sense of legitimacy and authority.  You should always feel comfortable hanging up and checking the story with the school."
     },
     {
       "id": "26-2",
       "lesson_id": "26",
       "question_type": "danger",
-      "question": "School trip emergencies handled by:",
+      "question": "School trip emergencies are best handled by:",
       "correct_answer": "school_insurance_and_par",
       "options": [
         {
           "id": "school_insurance_and_par",
-          "text": "School insurance and parents.",
+          "text": "School insurance and parents/guardians.",
           "icon": "✅"
         },
         {
@@ -2649,7 +2649,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Western Union money gone instantly. No school trip problems exist. Grandchild safe at home."
+      "explanation": "There is never a legitimate reason for a grandparent's payment to help bail out someone on a school trip."
     },
     {
       "id": "26-3",
@@ -2665,7 +2665,7 @@
         },
         {
           "id": "numbers_caller_provides",
-          "text": "Numbers caller provides.",
+          "text": "The numbers that the 'teacher' on the phone provides.",
           "icon": "🚫"
         },
         {
@@ -2674,32 +2674,32 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Call grandchild's home phone and school directly. Real emergencies go through parents first. Schools handle trip insurance."
+      "explanation": "Call your grandchild's home phone and school directly. Real emergencies go through parents/guardians first. Schools handle trip insurance."
     },
     {
       "id": "27-1",
       "lesson_id": "27",
       "question_type": "indicator",
-      "question": "\"Hotel refund\" wants TeamViewer access. Why?",
+      "question": "\"Hotel refund\" wants TeamViewer access to process the refund. Why?",
       "correct_answer": "steal_passwords_with_mal",
       "options": [
         {
           "id": "steal_passwords_with_mal",
-          "text": "Steal passwords with malware.",
+          "text": "TeamViewer allows control of my computer, so they can steal passwords with malware.",
           "icon": "✅"
         },
         {
           "id": "standard_refund_verifica",
-          "text": "Standard refund verification.",
+          "text": "Nothing to worry about.  It is a standard refund verification.",
           "icon": "⚠️"
         },
         {
           "id": "process_payment_faster",
-          "text": "Process payment faster.",
+          "text": "If I download the software, I can get the refund payment faster.",
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Never give access or download software from a stranger on the phone."
     },
     {
       "id": "27-2",
@@ -2724,38 +2724,38 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Banking passwords stolen. Accounts drained. No refund issued. Computer infected permanently."
+      "explanation": "Always feel free to hang up and call the hotel directly.  If you didn't stay in a hotel, then there really is no reason to get a refund."
     },
     {
       "id": "27-3",
       "lesson_id": "27",
       "question_type": "action",
-      "question": "Never share computer screen with:",
-      "correct_answer": "refund_processing_caller",
+      "question": "Only share your computer screen with:",
+      "correct_answer": "your_it_support_company",
       "options": [
         {
           "id": "your_it_support_company",
-          "text": "Your IT support company.",
+          "text": "Your IT support company where you initiated the service call.",
           "icon": "⚠️"
         },
         {
           "id": "refund_processing_caller",
-          "text": "Refund processing callers.",
+          "text": "Cold callers who claim to offer a refund.",
           "icon": "✅"
         },
         {
           "id": "bank_fraud_department",
-          "text": "Bank fraud department.",
+          "text": "My bank's fraud department.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Check hotel account online directly. Real refunds by check/credit, never computer access."
+      "explanation": "Never give control of your computer to a stranger."
     },
     {
       "id": "28-1",
       "lesson_id": "28",
       "question_type": "indicator",
-      "question": "\"Church directory\" phone sales. Verify by:",
+      "question": "We need a deposit to hold your place in the \"church directory\". Verify by:",
       "correct_answer": "calling_church_office_di",
       "options": [
         {
@@ -2774,23 +2774,23 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Pressure to act fast or miss out is a common tactic.  Always feel comfortable to hangup and call a number you know to be right."
     },
     {
       "id": "28-2",
       "lesson_id": "28",
       "question_type": "danger",
-      "question": "Church directories announced by:",
+      "question": "Church directories are usually announced by:",
       "correct_answer": "pastor_service_announcem",
       "options": [
         {
           "id": "pastor_service_announcem",
-          "text": "Pastor/service announcements.",
+          "text": "Pastor/service announcements and church bulletins, or the official church website.",
           "icon": "✅"
         },
         {
           "id": "phone_solicitations",
-          "text": "Phone solicitations.",
+          "text": "Phone solicitations claiming to be with the directory photographer.",
           "icon": "⚠️"
         },
         {
@@ -2799,7 +2799,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "$89-125 charged, no directory. Card used for recurring charges. Church embarrassed by scam confusion."
+      "explanation": "Always feel comfortable hanging up and calling a verified phone number.  Do not pay people who call you first."
     },
     {
       "id": "28-3",
@@ -2824,18 +2824,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Call church office directly to verify. Real directories announced in services, payment to church treasurer."
+      "explanation": "Call the church office directly to verify. Real directories announced in services, payment to church treasurer."
     },
     {
       "id": "29-1",
       "lesson_id": "29",
       "question_type": "indicator",
-      "question": "Door-to-door fence \"code violation.\" First step?",
+      "question": "Repairman at the door claiming your fence has a \"code violation.\" First step?",
       "correct_answer": "call_county_for_written",
       "options": [
         {
           "id": "call_county_for_written",
-          "text": "Call county for written notice.",
+          "text": "Say no thank you. Call the county or HOA for written notice of violation.",
           "icon": "✅"
         },
         {
@@ -2849,7 +2849,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Code violations are sent by mail, and you are given time to remediate.  Get numerous written estimates from legitimate verified businesses."
     },
     {
       "id": "29-2",
@@ -2874,18 +2874,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "$1,400 cash lost. Shoddy fence fails quickly. Code violation fine actually arrives later."
+      "explanation": "There is no advantage in resolving an issue before the written warning.  The county will give time to remediate."
     },
     {
       "id": "29-3",
       "lesson_id": "29",
       "question_type": "action",
-      "question": "Fence contractor maximum deposit:",
+      "question": "What's the maximum deposit in cash I should give the fence contractor?",
       "correct_answer": "100_cash_maximum",
       "options": [
         {
           "id": "100_cash_maximum",
-          "text": "$100 cash maximum.",
+          "text": "Don't give cash.",
           "icon": "✅"
         },
         {
@@ -2899,43 +2899,43 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Request written violation from county first. Get 3 licensed contractor bids. Never pay cash deposits over $100."
+      "explanation": "Request written violation from county first. Get 3 licensed contractor bids. Never pay cash deposits."
     },
     {
       "id": "30-1",
       "lesson_id": "30",
       "question_type": "indicator",
-      "question": "\"Dark web alert\" wants SSN/passwords. Verdict?",
+      "question": "You are told your private information has been discovered on the \"dark web\".  Give your SSN to enroll in protection.",
       "correct_answer": "scam_real_services_never",
       "options": [
         {
           "id": "scam_real_services_never",
-          "text": "Scam — real services never need passwords.",
+          "text": "Scam — real services never need your SSN.",
           "icon": "✅"
         },
         {
           "id": "legitimate_monitoring_se",
-          "text": "Legitimate monitoring service.",
+          "text": "Sounds like a legitimate monitoring service.",
           "icon": "⚠️"
         },
         {
           "id": "29_95_reasonable_price",
-          "text": "$29.95 reasonable price.",
+          "text": "$29.95 is a reasonable price to clean up the dark web.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Hang up.  Do not give strangers your SSN."
     },
     {
       "id": "30-2",
       "lesson_id": "30",
       "question_type": "danger",
-      "question": "Free credit reports at:",
+      "question": "I can get my credit report once per year at:",
       "correct_answer": "annualcreditreport_com",
       "options": [
         {
           "id": "annualcreditreport_com",
-          "text": "annualcreditreport.com.",
+          "text": "annualcreditreport.com. or directly from Equifax, Experian and Transunion credit bureaus.",
           "icon": "✅"
         },
         {
@@ -2945,11 +2945,11 @@
         },
         {
           "id": "credit_bureau_phone_line",
-          "text": "Credit bureau phone lines.",
+          "text": "Strangers on the telephone.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Complete identity portfolio stolen. Multiple account takeovers. Credit destroyed across all bureaus."
+      "explanation": "Use legitimate, verified services to check your credit."
     },
     {
       "id": "30-3",
@@ -2974,13 +2974,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Check credit at annualcreditreport.com (free). Real services monitor externally, never access accounts. FTC identitytheft.gov for real help."
+      "explanation": "Hang up. Check credit at annualcreditreport.com (free). Real services monitor externally, never access accounts."
     },
     {
       "id": "31-1",
       "lesson_id": "31",
       "question_type": "indicator",
-      "question": "\"Microsoft\" demands Google Play gift cards for viruses. Truth?",
+      "question": "\"Microsoft\" calls and requests Google Play gift cards as payment to remove viruses. Does that sound right?",
       "correct_answer": "scam_no_tech_support_tak",
       "options": [
         {
@@ -2990,22 +2990,22 @@
         },
         {
           "id": "legitimate_virus_removal",
-          "text": "Legitimate virus removal fee.",
+          "text": "Seems like a legitimate virus removal fee.",
           "icon": "⚠️"
         },
         {
           "id": "buy_if_computer_seems_sl",
-          "text": "Buy if computer seems slow.",
+          "text": "You should buy if computer seems slow.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "No legitimate company takes payments from gift cards."
     },
     {
       "id": "31-2",
       "lesson_id": "31",
       "question_type": "danger",
-      "question": "Free virus scan with:",
+      "question": "I can get a free virus scan for my Windows PC with:",
       "correct_answer": "windows_defender_built_i",
       "options": [
         {
@@ -3024,13 +3024,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "$500 gone in seconds. Gift cards untraceable. Computer never had viruses. Scammer resells card value."
+      "explanation": "Store bought antivirus programs are good, but not free.  Windows comes with Defender.  No legitimate tech support will call you and ask for payment."
     },
     {
       "id": "31-3",
       "lesson_id": "31",
       "question_type": "action",
-      "question": "Gift cards used to pay for:",
+      "question": "Gift cards are used to pay for:",
       "correct_answer": "scams_only_legitimate_co",
       "options": [
         {
@@ -3040,12 +3040,12 @@
         },
         {
           "id": "scams_only_legitimate_co",
-          "text": "Scams only — legitimate companies refuse.",
+          "text": "Scams only — no legitimate companies take gift cards as payment.",
           "icon": "✅"
         },
         {
           "id": "family_gifts",
-          "text": "Family gifts.",
+          "text": "Delivery fee processing.",
           "icon": "⚠️"
         }
       ],
