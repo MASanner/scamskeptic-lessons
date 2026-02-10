@@ -1499,7 +1499,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "The IRS does not call, they send mail.  Any personal information you give to scammers can be used to commit identity theft, and financial information given to them will be used to access your accounts.
     },
     {
       "id": "11-2",
@@ -1524,7 +1524,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Bank details let them drain accounts or create fake checks. IRS identity theft leads to tax problems, frozen refunds, and years repairing credit/government records."
+      "explanation": "Givving scammers bank details let them drain accounts or create fake checks. IRS identity theft leads to tax problems, frozen refunds, and years repairing credit/government records."
     },
     {
       "id": "11-3",
@@ -1555,7 +1555,7 @@
       "id": "12-1",
       "lesson_id": "12",
       "question_type": "indicator",
-      "question": "Door-to-door roofer demands cash deposit now. Do what?",
+      "question": "Door-to-door roofer asks for a cash deposit now to lock in a discount or schedule. Do what?",
       "correct_answer": "say_no_and_get_multiple",
       "options": [
         {
@@ -1574,7 +1574,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Never give cash deposits for contractor work.  Always get multiple written quotes from sources YOU find (not sources that find you)."
     },
     {
       "id": "12-2",
@@ -1585,7 +1585,7 @@
       "options": [
         {
           "id": "written_contract_and_bus",
-          "text": "Written contract and business license.",
+          "text": "A written contract, business license, and proof of insurance.",
           "icon": "✅"
         },
         {
@@ -1599,18 +1599,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Lose thousands in deposits with no work done. Home damage worsens from neglect. Shoddy repairs fail quickly, costing double to fix properly later."
+      "explanation": "Ask yourself how you would hold the contractor accountable if they failed to meet their obligations.  How would you get your money back from a guy in a truck in your driveway, versus a reputable local company with a business license that you can check with the BBB (Better Business Bureau)."
     },
     {
       "id": "12-3",
       "lesson_id": "12",
       "question_type": "action",
-      "question": "Maximum upfront payment for home repair:",
+      "question": "Asking for cash upfront payment for home repair:",
       "correct_answer": "never_more_than_10_depos",
       "options": [
         {
           "id": "never_more_than_10_depos",
-          "text": "Never more than 10% deposit.",
+          "text": "Never more than 10% deposit of the total written estimate.  Never cash.",
           "icon": "✅"
         },
         {
@@ -1630,7 +1630,7 @@
       "id": "13-1",
       "lesson_id": "13",
       "question_type": "indicator",
-      "question": "\"You won $250,000!\" demands $498 fee. Truth?",
+      "question": "\"You won $250,000!\" Prepay the $498 (processing fee and taxes). Truth?",
       "correct_answer": "scam_real_prizes_never_r",
       "options": [
         {
@@ -1649,13 +1649,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Prizes do not require a payment up front, and definitely not over the phone.  Hang up."
     },
     {
       "id": "13-2",
       "lesson_id": "13",
       "question_type": "danger",
-      "question": "Legitimate sweepstakes winners pay:",
+      "question": "How do legitimate sweepstakes winners pay?",
       "correct_answer": "nothing_upfront_prize_co",
       "options": [
         {
@@ -1674,7 +1674,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Small fees escalate to thousands. No prize exists. Wire money gone forever. Credit ruined if they get enough personal info for identity theft."
+      "explanation": "Do not let the excitement of a promised prize cloud your judgment. Hang up."
     },
     {
       "id": "13-3",
@@ -1685,7 +1685,7 @@
       "options": [
         {
           "id": "your_state_lottery_offic",
-          "text": "Your state lottery office.",
+          "text": "Your accountant.",
           "icon": "⚠️"
         },
         {
@@ -1705,7 +1705,7 @@
       "id": "14-1",
       "lesson_id": "14",
       "question_type": "indicator",
-      "question": "\"$5,000 grant\" demands $250 fee. Verdict?",
+      "question": "\Approved for a "$5,000 grant\". Requests $250 processing fee. Verdict?",
       "correct_answer": "scam_government_never_ch",
       "options": [
         {
@@ -1724,7 +1724,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Government grants do not ask for payment over the phone.  Hang up."
     },
     {
       "id": "14-2",
@@ -1749,7 +1749,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Prepaid card money gone instantly. Escalating \"fees\" drain thousands. No grant exists. Personal info used for further scams or identity theft."
+      "explanation": "Government grants do not ask you for payment, and definitely not over the phone.  Hang up."
     },
     {
       "id": "14-3",
