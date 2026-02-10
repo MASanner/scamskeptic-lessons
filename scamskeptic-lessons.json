@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -3074,18 +3074,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "No legitimate car sale requires a payment to reserve a test drive."
     },
     {
       "id": "32-2",
       "lesson_id": "32",
       "question_type": "danger",
-      "question": "Safe used car payment:",
+      "question": "The safest way to pay for a used car:",
       "correct_answer": "dealer_bank_cashier_s_ch",
       "options": [
         {
           "id": "dealer_bank_cashier_s_ch",
-          "text": "Dealer/bank cashier's check after inspection.",
+          "text": "Dealer/bank cashier's check (at the bank) after inspection.",
           "icon": "✅"
         },
         {
@@ -3099,13 +3099,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "$1,200 lost instantly via unrecoverable PayPal F&F. Real car search restarts. Scammer posts same ad tomorrow."
+      "explanation": "Avoid non-traceable payment methods, and have the bank verify transfer of funds in-person. "
     },
     {
       "id": "32-3",
       "lesson_id": "32",
       "question_type": "action",
-      "question": "Verify used car by:",
+      "question": "Verify the used car by:",
       "correct_answer": "test_drive_vin_check_at",
       "options": [
         {
@@ -3130,7 +3130,7 @@
       "id": "33-1",
       "lesson_id": "33",
       "question_type": "indicator",
-      "question": "Phone call offers funeral prepayment. Do what?",
+      "question": "Phone call offers a big discount on funeral services with a reasonable prepayment. What do you do?",
       "correct_answer": "hang_up_plan_with_local",
       "options": [
         {
@@ -3140,7 +3140,7 @@
         },
         {
           "id": "wire_money_to_trust_fund",
-          "text": "Wire money to trust fund.",
+          "text": "Wire the money to a trust fund.",
           "icon": "🚫"
         },
         {
@@ -3149,13 +3149,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Never pay a stranger on the phone who called you."
     },
     {
       "id": "33-2",
       "lesson_id": "33",
       "question_type": "danger",
-      "question": "Legitimate funeral planning through:",
+      "question": "Legitimate funeral planning should be done through:",
       "correct_answer": "licensed_local_funeral_h",
       "options": [
         {
@@ -3174,7 +3174,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "$4,800 gone when actually needed. No funeral services exist. Family pays double later."
+      "explanation": "Always deal with reputable, verified local businesses."
     },
     {
       "id": "33-3",
@@ -3190,7 +3190,7 @@
         },
         {
           "id": "funerals_org_directory",
-          "text": "funerals.org directory.",
+          "text": "your state or local licensing board",
           "icon": "✅"
         },
         {
@@ -3199,23 +3199,23 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Plan directly with local licensed funeral homes. Use payable-on-death life insurance. Verify at funerals.org. Never prepay sight-unseen."
+      "explanation": "Plan directly with local licensed funeral homes. Never prepay sight-unseen."
     },
     {
       "id": "34-1",
       "lesson_id": "34",
       "question_type": "indicator",
-      "question": "\"Solar rebate\" demands $995 deposit. Truth?",
+      "question": "\"Solar rebate\" demands $995 deposit. Is this a good deal?",
       "correct_answer": "scam_government_rebates",
       "options": [
         {
           "id": "scam_government_rebates",
-          "text": "Scam — government rebates are free tax credits.",
+          "text": "Scam — government rebates do not require deposits.",
           "icon": "✅"
         },
         {
           "id": "legitimate_processing_fe",
-          "text": "Legitimate processing fee.",
+          "text": "Seems like a legitimate processing fee.",
           "icon": "⚠️"
         },
         {
@@ -3224,7 +3224,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Government rebates are given as tax credits on your taxes next year after the work is done."
     },
     {
       "id": "34-2",
@@ -3235,37 +3235,37 @@
       "options": [
         {
           "id": "irs_tax_credits_no_upfro",
-          "text": "IRS tax credits, no upfront fees.",
+          "text": "are given as IRS tax credits, with no upfront fees.",
           "icon": "✅"
         },
         {
           "id": "government_panel_install",
-          "text": "Government panel installation.",
+          "text": "are only given if the government installs the panels.",
           "icon": "🚫"
         },
         {
           "id": "energy_trust_fund_deposi",
-          "text": "Energy trust fund deposits.",
+          "text": "give me solar panels for free.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "$995 lost to nonexistent program. Real solar incentives through tax credits only. No panels, no savings."
+      "explanation": "The government does not require processing fees for rebates."
     },
     {
       "id": "34-3",
       "lesson_id": "34",
       "question_type": "action",
-      "question": "Verify solar incentives at:",
+      "question": "I can verify government solar incentives at:",
       "correct_answer": "dsireusa_org_or_irs_gov",
       "options": [
         {
           "id": "dsireusa_org_or_irs_gov",
-          "text": "dsireusa.org or irs.gov.",
+          "text": "energy.gov or irs.gov.",
           "icon": "✅"
         },
         {
           "id": "phone_rebate_services",
-          "text": "Phone rebate services.",
+          "text": "from a stranger on the phone.",
           "icon": "⚠️"
         },
         {
@@ -3274,57 +3274,57 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Real solar tax credit at irs.gov. Licensed contractors only. Verify dsireusa.org incentives. Government never demands deposits for rebates."
+      "explanation": "Real solar tax credit at irs.gov. Licensed contractors only. Government never demands deposits for rebates."
     },
     {
       "id": "35-1",
       "lesson_id": "35",
       "question_type": "indicator",
-      "question": "Grandchild calls from \"prepaid number\" about lost phone. Do what?",
+      "question": "Grandchild calls from \"prepaid number\" about lost phone. What do you do?",
       "correct_answer": "call_parents_first_to_ve",
       "options": [
         {
           "id": "call_parents_first_to_ve",
-          "text": "Call parents first to verify.",
+          "text": "Call the parents/guardians first to verify.",
           "icon": "✅"
         },
         {
           "id": "buy_iphone_immediately",
-          "text": "Buy iPhone immediately.",
+          "text": "Help your grandchild by buying whatever they need.",
           "icon": "⚠️"
         },
         {
           "id": "wire_replacement_cash",
-          "text": "Wire replacement cash.",
+          "text": "Ask them for personal verification.",
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Never trust personal verification questions, since the scammer may know information from social media accounts.  Hang up and call a verified parent or guardian's number."
     },
     {
       "id": "35-2",
       "lesson_id": "35",
       "question_type": "danger",
-      "question": "Real grandchild emergencies contact:",
+      "question": "In an emergency, a grandparent should:",
       "correct_answer": "parents_first_then_grand",
       "options": [
         {
           "id": "parents_first_then_grand",
-          "text": "Parents first, then grandparents.",
+          "text": "Contact parents or guardians first and/or the grandchild using their known phone number.",
           "icon": "✅"
         },
         {
           "id": "grandparents_only_from_p",
-          "text": "Grandparents only from prepaid phones.",
+          "text": "Trust the caller and send whatever money is necessary.",
           "icon": "⚠️"
         },
         {
           "id": "prepaid_numbers_exclusiv",
-          "text": "Prepaid numbers exclusively.",
+          "text": "Safely give the grandchild the money they need by buying gift cards and reading the number.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "$300 charged to card. Grandchild never lost phone. Scammers target next grandparent."
+      "explanation": "There is never a legitimate reason to buy gift cards and read the numbers over the phone to someone."
     },
     {
       "id": "35-3",
@@ -3335,7 +3335,7 @@
       "options": [
         {
           "id": "parents_known_home_numbe",
-          "text": "Parents' known home number.",
+          "text": "Parents' or guardians' known home number.",
           "icon": "✅"
         },
         {
@@ -3349,28 +3349,28 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Call parents' home number first. Real emergencies go through parents. Text grandchild known number to verify."
+      "explanation": "Call parents' or guardians' home number first. Real emergencies go through them."
     },
     {
       "id": "36-1",
       "lesson_id": "36",
       "question_type": "indicator",
-      "question": "\"Airline refund\" demands SSN. Action?",
+      "question": "\"Airline refund\" requests SSN to process. What do you do?",
       "correct_answer": "hang_up_check_airline_we",
       "options": [
         {
           "id": "hang_up_check_airline_we",
-          "text": "Hang up — check airline website yourself.",
+          "text": "Hang up — check airline yourself through a verified number.",
           "icon": "✅"
         },
         {
           "id": "verify_identity_for_proc",
-          "text": "Verify identity for processing.",
+          "text": "Provide your identity for processing.",
           "icon": "⚠️"
         },
         {
           "id": "ask_for_confirmation_num",
-          "text": "Ask for confirmation number.",
+          "text": "Ask for a confirmation number.",
           "icon": "⚠️"
         }
       ],
@@ -3399,7 +3399,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Complete identity theft portfolio. Credit cards maxed. No refund issued."
+      "explanation": "Airlines process refunds all the time, without requesting SSNs."
     },
     {
       "id": "36-3",
@@ -3435,107 +3435,107 @@
       "options": [
         {
           "id": "scam_real_sealing_costs",
-          "text": "Scam — real sealing costs $3-6 per sq ft.",
+          "text": "Scam — pressure for 'discounts' avoids shopping for comparison.",
           "icon": "✅"
         },
         {
           "id": "great_neighborhood_deal",
-          "text": "Great neighborhood deal.",
+          "text": "Seems like a great neighborhood deal.",
           "icon": "⚠️"
         },
         {
           "id": "pay_cash_for_special",
-          "text": "Pay cash for special.",
+          "text": "Pay cash for the special.",
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "If you really need your driveway sealed, get three written quotes from verified, licensed businesses."
     },
     {
       "id": "37-2",
       "lesson_id": "37",
       "question_type": "danger",
-      "question": "Legitimate paving requires:",
+      "question": "Walkup contractors are:",
       "correct_answer": "written_contract_3_bids",
       "options": [
         {
           "id": "written_contract_3_bids",
-          "text": "Written contract, 3 bids.",
+          "text": "Often a scam. Hard to hold accountable.",
           "icon": "✅"
         },
         {
           "id": "cash_payment_same_day",
-          "text": "Cash payment same day.",
+          "text": "The lowest price you will find.",
           "icon": "🚫"
         },
         {
           "id": "no_prep_work_needed",
-          "text": "No prep work needed.",
+          "text": "Probably safe since they are doing the whole neighborhood.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "$1,400 wasted on peeling mess. Real sealing requires proper prep, multiple coats. Driveway cracks worse."
+      "explanation": "Never give a deposit to a contractor who first knocked on your door. Shop alternatives and get written estimates to compare."
     },
     {
       "id": "37-3",
       "lesson_id": "37",
       "question_type": "action",
-      "question": "Driveway sealing price per sq ft:",
+      "question": "The safest amount of cash to give as a deposit is:",
       "correct_answer": "3_6_professionally",
       "options": [
         {
           "id": "0_50_bargain_rate",
-          "text": "$0.50 bargain rate.",
+          "text": "Half now, half upon completion.",
           "icon": "⚠️"
         },
         {
           "id": "3_6_professionally",
-          "text": "$3-6 professionally.",
+          "text": "None.  Don't give cash deposits.",
           "icon": "✅"
         },
         {
           "id": "29_neighborhood_special",
-          "text": "$29 neighborhood special.",
+          "text": "80% deposit if you want to guarantee good service.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Get 3 written bids from licensed pavers. Asphalt sealing $3-6 per square foot. Never pay cash for home improvements over $100."
+      "explanation": "What is your recourse if you give a stranger a big cash deposit?  None."
     },
     {
       "id": "38-1",
       "lesson_id": "38",
       "question_type": "indicator",
-      "question": "Timeshare cancellation demands $4,500 escrow. Truth?",
+      "question": "You can get out of your timeshare obligations with just a $1,500 escrow. Is that a good deal?",
       "correct_answer": "scam_contact_developer_d",
       "options": [
         {
           "id": "scam_contact_developer_d",
-          "text": "Scam — contact developer directly.",
+          "text": "It's a Scam.  There is no legitimate service that cold calls to help get out of a timeshare, and none that require a deposit.",
           "icon": "✅"
         },
         {
           "id": "legitimate_escrow_servic",
-          "text": "Legitimate escrow service.",
+          "text": "Seems like a legitimate escrow service.",
           "icon": "⚠️"
         },
         {
           "id": "pay_for_deed_transfer",
-          "text": "Pay for deed transfer.",
+          "text": "I'm tired of the timeshare and can use the caller's help to get out.",
           "icon": "🚫"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "If you receive an unsolicited call from someone offering to get you out of your timeshare, the safest assumption is that it is a scam."
     },
     {
       "id": "38-2",
       "lesson_id": "38",
       "question_type": "danger",
-      "question": "Cancel timeshare through:",
+      "question": "The legitimate way to cancel my timeshare is through:",
       "correct_answer": "developer_or_licensed_at",
       "options": [
         {
           "id": "developer_or_licensed_at",
-          "text": "Developer or licensed attorney.",
+          "text": "The developer or a licensed attorney.",
           "icon": "✅"
         },
         {
@@ -3549,7 +3549,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "$4,500 lost. Still own timeshare, fees accrue. Foreclosure damages credit."
+      "explanation": "Strangers calling you to offer help are not legitimate."
     },
     {
       "id": "38-3",
@@ -3560,27 +3560,27 @@
       "options": [
         {
           "id": "never_legitimate_thousan",
-          "text": "Never legitimate thousands upfront.",
+          "text": "are never thousands upfront from an unsolicited phone call.",
           "icon": "✅"
         },
         {
           "id": "4_500_escrow_standard",
-          "text": "$4,500 escrow standard.",
+          "text": "are standard at $1,500 into an escrow.",
           "icon": "⚠️"
         },
         {
           "id": "monthly_payment_plans",
-          "text": "Monthly payment plans.",
+          "text": "best paid by giving gift card numbers.",
           "icon": "🚫"
         }
       ],
-      "explanation": "Contact timeshare developer directly. Licensed real estate attorney only. Check ripoffreport.com first. No legitimate upfront fees."
+      "explanation": "Contact timeshare developer directly or a licensed real estate attorney only. Do not pay unsolicited callers."
     },
     {
       "id": "39-1",
       "lesson_id": "39",
       "question_type": "indicator",
-      "question": "\"IRS audit\" demands bank info by phone. Action?",
+      "question": "\"IRS audit\" demands bank info by phone. What action do you take?",
       "correct_answer": "hang_up_irs_never_calls",
       "options": [
         {
@@ -3624,7 +3624,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Bank account drained. Credit ruined. Real tax return fine if no audit notice received."
+      "explanation": "Hang up.  Call the verified number to ask questions."
     },
     {
       "id": "39-3",
@@ -3649,13 +3649,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Real IRS contact by certified mail only. Check irs.gov account. Call 1-800-829-1040 using directory assistance."
+      "explanation": "Hang up. Real IRS contact by certified mail only. Check irs.gov account. Call 1-800-829-1040 or search for a verified number for the IRS."
     },
     {
       "id": "40-1",
       "lesson_id": "40",
       "question_type": "indicator",
-      "question": "Robocall claims \"warranty expires midnight.\" Do what?",
+      "question": "Robocall claims \"warranty expires midnight.\" What do you do?",
       "correct_answer": "hang_up_check_dealer_rec",
       "options": [
         {
@@ -3674,18 +3674,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
+      "explanation": "Warranty companies don't call demanding payment."
     },
     {
       "id": "40-2",
       "lesson_id": "40",
       "question_type": "danger",
-      "question": "Legitimate warranties from:",
+      "question": "Legitimate warranties are from:",
       "correct_answer": "car_manufacturer_dealer",
       "options": [
         {
           "id": "car_manufacturer_dealer",
-          "text": "Car manufacturer/dealer only.",
+          "text": "the car manufacturer/dealer only.",
           "icon": "✅"
         },
         {
@@ -3699,7 +3699,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "$2,499 wasted. Claims denied for \"pre-existing.\" Repairs full price anyway."
+      "explanation": "Hang up.  No legitimate warranty service will call you and scare you to paying now."
     },
     {
       "id": "40-3",
@@ -3710,12 +3710,12 @@
       "options": [
         {
           "id": "dealer_service_departmen",
-          "text": "Dealer service department.",
+          "text": "your local car dealership's service department.",
           "icon": "✅"
         },
         {
           "id": "robocall_verification_li",
-          "text": "Robocall verification line.",
+          "text": "the phone number the Robocall provided.",
           "icon": "⚠️"
         },
         {
