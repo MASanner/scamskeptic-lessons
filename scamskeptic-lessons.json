@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -353,7 +353,7 @@
       "body": "Claims missed jury duty warrant requires immediate \"bail\" payment via prepaid cards.",
       "category": "phone",
       "icon": "🏛️",
-      "scammer_says": "\"This is County Sheriff's Office. You missed jury duty summons and warrant issued for arrest. Post $1,000 bail via prepaid cards or appear in 60 minutes at station.\" \"Officer badge #8472. Don't hang up or warrant activates.\"",
+      "scammer_says": "\"This is County Sheriff's Office. You missed jury duty summons and a warrant has been issued for your arrest. Post $1,000 bail via prepaid cards or appear in 60 minutes at station.\" \"Officer badge #8472. Don't hang up or the warrant activates.\"",
       "the_trick": "Claims missed jury duty warrant requires immediate \"bail\" payment via prepaid cards. Real police arrest in person, never demand payment over phone.",
       "consequences": "Lose bail money via untraceable prepaid cards. Escalating \"fees\" for court costs. Terrorized into compliance. No warrant ever existed.",
       "danger_signs": [
@@ -389,7 +389,7 @@
       "body": "Small \"shipping fee\" enrolls you in expensive monthly autoship.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"Thank you for trying our free 30-day trial of HealthMax Vitamins! Confirm your shipping address and credit card for $4.95 processing. Cancel anytime after first shipment.\" \"Monthly shipments begin tomorrow at $89.95 each.\"",
+      "scammer_says": "\"Congratulations!  You have been approved for a free 30-day trial of HealthMax Vitamins! Confirm your shipping address and credit card for $4.95 processing. Cancel anytime after first shipment.\" \"After your free trial, monthly shipments will be $89.95 each, but you can cancel any time.\"",
       "the_trick": "Small \"shipping fee\" enrolls you in expensive monthly autoship. Hard-to-cancel subscriptions charge card repeatedly. Buried cancellation phone numbers.",
       "consequences": "Hundreds charged monthly for unwanted products. Cancellation battles fail. Credit card disputes denied for \"recurring billing authorization.\"",
       "danger_signs": [
@@ -398,7 +398,7 @@
         "Hard-to-find cancellation instructions.",
         "Multiple shipments promised automatically."
       ],
-      "safe_action": "Never give card for \"free trials.\" Use virtual credit cards or prepaid debit for testing. Cancel in writing within 3 days. Dispute charges with bank."
+      "safe_action": "Never give card for \"free trials.\" Use virtual credit cards or prepaid debit (with very limited funds on the card) for testing. Cancel in writing within 3 days. Dispute charges with bank."
     },
     {
       "id": "23",
@@ -443,7 +443,7 @@
       "body": "Fake toll violations demand prepaid card payment.",
       "category": "phone",
       "icon": "🏛️",
-      "scammer_says": "\"Toll Authority Collections — Vehicle #JHG-8472 has 6 unpaid tolls totaling $287 from Florida Turnpike. Pay now via prepaid Visa card or vehicle registration suspended.\" \"Read card numbers to agent or face $500 fine + towing.\"",
+      "scammer_says": "\"Toll Authority Collections — Vehicle #JHG-8472 has 6 unpaid tolls totaling $287 from your State Turnpike. Pay now via prepaid Visa card or vehicle registration suspended.\" \"Read card numbers to agent or face $500 fine + towing.\"",
       "the_trick": "Fake toll violations demand prepaid card payment. Real toll agencies mail invoices, accept checks/credit cards.",
       "consequences": "Prepaid card drained instantly. No tolls existed. License clean but money gone forever.",
       "danger_signs": [
@@ -452,7 +452,7 @@
         "Unfamiliar agency name/number.",
         "No mailed invoice provided."
       ],
-      "safe_action": "Hang up. Check toll balance at official state website (floridatolls.com, etc.). Real agencies mail bills first."
+      "safe_action": "Hang up. Check toll balance at your state's offical toll website. Real agencies mail bills first."
     },
     {
       "id": "26",
@@ -470,7 +470,7 @@
         "Sudden \"everyone stranded\" pressure.",
         "No parent contact first."
       ],
-      "safe_action": "Call grandchild's home phone and school directly. Real emergencies go through parents first. Schools handle trip insurance."
+      "safe_action": "Call grandchild's home phone and school directly. Real emergencies go through the child's designated guardian first. Schools handle trip insurance."
     },
     {
       "id": "27",
@@ -488,7 +488,7 @@
         "No reservation confirmation provided.",
         "Urgent access \"for 2 minutes only.\""
       ],
-      "safe_action": "Hang up. Check hotel account online directly. Real refunds by check/credit, never computer access."
+      "safe_action": "Hang up. Check hotel account online directly. Real refunds by check/credit, never computer access.  NEVER give anyone that you don't know access with remote tools like TeamViewer."
     },
     {
       "id": "28",
@@ -497,9 +497,9 @@
       "body": "Fake church directory sales to members.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"Grace Community Church directory publishing. Your photo and family listing $125 full page, $89 half page. Provide credit card for professional photographer tomorrow.\" \"All members participating — don't miss out!\"",
+      "scammer_says": "\"Grace Community Church is publishing a directory. Your photo and family listing $125 full page, $89 half page. Provide credit card for professional photographer tomorrow.\" \"All members participating — don't miss out!\"",
       "the_trick": "Fake church directory sales to members. No directory produced. Church knows nothing about solicitation.",
-      "consequences": "$89-125 charged, no directory. Card used for recurring charges. Church embarrassed by scam confusion.",
+      "consequences": "$89-125 charged, no directory. Card used for recurring charges.",
       "danger_signs": [
         "Church directory sales by phone.",
         "No church announcement or bulletin notice.",
@@ -515,7 +515,7 @@
       "body": "Door-to-door claims fence code violations.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"Ace Fence Company canvassing neighborhood. Your fence leaning dangerously — code violation risk. $2,800 full replacement today, $1,400 half down cash.\" \"County inspector coming next week — beat the fine!\"",
+      "scammer_says": "\"Ace Fence Company is canvassing neighborhood. Your fence is leaning dangerously — it's a code violation risk. $2,800 full replacement today, $1,400 half down cash.\" \"County inspector coming next week — beat the fine!\"",
       "the_trick": "Door-to-door claims fence code violations. Large cash deposit then poor work or disappearance. Real violations get written county notices.",
       "consequences": "$1,400 cash lost. Shoddy fence fails quickly. Code violation fine actually arrives later.",
       "danger_signs": [
@@ -524,7 +524,7 @@
         "No written county violation notice.",
         "Inspector \"next week\" pressure."
       ],
-      "safe_action": "Request written violation from county first. Get 3 licensed contractor bids. Never pay cash deposits over $100."
+      "safe_action": "Request written violation from county first. Get 3 licensed contractor bids. Never pay cash deposits."
     },
     {
       "id": "30",
@@ -533,8 +533,8 @@
       "body": "Fake identity theft alerts demand full personal info access.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"IdentityGuard alert — your Social Security number appears on 7 dark web sites. $29.95/month monitoring removes it immediately. Provide SSN and 3 credit bureau passwords to enroll.\" \"First month free if you start now!\"",
-      "the_trick": "Fake identity theft alerts demand full personal info access. Real monitoring services never need passwords.",
+      "scammer_says": "\"IdentityGuard alert — your Social Security number appears on 7 dark web sites. $29.95/month monitoring removes it immediately. Provide SSN to enroll.\" \"First month free if you start now!\"",
+      "the_trick": "Fake identity theft alerts demand full personal info access. Real monitoring services let you sign up without sharing your SSN over the phone.",
       "consequences": "Complete identity portfolio stolen. Multiple account takeovers. Credit destroyed across all bureaus.",
       "danger_signs": [
         "Identity service demands SSN/passwords.",
@@ -551,11 +551,11 @@
       "body": "Fake tech support demands gift card purchases for \"virus removal fees.\" They drain cards instantly while you watch.",
       "category": "phone",
       "icon": "🏦",
-      "scammer_says": "\"Microsoft technical support here. Your computer has 847 viruses detected. Don't panic — buy $500 Google Play gift cards from CVS immediately. I'll give you safe payment code.\" \"Scratch off back, read 15-digit numbers to me now.\"",
+      "scammer_says": "\"Microsoft technical support here. Your computer has 847 viruses detected. Don't panic — we can clear your computer.  Normally the fix is $249, but we partner with Google for a massive discount - you buy a $100 Google Play gift card from your local pharmacy or grocery store immediately. That gift card will qualify you for the discount.\" \"Scratch off back, read 15-digit numbers to me now, and you can make your computer safe for the discounted price.\"",
       "the_trick": "Fake tech support demands gift card purchases for \"virus removal fees.\" They drain cards instantly while you watch.",
-      "consequences": "$500 gone in seconds. Gift cards untraceable. Computer never had viruses. Scammer resells card value.",
+      "consequences": "$100 gone in seconds. Gift cards untraceable. Computer never had viruses.",
       "danger_signs": [
-        "Tech support demands gift card payments.",
+        "Tech support encourages gift card payments.",
         "\"847 viruses detected\" specific scary numbers.",
         "Microsoft never cold-calls about viruses.",
         "Immediate store purchase pressure."
@@ -571,7 +571,7 @@
       "icon": "🚗",
       "scammer_says": "\"2019 Toyota Camry 42K miles $12,500 FIRM — moving overseas, must sell fast! Email shipping deposit $1,200 via PayPal Friends & Family to hold car.\" \"Broker arranges delivery to your driveway!\"",
       "the_trick": "Fake car listing with stolen photos. Takes \"shipping deposits\" then disappears. Car never existed.",
-      "consequences": "$1,200 lost instantly via unrecoverable PayPal F&F. Real car search restarts. Scammer posts same ad tomorrow.",
+      "consequences": "$1,200 lost instantly. Real car search restarts. Scammer posts same ad tomorrow.",
       "danger_signs": [
         "Too-good deal on popular car.",
         "Seller \"moving overseas\" won't meet.",
@@ -605,7 +605,7 @@
       "body": "Fake government solar rebates demand processing fees.",
       "category": "phone",
       "icon": "🏠",
-      "scammer_says": "\"Federal Solar Energy Program — $8,500 rebate expires! Qualify now with $995 processing deposit to Energy Department trust. Panels installed free after approval.\" \"Government pays installation — you keep rebate!\"",
+      "scammer_says": "\"Federal Solar Energy Program — $8,500 rebate expires! Qualify now with $995 processing deposit to Energy Department trust. Panels installed for free after approval.\" \"Government pays installation — you keep rebate!\"",
       "the_trick": "Fake government solar rebates demand processing fees. No panels installed, no rebate issued.",
       "consequences": "$995 lost to nonexistent program. Real solar incentives through tax credits only. No panels, no savings.",
       "danger_signs": [
@@ -614,7 +614,7 @@
         "Energy Department trust fund payments.",
         "Phone calls, not mailed applications."
       ],
-      "safe_action": "Real solar tax credit at irs.gov. Licensed contractors only. Verify dsireusa.org incentives. Government never demands deposits for rebates."
+      "safe_action": "Government rebate programs change, so search official government sites, not depending on a stranger calling to provide the information. Government never demands deposits for rebates."
     },
     {
       "id": "35",
@@ -623,16 +623,16 @@
       "body": "Two-scammer relay: \"grandchild\" claims lost phone, can't call parents.",
       "category": "phone",
       "icon": "👪",
-      "scammer_says": "\"Grandma it's Alex — lost my phone at the fair, only have this prepaid number. Need $300 iPhone deposit at Apple Store or stranded till Dad returns Tuesday.\" \"Put it on your card, I'll repay cash Friday ❤️\"",
+      "scammer_says": "\"Grandma it's Alex — I lost my phone at the fair, I'm calling from the Apple store, which is why you don't recognize the number. I need a $300 iPhone deposit at Apple Store or I'm stranded till Dad returns Tuesday.\" \"Put it on your card, I'll repay cash Friday ❤️\"",
       "the_trick": "Two-scammer relay: \"grandchild\" claims lost phone, can't call parents. Real grandchild has phone, safe at home.",
-      "consequences": "$300 charged to card. Grandchild never lost phone. Scammers target next grandparent.",
+      "consequences": "$300 charged to card. Grandchild never lost phone.",
       "danger_signs": [
-        "Grandchild calling from \"prepaid number.\"",
+        "Grandchild calling from \"borrowed phone.\"",
         "Can't call parents, only grandparents.",
         "Sudden expensive phone replacement.",
         "Repayment promised but urgent now."
       ],
-      "safe_action": "Call parents' home number first. Real emergencies go through parents. Text grandchild known number to verify."
+      "safe_action": "Tell them you will call back.  Hang up, and call your grandchild's number. Then verify with their parents or guardian."
     },
     {
       "id": "36",
@@ -659,16 +659,16 @@
       "body": "Door-to-door driveway \"sealing\" with watered-down asphalt.",
       "category": "phone",
       "icon": "⚠️",
-      "scammer_says": "\"Neighborhood Seal Coating Special — $29 per driveway space! Government oil embargo coming, prices triple next week. $1,400 cash for double driveway today.\" \"Truck loaded, crews ready now!\"",
-      "the_trick": "Door-to-door driveway \"sealing\" with watered-down asphalt. Peels off in weeks. Large cash payment upfront.",
-      "consequences": "$1,400 wasted on peeling mess. Real sealing requires proper prep, multiple coats. Driveway cracks worse.",
+      "scammer_says": "\"Neighborhood Seal Coating Special! A government oil embargo was announced, and seal coat prices triple next week. $1,400 cash for double driveway today.\" \"Truck loaded, crews ready now!  Prices go up next week.\"",
+      "the_trick": "Door-to-door driveway \"sealing\" with watered-down asphalt. Peels off in weeks (if they even coat anything at all). Large cash payment upfront.",
+      "consequences": "$1,400 wasted. Real sealing requires proper prep, multiple coats. Driveway cracks worse.",
       "danger_signs": [
         "Door-to-door driveway sealing offers.",
         "Too cheap per square foot pricing.",
         "Cash only, immediate start pressure.",
         "No written contract/estimate."
       ],
-      "safe_action": "Get 3 written bids from licensed pavers. Asphalt sealing $3-6 per square foot. Never pay cash for home improvements over $100."
+      "safe_action": "Get 3 written bids from licensed pavers. Avoid paying cash deposits."
     },
     {
       "id": "38",
@@ -686,7 +686,7 @@
         "No attorney licensing shown.",
         "90-day miracle promises."
       ],
-      "safe_action": "Contact timeshare developer directly. Licensed real estate attorney only. Check ripoffreport.com first. No legitimate upfront fees."
+      "safe_action": "Contact timeshare developer directly. Licensed real estate attorney only.  No legitimate upfront fees."
     },
     {
       "id": "39",
@@ -695,16 +695,16 @@
       "body": "Fake IRS audit demands immediate bank access.",
       "category": "phone",
       "icon": "🏛️",
-      "scammer_says": "\"IRS Audit Compliance — return #847392 flagged $8,247 underpayment. Pay penalty via our secure portal or face liens, levies. Provide bank info for direct debit.\" \"Fake letter mailed separately.\"",
+      "scammer_says": "\"IRS Audit Compliance — return #847392 flagged $8,247 underpayment. Pay penalty via our secure portal or face liens, levies. Provide bank info for direct debit.\" (You may receive a fake letter mailed separately.)",
       "the_trick": "Fake IRS audit demands immediate bank access. Real IRS sends certified mail first, never phone demands.",
       "consequences": "Bank account drained. Credit ruined. Real tax return fine if no audit notice received.",
       "danger_signs": [
         "IRS demands bank info over phone.",
         "No certified mail received first.",
         "Immediate payment portal pressure.",
-        "\"Fake letter follows\" excuse."
+        "\"Letter to follow\" excuse."
       ],
-      "safe_action": "Hang up. Real IRS contact by certified mail only. Check irs.gov account. Call 1-800-829-1040 using directory assistance."
+      "safe_action": "Hang up. Real IRS contacts by certified mail only. Check irs.gov account."
     },
     {
       "id": "40",
