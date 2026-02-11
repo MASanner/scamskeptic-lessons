@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -2190,12 +2190,12 @@
         },
         {
           "id": "phone_call_demanding_pay",
-          "text": "by a phone call demanding payment.",
+          "text": "By a phone call demanding payment.",
           "icon": "🚫"
         },
         {
           "id": "email_notification_first",
-          "text": "with an email notification first.",
+          "text": "With an email notification first.",
           "icon": "⚠️"
         }
       ],
@@ -2215,7 +2215,7 @@
         },
         {
           "id": "courthouse_via_411_direc",
-          "text": "the number the person on the phone provided.",
+          "text": "The number the person on the phone provided.",
           "icon": "✅"
         },
         {
@@ -2295,7 +2295,7 @@
         },
         {
           "id": "moneygram_receipt_confir",
-          "text": "links I received via email or text.",
+          "text": "Links I received via email or text.",
           "icon": "⚠️"
         }
       ],
@@ -3190,7 +3190,7 @@
         },
         {
           "id": "funerals_org_directory",
-          "text": "your state or local licensing board",
+          "text": "Your state or local licensing board",
           "icon": "✅"
         },
         {
@@ -3235,17 +3235,17 @@
       "options": [
         {
           "id": "irs_tax_credits_no_upfro",
-          "text": "are given as IRS tax credits, with no upfront fees.",
+          "text": "Are given as IRS tax credits, with no upfront fees.",
           "icon": "✅"
         },
         {
           "id": "government_panel_install",
-          "text": "are only given if the government installs the panels.",
+          "text": "Are only given if the government installs the panels.",
           "icon": "🚫"
         },
         {
           "id": "energy_trust_fund_deposi",
-          "text": "give me solar panels for free.",
+          "text": "Give me solar panels for free.",
           "icon": "⚠️"
         }
       ],
@@ -3265,7 +3265,7 @@
         },
         {
           "id": "phone_rebate_services",
-          "text": "from a stranger on the phone.",
+          "text": "From a stranger on the phone.",
           "icon": "⚠️"
         },
         {
@@ -3560,17 +3560,17 @@
       "options": [
         {
           "id": "never_legitimate_thousan",
-          "text": "are never thousands upfront from an unsolicited phone call.",
+          "text": "Are never thousands upfront from an unsolicited phone call.",
           "icon": "✅"
         },
         {
           "id": "4_500_escrow_standard",
-          "text": "are standard at $1,500 into an escrow.",
+          "text": "Are standard at $1,500 into an escrow.",
           "icon": "⚠️"
         },
         {
           "id": "monthly_payment_plans",
-          "text": "best paid by giving gift card numbers.",
+          "text": "Best paid by giving gift card numbers.",
           "icon": "🚫"
         }
       ],
@@ -3685,7 +3685,7 @@
       "options": [
         {
           "id": "car_manufacturer_dealer",
-          "text": "the car manufacturer/dealer only.",
+          "text": "The car manufacturer/dealer only.",
           "icon": "✅"
         },
         {
@@ -3710,12 +3710,12 @@
       "options": [
         {
           "id": "dealer_service_departmen",
-          "text": "your local car dealership's service department.",
+          "text": "Your local car dealership's service department.",
           "icon": "✅"
         },
         {
           "id": "robocall_verification_li",
-          "text": "the phone number the Robocall provided.",
+          "text": "The phone number the Robocall provided.",
           "icon": "⚠️"
         },
         {
