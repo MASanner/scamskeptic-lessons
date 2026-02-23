@@ -12,10 +12,10 @@
       "category": "phone",
       "icon": "🏦",
       "scammer_says": "\"Hello, this is Sarah from First National Bank security team. We detected a suspicious charge of $2,450 on your debit card at an electronics store in Texas just 20 minutes ago. Did you make this purchase?\" \"To protect your account, I need to verify your identity right now. Can you tell me the numbers on the back of your debit card and your full address? If we don't act fast, someone could drain your entire account.\"",
-      "the_trick": "The scammer wants your card verification number (the 3-digit code on back) and personal details to make fake purchases or steal your money. They create urgency by claiming a recent \"suspicious charge\" to pressure you into sharing sensitive info immediately.",
+      "the_trick": "The Scammer wants your card verification number (the 3-digit code on back) and personal details to make fake purchases or steal your money. They create urgency by claiming a recent \"suspicious charge\" to pressure you into sharing sensitive info immediately.",
       "consequences": "If they get your card details, they can buy thousands of dollars in goods online or withdraw cash from ATMs. Your bank account could be emptied in hours, and recovering the money might take months or never happen.",
       "danger_signs": [
-        "Bank never asks for full card numbers over the phone.",
+        "Real banks never ask for full card numbers over the phone.",
         "They know details about a \"recent charge\" but pressure you to verify first.",
         "Caller ID shows unfamiliar or blocked number.",
         "They demand immediate action without giving you time to think."
@@ -62,11 +62,11 @@
       "id": "4",
       "title": "Grandparent Emergency Scam",
       "summary": "Grandparent Emergency Scam",
-      "body": "Scammer pretends to be your grandchild in trouble (arrested, accident, etc.) and asks for emergency money via wire transfer or gift cards.",
+      "body": "The scammer pretends to be your grandchild in trouble (arrested, accident, etc.) and asks for emergency money via wire transfer or gift cards.",
       "category": "phone",
       "icon": "👪",
       "scammer_says": "\"Grandma? It's me, Tommy. Don't tell Mom, but I got arrested in Mexico during a school trip. The police are holding me for $4,200 bail or they deport me tomorrow.\" \"A lawyer named Robert will call you from 555-0123 to arrange wire transfer to my account. Please help, I'm scared.\"",
-      "the_trick": "Scammer pretends to be your grandchild in trouble (arrested, accident, etc.) and asks for emergency money via wire transfer or gift cards. A second caller posing as \"lawyer\" or \"police\" adds pressure.",
+      "the_trick": "The scammer pretends to be your grandchild in trouble (arrested, accident, etc.) and asks for emergency money via wire transfer or gift cards. A second caller posing as \"lawyer\" or \"police\" adds pressure.",
       "consequences": "Wire transfers and gift cards can't be reversed. You lose thousands with no way to recover, and real grandchildren in trouble wouldn't ask for secrecy or untraceable payments.",
       "danger_signs": [
         "Grandchild asks you to keep it secret from parents.",
@@ -80,11 +80,11 @@
       "id": "5",
       "title": "Utility Bill Disconnection Threat",
       "summary": "Utility Bill Disconnection Threat",
-      "body": "Scammer claims unpaid utility bill and threatens immediate shutoff.",
+      "body": "The scammer claims you have an unpaid utility bill and threatens immediate shutoff.",
       "category": "phone",
       "icon": "💡",
       "scammer_says": "\"This is the electric company collections department. Your account #4783921 is overdue by $678. We will disconnect your power in 30 minutes unless you pay now with a prepaid debit card.\" \"Go to the store and buy a $678 Green Dot card. Read me the numbers over the phone to avoid blackout.\"",
-      "the_trick": "Scammer claims unpaid utility bill and threatens immediate shutoff. They demand instant payment via untraceable methods like prepaid cards or cryptocurrency to steal the money directly.",
+      "the_trick": "The scammer claims you have an unpaid utility bill and threatens immediate shutoff. They demand instant payment via untraceable methods like prepaid cards or cryptocurrency to steal the money directly.",
       "consequences": "Once you give prepaid card numbers, the money vanishes instantly. No power gets disconnected because it was never your real utility company, and you can't get refunds from these payment methods.",
       "danger_signs": [
         "Real utilities send written bills and give 7-30 days notice.",
@@ -101,13 +101,13 @@
       "body": "Fake text or email about a \"missed delivery\" tricks you into clicking links or calling.",
       "category": "online",
       "icon": "📦",
-      "scammer_says": "\"Hi, this is Acme package delivery service. We attempted delivery of your item #TX847392 today but couldn't reach you. There's a $3.95 redelivery fee or the package returns to sender tomorrow.\" \"Click this link or call 1-877-555-0198 to pay with your credit card. We need confirmation address too.\"",
-      "the_trick": "Fake text or email about a \"missed delivery\" tricks you into clicking links or calling. They collect credit card numbers and addresses under pretense of small \"redelivery fees.\"",
-      "consequences": "The link installs malware or leads to phishing site that looks like a bank login, but steals your login information. Your card gets maxed out, and no package ever existed. Small fee request lowers suspicion.",
+      "scammer_says": "\"Hi, this is Acme package delivery service. We attempted delivery of your item #TX847392 today but couldn't reach you. There's a $3.95 redelivery fee or the package returns to sender tomorrow.\" \"Click this link or call 1-877-555-0198 to pay with your credit card. We need your address for confirmation.\"",
+      "the_trick": "You receive a text or email about a \"missed delivery\" that tricks you into clicking links or calling their scam phone numbers. They collect credit card numbers and addresses under the pretense of small \"redelivery fees.\"",
+      "consequences": "They steal your credit card information and use it themselves, or they collect personally identifiable information under the guise of verification which they later use to open lines of credit in your name.  If you click a link in a text or email, it may install malware that spies on you and steals banking information.",
       "danger_signs": [
-        "Unsolicited message about package you didn't order.",
-        "Link to pay tiny fee ($1-5) or package \"returned.\"",
-        "No legitimate tracking number provided upfront.",
+        "Unsolicited message about a package you didn't order.",
+        "Link to pay a tiny fee ($1-5) or the package will not be delivered.",
+        "No legitimate tracking number is provided upfront.",
         "Urgent deadline (today/tomorrow) for payment."
       ],
       "safe_action": "Delete the message. Check your real delivery accounts (UPS, FedEx, USPS) using official apps or websites. Real companies leave notices at door or send from known email/text domains."
@@ -121,7 +121,7 @@
       "icon": "🏥",
       "scammer_says": "\"Hello, I'm calling from Heartland Relief Fund for hurricane victims. We've set up emergency shelters but need $50 donations now. Can you please help with donation right now? A contribution from your credit card number is tax-deductible!\" \"Every dollar helps families right now. We'll mail receipt tomorrow.\"",
       "the_trick": "Scammers call after real disasters pretending to be charity. They collect credit card donations directly over phone, but the fake organization keeps all money for themselves.",
-      "consequences": "Your card info gets used for repeated unauthorized charges. No aid reaches victims, no tax receipt arrives, and legitimate charities lose trust from the scam confusion.",
+      "consequences": "Your card info gets used for repeated unauthorized charges. No aid reaches the victims, no tax receipt arrives, and legitimate charities lose trust from the scam confusion.",
       "danger_signs": [
         "Soliciting credit card donations cold-call style.",
         "Vague charity name you've never heard of.",
@@ -137,9 +137,9 @@
       "body": "Claims you’re owed a refund from recent purchase to gain remote computer access.",
       "category": "phone",
       "icon": "💳",
-      "scammer_says": "\"This is Amazon refund department. We overcharged you $347.62 on your recent blender purchase. To issue refund, download this software and let us connect to your computer for 2 minutes.\" \"Type teamviewer.com now and share the ID screen with me.\"",
-      "the_trick": "Claims you’re owed a refund from recent purchase to gain remote computer access. While \"processing refund,\" they install malware and steal banking passwords or personal data.",
-      "consequences": "They reverse charges from your accounts instead of refunding. Malware logs keystrokes, stealing all passwords and enabling account takeovers across banks and email.",
+      "scammer_says": "\"This is Amazon refund department. We overcharged you $347.62 on your recent blender purchase. To receive the refund, download this software and let us connect to your computer for 2 minutes.\" \"Type teamviewer.com now and share the ID screen with me.\"",
+      "the_trick": "Claims you’re owed a refund from recent purchase to gain remote computer access. While \"processing the refund,\" they install malware and steal banking passwords or personal data.",
+      "consequences": "The scammers convince you to download the software, but it isn't really to get a refund.  Instead, it installs malware which can be used to steal your banking and email passwords and enabling account takeovers across banks and email.",
       "danger_signs": [
         "Unsolicited refund offer you didn't request.",
         "Requires computer access or software download.",
@@ -152,11 +152,11 @@
       "id": "9",
       "title": "Mystery Shopper Job Scam",
       "summary": "Mystery Shopper Job Scam",
-      "body": "Fake job offer pays you to buy gift cards, then send card numbers/photos.",
+      "body": "Fake job offer asks you to buy gift cards, then send card numbers/photos.",
       "category": "online",
       "icon": "💼",
       "scammer_says": "\"Congratulations! You have been approved for our mystery shopper position. Here's your first assignment: buy $950 in gift cards at the grocery store, take photos of receipts, then text us the card numbers for reimbursement.\" \"You'll be reimbursed for the purchase PLUS earn $250 commission! Scratch off the back and read all numbers now.\"",
-      "the_trick": "Fake job offer pays you to buy gift cards, then send card numbers/photos. They use the cards immediately while promising reimbursement that never arrives.",
+      "the_trick": "They claim that they will reimburse you for the purchases, and get you to give them gift card numbers. They use the cards immediately while promising reimbursement that never arrives.",
       "consequences": "You lose hundreds spent on gift cards. Scammers drain cards instantly for cash or online purchases. Legitimate employers never ask employees to buy gift cards for payment.",
       "danger_signs": [
         "A job that pays you to buy and send gift card numbers.",
@@ -164,7 +164,7 @@
         "Email/text from free services like Gmail.",
         "\"Too good to be true\" high pay for simple tasks."
       ],
-      "safe_action": "Delete offer. Real mystery shopper jobs come from established companies with websites, paychecks, and never require you to buy gift cards. Search company name + \"scam\" online first."
+      "safe_action": "Delete the offer or hangup. Real mystery shopper jobs come from established companies with websites, paychecks, and never require you to buy gift cards. Search company name + \"scam\" online first."
     },
     {
       "id": "10",
@@ -174,15 +174,15 @@
       "category": "phone",
       "icon": "💔",
       "scammer_says": "\"Hi Linda, it's David from the dating site. I've enjoyed getting to know you over the past several weeks. I was planning to come visit, but my sister was in an accident and I gave her $1,800 for her surgery. Now I can't buy the $400 plane ticket to come see you.\" \"I'll get the money back from her when she recovers, and I'll pay you back then, but to get the ticket at this price, can you wire the cost of the ticket to my account please? I can't wait to see you! ❤️\"",
-      "the_trick": "Builds fake online romance over weeks/months, then invents emergencies (sick relative, travel trouble) needing urgent wire transfers. Relationship provides emotional leverage for money requests.",
-      "consequences": "Thousands sent over time via wire/gift cards, all unrecoverable. \"Sweetheart\" disappears after draining resources. Victims lose savings and suffer emotional betrayal.",
+      "the_trick": "The scammer builds fake online romance over weeks/months, then invents emergencies (sick relative, travel trouble) needing urgent wire transfers. The relationship provides emotional leverage for money requests.",
+      "consequences": "The scammer gets any money or gifts you send, but the relationship is fake. Victims lose savings and suffer emotional betrayal.",
       "danger_signs": [
         "Person avoids video calls or in-person meetings.",
-        "Sudden money requests after building \"relationship.\"",
+        "Sudden money requests after building the \"relationship.\"",
         "Always has emergencies needing wire transfers/gift cards.",
-        "Profile photos look professional or stolen online."
+        "Profile photos look professional, or created by AI."
       ],
-      "safe_action": "Never send money to online contacts. Verify identity through video call or mutual friends. Report to FBI Internet Crime Complaint Center (ic3.gov) and dating site. Real relationships develop without money requests."
+      "safe_action": "Never send money to online contacts. Verify their identity through video call or mutual friends. Report relationshp scams to FBI Internet Crime Complaint Center (ic3.gov) and dating site. Real relationships develop without money requests."
     },
     {
       "id": "11",
@@ -955,7 +955,7 @@
       "id": "4-1",
       "lesson_id": "4",
       "question_type": "indicator",
-      "question": "Someone calls pretending to be your grandchild in jail. First step?",
+      "question": "Someone calls pretending to be your grandchild in jail. What is your first step?",
       "correct_answer": "hang_up_and_call_your_gr",
       "options": [
         {
@@ -1035,7 +1035,7 @@
       "options": [
         {
           "id": "hang_up_and_call_your_ut",
-          "text": "Hang up and call your utility using bill number.",
+          "text": "Hang up and call your utility using a phone number on your bill.",
           "icon": "✅"
         },
         {
@@ -1105,7 +1105,7 @@
       "id": "6-1",
       "lesson_id": "6",
       "question_type": "indicator",
-      "question": "You receive a text about \"missed package\" that asks for $3.95 payment. Action?",
+      "question": "You receive a text about \"missed package\" that asks for $3.95 payment. What do you do?",
       "correct_answer": "delete_it_and_check_real",
       "options": [
         {
@@ -1120,11 +1120,11 @@
         },
         {
           "id": "call_number_to_confirm_p",
-          "text": "Call number to confirm package.",
+          "text": "Call the number to confirm package.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Never click a link in a text that you were not expecting."
+      "explanation": "Never click a link in a text or email that you were not expecting.  Never call a number in a text or email you were not expecting."
     },
     {
       "id": "6-2",
@@ -1135,7 +1135,7 @@
       "options": [
         {
           "id": "leave_door_tag_pay_via_o",
-          "text": "Leave a door tag directing you to pay via official website, or send a notice in the mail.",
+          "text": "Leave a door tag directing you to pay via the official website, or they send a notice in the mail.",
           "icon": "✅"
         },
         {
@@ -1149,7 +1149,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "The link from the text may install malware and viruses, or it may take you to a 'phishing' site where it mimics a bank login so they capture your login credentials. Your card gets maxed out, and no package ever existed."
+      "explanation": "The fear of missing a package may entice you to click a link. That link may install malware and viruses, or it may take you to a 'phishing' site where it mimics a bank login so they capture your login credentials. "
     },
     {
       "id": "6-3",
@@ -1180,7 +1180,7 @@
       "id": "7-1",
       "lesson_id": "7",
       "question_type": "indicator",
-      "question": "A disaster charity calls for credit card donation. What do you do?",
+      "question": "A disaster charity calls for a credit card donation. What do you do?",
       "correct_answer": "hang_up_and_donate_throu",
       "options": [
         {
@@ -1199,18 +1199,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "A key red flag is being asked to share sensitive information to an unknown caller who pressures you to act immediately without verifying through a trusted number."
+      "explanation": "A key red flag is being asked to share sensitive information or payment information to an unknown caller who pressures you to act immediately without verifying through a trusted number."
     },
     {
       "id": "7-2",
       "lesson_id": "7",
       "question_type": "danger",
-      "question": "Safe way to verify charities:",
+      "question": "What is a safe way to verify charities?",
       "correct_answer": "check_charitynavigator_o",
       "options": [
         {
           "id": "caller_id_matches_charit",
-          "text": "Caller ID matches charity name.",
+          "text": "The Caller ID matches charity name.",
           "icon": "⚠️"
         },
         {
@@ -1295,11 +1295,11 @@
         },
         {
           "id": "gift_card_in_mail",
-          "text": "Gift card in mail.",
+          "text": "Gift card in the mail.",
           "icon": "🚫"
         }
       ],
-      "explanation": "They reverse charges from your accounts instead of refunding. No legitimate refund process requires software installation."
+      "explanation": "No legitimate refund process requires software installation."
     },
     {
       "id": "8-3",
@@ -1320,7 +1320,7 @@
         },
         {
           "id": "official_store_website",
-          "text": "Official store website.",
+          "text": "An official store website.",
           "icon": "⚠️"
         }
       ],
@@ -1330,7 +1330,7 @@
       "id": "9-1",
       "lesson_id": "9",
       "question_type": "indicator",
-      "question": "A \"mystery shopper\" job asks you to send gift card numbers. Verdict?",
+      "question": "A \"mystery shopper\" job asks you to send gift card numbers. Is it legitimate?",
       "correct_answer": "scam_delete_immediately",
       "options": [
         {
@@ -1374,7 +1374,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "You lose hundreds spent on gift cards. Scammers drain cards instantly for cash or online purchases. Legitimate employers never ask employees to buy gift cards for payment."
+      "explanation": "You can lose hundreds spent on gift cards. Scammers drain the cards instantly for cash or online purchases. Legitimate employers never ask employees to buy gift cards for payment."
     },
     {
       "id": "9-3",
@@ -1399,18 +1399,18 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Delete offer (if it is email) or hang up. Real mystery shopper jobs come from established companies with websites, paychecks, and never require you to buy gift cards. Search company name + \"scam\" online first."
+      "explanation": "Delete the offer (if it is email) or hang up. Real mystery shopper jobs come from established companies with websites, paychecks, and never require you to buy gift cards. Search company name + \"scam\" online first."
     },
     {
       "id": "10-1",
       "lesson_id": "10",
       "question_type": "indicator",
-      "question": "Online romance asks for emergency wire transfer. Truth?",
+      "question": "An online romance asks for an emergency wire transfer. Is this OK?",
       "correct_answer": "red_flag_likely_scam",
       "options": [
         {
           "id": "red_flag_likely_scam",
-          "text": "Red flag — likely scam.",
+          "text": "Asking for money without ever meeting is a big red flag — it's likely scam.",
           "icon": "✅"
         },
         {
@@ -1420,7 +1420,7 @@
         },
         {
           "id": "send_if_they_promise_rep",
-          "text": "Send if they promise repayment.",
+          "text": "Send the money if they promise repayment.",
           "icon": "🚫"
         }
       ],
@@ -1899,7 +1899,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Non-standard payment methods are a big red flag.  High-pressure and tactics that cause fear of missing out are common ploys from scammers."  
+      "explanation": "Non-standard payment methods are a big red flag.  High-pressure and tactics that cause fear of missing out are common ploys from scammers."
     },
     {
       "id": "16-3",
