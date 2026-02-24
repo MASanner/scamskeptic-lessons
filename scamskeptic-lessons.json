@@ -1,5 +1,5 @@
 {
-  "version": "1.0.10",
+  "version": "1.0.11",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -188,30 +188,30 @@
       "id": "11",
       "title": "IRS Tax Refund Scam",
       "summary": "IRS Tax Refund Scam",
-      "body": "Pretends IRS owes you money to collect bank account details for direct deposit.",
+      "body": "The scammer pretends the IRS owes you money to collect bank account details for direct deposit.",
       "category": "phone",
       "icon": "🏛️",
       "scammer_says": "\"This is the Internal Revenue Service. You have an unclaimed refund of $1,872 waiting. Due to a filing error, we need your bank routing number and account number to direct deposit it today.\" \"Press 1 to claim before funds return to Treasury, or call 1-888-555-0284.\"",
-      "the_trick": "Pretends IRS owes you money to collect bank account details for direct deposit. Real IRS never calls unexpectedly about refunds or demands immediate bank info over phone.",
+      "the_trick": "The scammer pretends the IRS owes you money to collect bank account details for direct deposit. The real IRS never calls unexpectedly about refunds or demands immediate bank info over phone.",
       "consequences": "Bank details let them drain accounts or create fake checks. IRS identity theft leads to tax problems, frozen refunds, and years repairing credit/government records.",
       "danger_signs": [
         "IRS never calls demanding immediate bank info.",
-        "\"Unclaimed refund\" you never heard about.",
-        "Automated message or unknown 800-number.",
-        "Threatens funds expire unless you act now."
+        "They mention an \"unclaimed refund\" you were not expecting",
+        "The call is from an automated message or unknown 800-number.",
+        "They threaten that the funds will expire unless you act now."
       ],
-      "safe_action": "Hang up. IRS sends refund checks by mail or direct deposits already on file. Check status at irs.gov using your own computer, never call numbers from unsolicited messages."
+      "safe_action": "Hang up. IRS sends refund checks by mail or direct deposits already on file. Check your status at irs.gov using your own computer; never call numbers from unsolicited messages."
     },
     {
       "id": "12",
       "title": "Home Repair Contractor Scam",
       "summary": "Home Repair Contractor Scam",
-      "body": "Door-to-door \"repair\" claims urgent damage only they spotted.",
+      "body": "A repairman knocks on your door, claiming urgent damage that only they spotted.",
       "category": "phone",
       "icon": "🏠",
       "scammer_says": "\"Ma'am, this is Mike's Roofing from down the street. I noticed you have some damaged shingles while driving by. Storm damage like this costs $8,000 to fix later, but I can do it today for $2,800 cash.\" \"Pay half now, I'll start immediately before rain worsens it.\"",
-      "the_trick": "Door-to-door \"repair\" claims urgent damage only they spotted. Takes large cash deposit then disappears or does shoddy work. Real roof issues don't require instant payment.",
-      "consequences": "Lose thousands in deposits with no work done. Home damage worsens from neglect. Shoddy repairs fail quickly, costing double to fix properly later.",
+      "the_trick": "A repairman knocks on your door, claiming urgent damage that only they spotted. They take a large cash deposit then disappear or do shoddy work. Real roof issues don't require instant payment.",
+      "consequences": "Cash is gone and unrecoverable.  If they do work, it may be poor quality resulting in further damage.",
       "danger_signs": [
         "Unsolicited door knock claiming urgent home repair.",
         "Cash payment demanded upfront.",
@@ -224,17 +224,17 @@
       "id": "13",
       "title": "Lottery Prize Scam",
       "summary": "Lottery Prize Scam",
-      "body": "Claims you won lottery/sweepstakes you never entered.",
+      "body": "The scammer claims you won lottery/sweepstakes you don't remember entering.",
       "category": "phone",
       "icon": "🎁",
-      "scammer_says": "\"Congratulations! You won $250,000 in the National Sweepstakes drawing. Entry #M7392847 selected you. To claim, send $498 processing fee via MoneyGram to our agent in Florida.\" \"Winners must pay fees first. Call 1-800-555-0317.\"",
-      "the_trick": "Claims you won lottery/sweepstakes you never entered. Demands \"fees\" (taxes, processing) via wire transfer before payout. Real winnings never require upfront payment.",
-      "consequences": "Small fees escalate to thousands. No prize exists. Wire money gone forever. Credit ruined if they get enough personal info for identity theft.",
+      "scammer_says": "\"Congratulations! You won $250,000 in the National Sweepstakes drawing. Your entry #M7392847 was selected! To claim this grand prize, send $498 processing fee and taxes via MoneyGram to our agent in Florida.\" \"Winners must pay fees first. Call 1-800-555-0317.\"",
+      "the_trick": "The scammer claims you won a lottery or sweepstakes you do not remember entering. They demand \"fees\" (taxes, processing) via wire transfer before payout. Real winnings never require upfront payment.",
+      "consequences": "Once they have your payment information, they can use it to steal your money.  No prize exists. Wired money is gone forever. Your credit could be ruined if they get enough personal info for identity theft.",
       "danger_signs": [
         "You never entered contest but \"won.\"",
-        "Upfront fees required to claim prize.",
-        "Payment by wire transfer/MoneyGram.",
-        "Too-good-to-be-true amounts."
+        "Upfront fees are required to claim prize.",
+        "You must make payment by wire transfer/MoneyGram.",
+        "The prize amounts are too good to be true."
       ],
       "safe_action": "Hang up — real prizes never ask for money first. Verify at official lottery website. Report to FTC at ReportFraud.ftc.gov. Legitimate winnings contact you formally."
     },
@@ -242,16 +242,16 @@
       "id": "14",
       "title": "Government Grant Scam",
       "summary": "Government Grant Scam",
-      "body": "Fake government grants for home repair/education.",
+      "body": "The scammer claims you have been awarded a government grant for home repair/education.",
       "category": "phone",
       "icon": "🏛️",
-      "scammer_says": "\"Congratulations! You qualify for $5,000 government home improvement grant. No repayment needed. Send $250 processing fee to Federal Grant Processing Center via prepaid debit card.\" \"Limited spots — pay today to lock in funds!\"",
-      "the_trick": "Fake government grants for home repair/education. Small \"application fee\" via prepaid cards unlocks \"free money.\" Real grants never charge applicants.",
-      "consequences": "Prepaid card money gone instantly. Escalating \"fees\" drain thousands. No grant exists. Personal info used for further scams or identity theft.",
+      "scammer_says": "\"Congratulations! You qualify for a $5,000 government home improvement grant. No repayment is needed. Send the $250 processing fee to Federal Grant Processing Center via a prepaid debit card.\" \"There are limited spots — pay today to lock in funds!\"",
+      "the_trick": "The small \"application fee\" via prepaid cards is taken by the scammer.  There is no real grant.  Real grants never charge applicants to receive the funds.",
+      "consequences": "Prepaid card money is gone instantly. No grant exists. Any information you give could be used for identity theft.",
       "danger_signs": [
         "Government \"free money\" requires upfront fees.",
-        "Email/text from generic domains (gmail.com).",
-        "Payment via prepaid cards or wire transfer.",
+        "Email/text from generic domains (like gmail.com).",
+        "Payment is requested via prepaid cards or wire transfer.",
         "Unsolicited grant offers you never applied for."
       ],
       "safe_action": "Hang up. Real grants through grants.gov require applications, never fees. Contact legitimate agencies directly. Report to ftc.gov/complaint."
@@ -263,40 +263,40 @@
       "body": "Unsolicited offer of prescription discounts asks for Medicare/health info.",
       "category": "online",
       "icon": "🩺",
-      "scammer_says": "\"This is National Pharmacy Services. We can cut your prescriptions 85% with our discount card. Just give us your Medicare number and doctor's name to activate lifetime savings.\" \"No cost to join — text back YES to enroll!\"",
-      "the_trick": "Unsolicited offer of prescription discounts asks for Medicare/health info. Fake \"discount cards\" steal insurance details for fraudulent claims and identity theft.",
-      "consequences": "Medicare fraud billed to your number. Identity theft across healthcare system. Prescriptions denied when real claims flagged as suspicious. Years untangling medical records.",
+      "scammer_says": "\"This is National Pharmacy Services. We can cut your prescriptions by 85% with our discount card. Just give us your Medicare number and doctor's name to activate lifetime savings.\" \"No cost to join — text back YES to enroll!\"",
+      "the_trick": "An unsolicited offer of prescription discounts asks for your Medicare/health info. Fake \"discount cards\" steal insurance details to make fraudulent claims and commit identity theft.",
+      "consequences": "Medicare fraud can be billed to your number. They can create fraudulent identities which can impact your actual account, causing confusion and expenses.",
       "danger_signs": [
         "Unsolicited prescription discount offers.",
-        "Ask for Medicare/pharmacy benefit numbers.",
-        "Text from short codes or unknown numbers.",
-        "\"Free\" card sounds too good to verify."
+        "They ask for Medicare/pharmacy benefit numbers.",
+        "Any text message from short codes or unknown numbers.",
+        "A \"discount\" card that sounds too good to verify."
       ],
-      "safe_action": "Delete message. Use legitimate discount cards from GoodRx.com or your pharmacy chain. Never share Medicare number with discount services. Report to Medicare at 1-800-MEDICARE."
+      "safe_action": "Delete the text or email message (or hang up). Use legitimate discount cards from GoodRx.com or your pharmacy chain. Never share your Medicare number with discount services. Report to Medicare at 1-800-MEDICARE."
     },
     {
       "id": "16",
       "title": "Apartment Rental Scam",
       "summary": "Apartment Rental Scam",
-      "body": "Posts fake apartment listings with stolen photos.",
+      "body": "You respond to fake listings with pretty photos and a deal that's too good to be true.",
       "category": "online",
       "icon": "🏠",
-      "scammer_says": "\"Perfect 2-bedroom apartment $1,200/month available immediately! Great photos online. Send $1,200 deposit via Zelle to hold before it's gone. Here's my number: 555-0199.\" \"Moving out of state, need renter fast!\"",
-      "the_trick": "Posts fake apartment listings with stolen photos. Takes deposits via app transfers then disappears. Apartment doesn't exist or owner knows nothing about rental.",
-      "consequences": "Lose deposit money instantly via app transfers. Homeless search restarts. Scammer repeats with next victim using same listing. Difficult recovery.",
+      "scammer_says": "\"Reserve this perfect 2-bedroom apartment, only $1,200/month available immediately! Great photos online. Send a $1,200 deposit via Zelle to hold it before it's gone. Here's my number: 555-0199.\" \"We're moving out of state, and need a renter fast!\"",
+      "the_trick": "They post fake apartment listings with stolen photos. They take deposits via app transfers then disappear. The apartment doesn't exist or the real owner knows nothing about rental.",
+      "consequences": "Money sent as a 'deposit' is lost and not recoverable. ",
       "danger_signs": [
         "No in-person viewing allowed.",
         "Landlord demands full deposit via app before seeing unit.",
         "\"Moving fast, must pay now\" pressure.",
         "Listing photos look professionally staged."
       ],
-      "safe_action": "Never send money without seeing apartment in person. Meet landlord/owner at property. Use written lease. Verify listing at apartmentratings.com. Cashier's check only after tour."
+      "safe_action": "Never send money without seeing the apartment in person. Meet the landlord/owner at the property. Use a written lease. Verify the listing at apartmentratings.com. Only pay with cashier's check and only after a tour."
     },
     {
       "id": "17",
       "title": "Car Warranty Scam",
       "summary": "Car Warranty Scam",
-      "body": "Robocall claims car warranty ending, pushes expensive \"extended coverage.\" Uses vague vehicle details to sound legitimate.",
+      "body": "Robocall claims your car warranty is ending, and pushes expensive \"extended coverage.\" The scammer uses vague vehicle details to sound legitimate.",
       "category": "phone",
       "icon": "🏠",
       "scammer_says": "\"This is Auto Protection Services. Your car warranty expires tomorrow. Extended coverage $1,899 locks in repairs for 5 years. Press 1 to speak Spanish or stay on line.\" \"VIN ending 8472 confirmed. Give credit card for coverage.\"",
@@ -723,6 +723,23 @@
         "Nationwide service guarantees."
       ],
       "safe_action": "Check dealer service records. Real warranties mailed, not called. Manufacturer certified pre-owned only. Hang up on robocalls."
+    },
+    {
+      "id": "41",
+      "title": "Verification Number Scam",
+      "summary": "The scammer claims to be from your bank, and sends you a verification number to read it to them.",
+      "body": "A scammer will call claiming a problem with one of your financial accounts.  They claim they need to verify you are the authorized account holder, so they will send a code to your phone.  The code is from your bank, but they need to know it to access your account.  If you tell them the code, they will be able to access your account.",
+      "category": "phone",
+      "icon": "🏛️",
+      "scammer_says": "\"There is a problem with your bank account.  But first I need to verify your identity.  Please confirm your email address....  Very good, that's right.  We have sent a text code to your phone to ensure you are the authorized user of this account.  Please read the numbers so we can verify you.\"",
+      "the_trick": "They are trying to login to your account, but need the authentication from your mobile device.  The bank automatically generates a code and sends it to your phone.  They cannot get in without it, but if you provide it, they will have full access to your accounts.",
+      "consequences": "They can take all the money from your accounts, reroute notification information to another email address so you are not notified, and also use your information to take out further loans.",
+      "danger_signs": [
+        "NO ONE should ever ask you to read the verification number from your mobile device.",
+        "They called you, but need you to verify yourself.",
+        "Urgency to resolve a problem fast, with dire consequences if you hang up."
+      ],
+      "safe_action": "Hang up and call your bank using a verified, trusted number.  If there is a problem, they will connect you to the right person, and no harm will be done by hanging up on the initial call.  Banks do not initiate calls that then require you to verify yourself."
     }
   ],
   "quizQuestions": [
@@ -1480,7 +1497,7 @@
       "id": "11-1",
       "lesson_id": "11",
       "question_type": "indicator",
-      "question": "IRS calls about \"unclaimed refund.\" First action?",
+      "question": "You receive a call from the IRS about an \"unclaimed refund.\" What do you do?",
       "correct_answer": "hang_up_and_check_irs_go",
       "options": [
         {
@@ -1490,7 +1507,7 @@
         },
         {
           "id": "give_bank_routing_number",
-          "text": "Give bank routing number for deposit.",
+          "text": "Give my bank routing number so they can make a deposit.",
           "icon": "🚫"
         },
         {
@@ -1524,38 +1541,38 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Givving scammers bank details let them drain accounts or create fake checks. IRS identity theft leads to tax problems, frozen refunds, and years repairing credit/government records."
+      "explanation": "Giving scammers bank details let them drain accounts or create fake checks. IRS identity theft leads to tax problems, frozen refunds, and years repairing credit/government records."
     },
     {
       "id": "11-3",
       "lesson_id": "11",
       "question_type": "action",
-      "question": "IRS never contacts you by:",
+      "question": "The real IRS contacts you by:",
       "correct_answer": "unexpected_phone_call_fo",
       "options": [
         {
           "id": "letter_in_mail",
-          "text": "Letter in mail.",
+          "text": "Phone calls asking for bank information.",
           "icon": "⚠️"
         },
         {
           "id": "unexpected_phone_call_fo",
-          "text": "Unexpected phone call for bank info.",
+          "text": "A letter in the mail.",
           "icon": "✅"
         },
         {
           "id": "official_website_notices",
-          "text": "Official website notices.",
+          "text": "A text or email message asking you to click a link.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. IRS sends refund checks by mail or direct deposits already on file. Check status at irs.gov using your own computer, never call numbers from unsolicited messages."
+      "explanation": "Hang up or ignore the text or email. The IRS sends refund checks by mail or direct deposits already on file. Check status at irs.gov using your own computer; never call numbers from unsolicited messages."
     },
     {
       "id": "12-1",
       "lesson_id": "12",
       "question_type": "indicator",
-      "question": "Door-to-door roofer asks for a cash deposit now to lock in a discount or schedule. Do what?",
+      "question": "Door-to-door roofer asks for a cash deposit now to lock in a discount or schedule. What do you do?",
       "correct_answer": "say_no_and_get_multiple",
       "options": [
         {
@@ -1565,7 +1582,7 @@
         },
         {
           "id": "pay_half_if_shingles_loo",
-          "text": "Pay half if shingles look loose.",
+          "text": "Pay half if the shingles look loose.",
           "icon": "🚫"
         },
         {
@@ -1590,7 +1607,7 @@
         },
         {
           "id": "cash_receipt_only",
-          "text": "Cash receipt only.",
+          "text": "A receipt only for cash deposits.",
           "icon": "⚠️"
         },
         {
@@ -1605,22 +1622,22 @@
       "id": "12-3",
       "lesson_id": "12",
       "question_type": "action",
-      "question": "Asking for cash upfront payment for home repair:",
+      "question": "When contractors ask for cash upfront payment for home repair:",
       "correct_answer": "never_more_than_10_depos",
       "options": [
         {
           "id": "never_more_than_10_depos",
-          "text": "Never more than 10% deposit of the total written estimate.  Never cash.",
+          "text": "Look for a different vendor.  Reputable vendors don't require cash deposits.",
           "icon": "✅"
         },
         {
           "id": "half_the_total_cost",
-          "text": "Half the total cost.",
+          "text": "Don't pay more than half the total cost.",
           "icon": "⚠️"
         },
         {
           "id": "full_payment_before_work",
-          "text": "Full payment before work starts.",
+          "text": "Full payment before work starts is OK.",
           "icon": "🚫"
         }
       ],
@@ -1705,22 +1722,22 @@
       "id": "14-1",
       "lesson_id": "14",
       "question_type": "indicator",
-      "question": "Approved for a \"$5,000 grant\". Requests $250 processing fee. Verdict?",
+      "question": "You are told you are approved for a \"$5,000 grant\", and you just need to pay the fee to claim it.  What do you think?",
       "correct_answer": "scam_government_never_ch",
       "options": [
         {
           "id": "scam_government_never_ch",
-          "text": "Scam — government never charges for grants.",
+          "text": "It's a scam — the government never charges for grants.",
           "icon": "✅"
         },
         {
           "id": "legitimate_processing_fe",
-          "text": "Legitimate processing fee.",
+          "text": "It could be a legitimate processing fee.",
           "icon": "⚠️"
         },
         {
           "id": "pay_to_apply_officially",
-          "text": "Pay to apply officially.",
+          "text": "It seems like a good deal to pay a small fee to get the full grant amount.",
           "icon": "🚫"
         }
       ],
@@ -1730,7 +1747,7 @@
       "id": "14-2",
       "lesson_id": "14",
       "question_type": "danger",
-      "question": "Real government grants found at:",
+      "question": "Real government grants are found at:",
       "correct_answer": "grants_gov_official_site",
       "options": [
         {
@@ -1765,7 +1782,7 @@
         },
         {
           "id": "free_applications_compet",
-          "text": "Free applications, competitive selection.",
+          "text": "A detailed grant application process.",
           "icon": "✅"
         },
         {
@@ -1785,7 +1802,7 @@
       "options": [
         {
           "id": "delete_never_share_medic",
-          "text": "Delete — never share Medicare info.",
+          "text": "Delete it — never share Medicare info.",
           "icon": "✅"
         },
         {
@@ -1795,7 +1812,7 @@
         },
         {
           "id": "call_number_to_verify",
-          "text": "Call number to verify.",
+          "text": "Call the number to verify.",
           "icon": "⚠️"
         }
       ],
@@ -1870,7 +1887,7 @@
         },
         {
           "id": "offer_half_deposit_first",
-          "text": "Offer half deposit first.",
+          "text": "Offer half the deposit first.",
           "icon": "⚠️"
         }
       ],
@@ -1885,7 +1902,7 @@
       "options": [
         {
           "id": "cashier_s_check_after_pr",
-          "text": "Cashier's check after property tour.",
+          "text": "Cashier's check after a property tour.",
           "icon": "✅"
         },
         {
@@ -1910,17 +1927,17 @@
       "options": [
         {
           "id": "landlord_s_phone_number",
-          "text": "Landlord's phone number.",
+          "text": "calling the landlord's phone number.",
           "icon": "⚠️"
         },
         {
           "id": "visiting_property_in_per",
-          "text": "Visiting the property in person and verifying the landlord company.",
+          "text": "visiting the property in person and verifying the landlord company.",
           "icon": "✅"
         },
         {
           "id": "online_photos_only",
-          "text": "Online photos only.",
+          "text": "replying by email only.",
           "icon": "⚠️"
         }
       ],
@@ -3725,6 +3742,81 @@
         }
       ],
       "explanation": "Check dealer service records. Real warranties mailed, not called. Manufacturer certified pre-owned only. Hang up on robocalls."
+    },
+    {
+      "id": "new-1771897797602",
+      "lesson_id": "41",
+      "question_type": "indicator",
+      "question": "When should you verbally tell someone the verification number on your phone?",
+      "correct_answer": "opt_2",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "When they are trying to verify that I'm the account holder.",
+          "icon": "🚫"
+        },
+        {
+          "id": "opt_2",
+          "text": "Never.  Never ever.",
+          "icon": "✅"
+        },
+        {
+          "id": "opt_3",
+          "text": "When they say there is a system issue so they have to type it in manually.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "The entire authentication system of sending a code to your phone is to ensure that ONLY YOU have access to that number."
+    },
+    {
+      "id": "new-1771897921101",
+      "lesson_id": "41",
+      "question_type": "danger",
+      "question": "You should be wary of any phone call that:",
+      "correct_answer": "opt_2",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "shows an 800 number.",
+          "icon": "🚫"
+        },
+        {
+          "id": "opt_2",
+          "text": "tells you there is an urgent, scary problem that needs to be addressed right away.",
+          "icon": "✅"
+        },
+        {
+          "id": "opt_3",
+          "text": "comes after 4:00 in the afternoon.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "The common behavior of scammers is to create a sense of fear so you act quickly without fully thinking through what is being asked of you."
+    },
+    {
+      "id": "new-1771898079689",
+      "lesson_id": "41",
+      "question_type": "action",
+      "question": "When is it OK to hang up and call a trusted number?",
+      "correct_answer": "opt_2",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "Only if the person has been rude.",
+          "icon": "🚫"
+        },
+        {
+          "id": "opt_2",
+          "text": "It is ALWAYS OK to hang up can call a known, trusted, verified number.",
+          "icon": "✅"
+        },
+        {
+          "id": "opt_3",
+          "text": "Not if hanging up could cause you to lose money.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "There are never any problems that automatically get worse if you hang up.  If it's a real problem, it will be there when you call back."
     }
   ]
 }
