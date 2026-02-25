@@ -1,5 +1,5 @@
 {
-  "version": "1.0.11",
+  "version": "1.0.12",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -296,48 +296,48 @@
       "id": "17",
       "title": "Car Warranty Scam",
       "summary": "Car Warranty Scam",
-      "body": "Robocall claims your car warranty is ending, and pushes expensive \"extended coverage.\" The scammer uses vague vehicle details to sound legitimate.",
+      "body": "You receive a call claiming that your car warranty is ending.  The scammer uses vague vehicle details to sound legitimate.",
       "category": "phone",
       "icon": "🏠",
-      "scammer_says": "\"This is Auto Protection Services. Your car warranty expires tomorrow. Extended coverage $1,899 locks in repairs for 5 years. Press 1 to speak Spanish or stay on line.\" \"VIN ending 8472 confirmed. Give credit card for coverage.\"",
-      "the_trick": "Robocall claims car warranty ending, pushes expensive \"extended coverage.\" Uses vague vehicle details to sound legitimate. Real warranties don't cold-call for renewal.",
-      "consequences": "Waste thousands on useless coverage. Card charged repeatedly. No service when repairs needed. Legitimate warranties through dealer/manufacturer only.",
+      "scammer_says": "\"This is Auto Protection Services. Your car warranty expires tomorrow. To avoid costly repairs in the event of an issue with your car, you can extend your coverage. $399 locks in any defect repairs for 5 years. Press 1 to speak Spanish or stay on line.\" \" Your VIN ending 8472 is confirmed as approved for this discount. Provide your credit card details for payment and we can guarantee this rate.\"",
+      "the_trick": "The scammer lies about being with your warranty company, and uses vague details about your vehicle to sound convincing.  They will take your credit card information and use it for fraudulent charges",
+      "consequences": "Once they have your credit card details they can use it to make fraudulent purchases, possibly impacting your balance and credit score.",
       "danger_signs": [
-        "Robocall about car warranty expiration.",
-        "Pressure for immediate payment decision.",
+        "Any call about car warranty expiration.",
+        "Pressure for an immediate payment decision.",
         "No specific warranty details provided.",
         "\"Last chance\" expiration threats."
       ],
-      "safe_action": "Hang up. Check real warranty through car dealer service department or manufacturer's website using VIN. Shop legitimate extended warranties through AAA or dealership only."
+      "safe_action": "Hang up. Check the real warranty through your car dealership service department or manufacturer's website, or with your own warranty company. Use your existing warranty paperwork to find a verified, trusted phone number.  Remember, no harm will come by hanging up."
     },
     {
       "id": "18",
       "title": "Social Security Scam",
       "summary": "Social Security Scam",
-      "body": "Threatens to suspend benefits unless you \"verify\" SSN over phone.",
+      "body": "A caller claiming to be with the Social Security Administration threatens to suspend benefits unless you \"verify\" SSN over phone.",
       "category": "phone",
       "icon": "🆔",
-      "scammer_says": "\"This is Social Security Administration fraud department. Suspicious activity on your SSN requires immediate suspension. Verify identity by giving full Social Security number and birthdate.\" \"Failure to comply triggers law enforcement action.\"",
-      "the_trick": "Threatens to suspend benefits unless you \"verify\" SSN over phone. Real Social Security never calls demanding immediate personal information verification.",
-      "consequences": "SSN stolen enables identity theft, fake benefit claims, loans in your name. Benefits delayed while fraud investigated. Years cleaning up credit/government records.",
+      "scammer_says": "\"This is the Social Security Administration fraud department. Suspicious activity using your SSN has been detected, and requires immediate suspension. Verify your identity by providing your full Social Security number and birthdate.\" \"Failure to comply may trigger law enforcement action.\"",
+      "the_trick": "The scammer threatens to suspend your Social Security benefits unless you \"verify\" your SSN over phone. The real Social Security Administration never calls demanding immediate personal information verification.",
+      "consequences": "Providing details like SSN and birthdate enables identity theft, fake benefit claims, and potentially loans taken out in your name.",
       "danger_signs": [
-        "Social Security demands SSN over phone.",
+        "Social Security Administration demands SSN over phone.",
         "Threats of arrest or benefit suspension.",
         "Caller ID spoofing government numbers.",
         "Urgent verification pressure."
       ],
-      "safe_action": "Hang up. Create mySocialSecurity account at ssa.gov to check status. Contact SSA at 1-800-772-1213 using known number. Report scam to oig.ssa.gov."
+      "safe_action": "Hang up. Create mySocialSecurity account at ssa.gov to check your actual status. Contact the SSA at its known, trusted number (1-800-772-1213). Report scams to oig.ssa.gov."
     },
     {
       "id": "19",
       "title": "Investment Scam",
       "summary": "Investment Scam",
-      "body": "Cold call pitches \"guaranteed high returns\" investments.",
+      "body": "A cold call pitches \"guaranteed high returns\" investments.",
       "category": "phone",
       "icon": "📈",
-      "scammer_says": "\"Hi Margaret, I'm Tom from Prosperity Investments. Our green energy fund returns 28% annually — double your neighbor's gains! Invest $10,000 minimum via wire transfer today.\" \"Limited shares, first-time investors only.\"",
-      "the_trick": "Cold call pitches \"guaranteed high returns\" investments. Takes money via wire transfer then disappears. Real investments carry risk, require registration.",
-      "consequences": "Complete loss of investment principal. Wire transfers unrecoverable. Fake company vanishes. Retirement savings wiped out chasing unrealistic returns.",
+      "scammer_says": "\"Hi Margaret, I'm Tom from Prosperity Investments. Our green energy fund returns 28% annually — double your neighbor's gains! Invest $10,000 minimum via wire transfer today.\" \"You qualify as a new investor, but shares are limited so this opportunity is closing fast.\"",
+      "the_trick": "The scammer makes claims of \"guaranteed high return\" investments. They steal payment information and use it for fraudulent purchases.",
+      "consequences": "Complete loss of your investment principal. Wire transfers are unrecoverable. The fake company vanishes. Retirement savings can be wiped out chasing unrealistic returns.",
       "danger_signs": [
         "\"Guaranteed\" high investment returns.",
         "Cold call from unknown firm.",
@@ -350,19 +350,19 @@
       "id": "20",
       "title": "Jury Duty Arrest Scam",
       "summary": "Jury Duty Arrest Scam",
-      "body": "Claims missed jury duty warrant requires immediate \"bail\" payment via prepaid cards.",
+      "body": "The scammer claims you missed jury duty and there is a warrant requiring immediate \"bail\" payment via prepaid cards.",
       "category": "phone",
       "icon": "🏛️",
-      "scammer_says": "\"This is County Sheriff's Office. You missed jury duty summons and a warrant has been issued for your arrest. Post $1,000 bail via prepaid cards or appear in 60 minutes at station.\" \"Officer badge #8472. Don't hang up or the warrant activates.\"",
-      "the_trick": "Claims missed jury duty warrant requires immediate \"bail\" payment via prepaid cards. Real police arrest in person, never demand payment over phone.",
-      "consequences": "Lose bail money via untraceable prepaid cards. Escalating \"fees\" for court costs. Terrorized into compliance. No warrant ever existed.",
+      "scammer_says": "\"This is the County Sheriff's Office. You missed your jury duty summons and a warrant has been issued for your arrest. Post $1,000 bail via prepaid cards or appear in 60 minutes at the central station downtown.\" \"This is officer Simmons, badge #8472. Do not hang up or the warrant activates.\"",
+      "the_trick": "The scammer claims you missed jury duty and there is a warrant requiring immediate \"bail\" payment via prepaid cards. Real police make arrests in person, and never demand payment over phone.",
+      "consequences": "Any payments made are lost and not recoverable. ",
       "danger_signs": [
         "Police demand prepaid cards or wire transfer.",
         "Threat of immediate arrest over phone.",
         "\"Badge number\" provided to sound official.",
         "Refuse to verify through official channels."
       ],
-      "safe_action": "Hang up. Police arrest in person with uniform/warrant. Call local courthouse using 411 directory assistance number to verify status. Report to ftc.gov."
+      "safe_action": "Hang up. Police arrest in person with a uniformed officer and warrant. Call your local courthouse using 411 directory assistance number to verify status. Report to ftc.gov."
     },
     {
       "id": "21",
@@ -371,34 +371,34 @@
       "body": "Impersonates famous sweepstakes company claiming big win.",
       "category": "phone",
       "icon": "🎁",
-      "scammer_says": "\"Congratulations! You won $5,000 from Publisher's Clearing House sweepstakes! Magazine subscriptions entered you automatically. Send $495 shipping/handling via MoneyGram to claim before 5PM today.\" \"Big check and flowers delivered tomorrow!\"",
-      "the_trick": "Impersonates famous sweepstakes company claiming big win. Demands \"shipping fees\" via wire transfer. Real prizes never require payment to receive winnings.",
-      "consequences": "\"Fees\" escalate from hundreds to thousands. No prize delivered. Wire money permanently lost. Victim waits endlessly for nonexistent delivery.",
+      "scammer_says": "\"Congratulations! You won $5,000 from Publisher's Clearing House sweepstakes! Magazine subscriptions entered you automatically. Send $495 shipping/handling via MoneyGram to claim your prize before 5PM today.\" \"Are you available tomorrow for the big check and flowers to be delivered?\"",
+      "the_trick": "The scammer impersonates a famous sweepstakes company claiming a big win.  States you must pay a \"shipping fees\" via wire transfer. Real prizes never require payment to receive winnings.",
+      "consequences": "Fees are stolen, and any payment information you give will be used fraudulently.",
       "danger_signs": [
-        "Prize you never entered requires payment first.",
+        "Prize requires payment first.",
         "\"Shipping/handling\" fees for large winnings.",
         "MoneyGram/wire transfer demanded.",
-        "Same-day delivery promises with check/flowers."
+        "\"Winning\" a contest you never entered."
       ],
-      "safe_action": "Hang up. Real sweepstakes winners notified by mail, never pay to collect. Verify at pch.com directly. Report to ftc.gov/complaint."
+      "safe_action": "Hang up. Real sweepstakes winners are notified by mail.  Never pay to collect a prize. "
     },
     {
       "id": "22",
       "title": "Free Trial Scam",
       "summary": "Free Trial Scam",
-      "body": "Small \"shipping fee\" enrolls you in expensive monthly autoship.",
+      "body": "The scammer uses the promise of a free trial to collect, and later bill, recurring payments.",
       "category": "phone",
       "icon": "🎁",
       "scammer_says": "\"Congratulations!  You have been approved for a free 30-day trial of HealthMax Vitamins! Confirm your shipping address and credit card for $4.95 processing. Cancel anytime after first shipment.\" \"After your free trial, monthly shipments will be $89.95 each, but you can cancel any time.\"",
-      "the_trick": "Small \"shipping fee\" enrolls you in expensive monthly autoship. Hard-to-cancel subscriptions charge card repeatedly. Buried cancellation phone numbers.",
-      "consequences": "Hundreds charged monthly for unwanted products. Cancellation battles fail. Credit card disputes denied for \"recurring billing authorization.\"",
+      "the_trick": "A small \"shipping fee\" enrolls you in expensive monthly subscription which is hard to cancel, and charges your card repeatedly.  Trying to cancel is difficult with phone number disconnects, long hold times, etc.",
+      "consequences": "The recurring billing can charge hundreds of dollars for an unwanted product. Cancellation battles fail.",
       "danger_signs": [
         "\"Free trial\" asks for credit card upfront.",
-        "Small fee converts to expensive monthly charges.",
+        "Small fee seems like a good deal for a free trial.",
         "Hard-to-find cancellation instructions.",
         "Multiple shipments promised automatically."
       ],
-      "safe_action": "Never give card for \"free trials.\" Use virtual credit cards or prepaid debit (with very limited funds on the card) for testing. Cancel in writing within 3 days. Dispute charges with bank."
+      "safe_action": "Never give your card for \"free trials.\" Use virtual credit cards or prepaid debit (with very limited funds on the card) for testing, and only on products that you initiate (not in response to a call). Dispute scam charges with your bank."
     },
     {
       "id": "23",
@@ -407,16 +407,16 @@
       "body": "Fake government health verification demands Medicare info and fees.",
       "category": "online",
       "icon": "🩺",
-      "scammer_says": "\"Health Department records show you need COVID vaccine verification for Medicare payments and doctor visits. Pay $39.95 processing fee for official digital certificate.\" \"Email your Medicare number and card details to verify eligibility.\"",
-      "the_trick": "Fake government health verification demands Medicare info and fees. No certificate issued, just stolen identity for medical fraud.",
-      "consequences": "Medicare fraud destroys benefits. Identity theft across healthcare. Doctors refuse service when records flagged fraudulent.",
+      "scammer_says": "\"Health Department records show you need COVID vaccine verification in order to receive your Medicare coverage. Pay $39.95 processing fee in order to receive the official digital certificate.\" \"Email your Medicare number and card details to verify eligibility.\"",
+      "the_trick": "Fake government health verification tries to either collect payment information, or Medicare information.  Either they make fraudulent charges using your credit card, or submit fraudulent Medicare claims using your information.",
+      "consequences": "Costs of stolen payments, and challenges trying to resolve fraudulent Medicare claims made in your name.",
       "danger_signs": [
-        "Email demands Medicare info for certificates.",
-        "Payment required for government health docs.",
+        "Email or call demands Medicare info for vaccine certificates.",
+        "Payment required for official government health documents.",
         "Unofficial websites selling vaccine proof.",
         "Urgent threats to Medicare payments."
       ],
-      "safe_action": "Delete message. Real vaccine records from healthcare provider only. Medicare status at 1-800-MEDICARE. Report to ftc.gov."
+      "safe_action": "Delete text or email message or hang up. Real vaccine records come from your healthcare provider only. Your Medicare status is not in jeopardy, but you can confirm at 1-800-MEDICARE."
     },
     {
       "id": "24",
@@ -425,16 +425,16 @@
       "body": "Fake \"neighbor\" sells nonexistent storage auction contents cheap.",
       "category": "phone",
       "icon": "📦",
-      "scammer_says": "\"Hi neighbor, it's Jim from across the street. My storage unit #247 at Mini-Store is auctioning tomorrow for unpaid rent. Contents worth $8,000 but you can claim for $950 cash today.\" \"Furniture, tools, antiques — meet me at unit 3:30PM.\"",
-      "the_trick": "Fake \"neighbor\" sells nonexistent storage auction contents cheap. Takes cash then disappears. Real auctions public with inspection.",
-      "consequences": "Cash lost instantly. No storage unit exists. Scammer targets next neighborhood victim.",
+      "scammer_says": "\"Hi neighbor, it's Jim from across the street. My storage unit #247 at Mini-Store is auctioning tomorrow for unpaid rent. The contents are worth $8,000 but you can have them for $500 cash today.  It's more than I'd get at auction, and I can clear the bill.\" \"There is furniture, tools, and some antiques — meet me at the unit at 3:30PM.\"",
+      "the_trick": "Fake \"neighbor\" tricks you into bringing cash, meeting at a storage unit. Then the scammer takes your cash and drives away.",
+      "consequences": "Your cash is lost instantly. No storage unit exists. Scammer offered a deal too sweet to pass up to entice you to bring cash to a private location.",
       "danger_signs": [
         "\"Neighbor\" you don't recognize selling storage contents.",
         "Cash deal for valuable auction items.",
         "No public auction listing or inspection.",
         "Same-day \"must buy now\" pressure."
       ],
-      "safe_action": "Call storage facility directly to verify auction. Attend public auctions only. Never buy sight-unseen valuables for cash from strangers."
+      "safe_action": "Call storage facility directly to verify the existence of an auction. Attend public auctions only. Never buy sight-unseen valuables for cash from strangers.  Never meet a stranger when they know you'll be bringing cash."
     },
     {
       "id": "25",
@@ -443,52 +443,34 @@
       "body": "Fake toll violations demand prepaid card payment.",
       "category": "phone",
       "icon": "🏛️",
-      "scammer_says": "\"Toll Authority Collections — Vehicle #JHG-8472 has 6 unpaid tolls totaling $287 from your State Turnpike. Pay now via prepaid Visa card or vehicle registration suspended.\" \"Read card numbers to agent or face $500 fine + towing.\"",
-      "the_trick": "Fake toll violations demand prepaid card payment. Real toll agencies mail invoices, accept checks/credit cards.",
-      "consequences": "Prepaid card drained instantly. No tolls existed. License clean but money gone forever.",
+      "scammer_says": "This is the Toll Authority Collections — Your vehicle with license #JHG-8472 has 6 unpaid tolls totaling $287 from the State Turnpike. Pay the balance now or your vehicle's registration will be suspended. Provide payment details to our agent or face up to  $500 fine and your vehicle could be towed.",
+      "the_trick": "Fake toll violations demand prepaid card payment. Real toll agencies mail invoices, and accept checks/credit cards.",
+      "consequences": "Your payment information will be used to rack up fake charges.",
       "danger_signs": [
-        "Toll payment demands via prepaid cards.",
-        "Phone threats of registration suspension.",
+        "Toll payment demanded over the phone.",
+        "Phone threats of registration suspension or towing.",
         "Unfamiliar agency name/number.",
         "No mailed invoice provided."
       ],
-      "safe_action": "Hang up. Check toll balance at your state's offical toll website. Real agencies mail bills first."
+      "safe_action": "Hang up. Check your toll balance at your state's official toll website. Real agencies mail bills first."
     },
     {
       "id": "26",
       "title": "School Trip Emergency",
       "summary": "School Trip Emergency",
-      "body": "Two-call scam: grandchild claims group travel emergency, teacher confirms.",
+      "body": "Two-call scam: grandchild claims group travel emergency, fake teacher confirms.",
       "category": "phone",
       "icon": "🚌",
-      "scammer_says": "\"Grandma, it's Sarah from school trip to Washington DC. Bus broke down in Georgia, company demands $650 cash per student or whole group stranded overnight.\" \"Teacher says send Western Union to bus company in Atlanta now.\"",
-      "the_trick": "Two-call scam: grandchild claims group travel emergency, teacher confirms. Real school trips have emergency funds, insurance.",
-      "consequences": "Western Union money gone instantly. No school trip problems exist. Grandchild safe at home.",
+      "scammer_says": "\"Grandma, it's Sarah from the school trip to Washington DC. Our bus broke down in Georgia, and we need $250 cash per student or the whole group will be stranded overnight. Talk to my teacher to get the Western Union information so we can get a bus now.\"",
+      "the_trick": "Two-call scam: fake grandchild claims there is a group travel emergency, a fake teacher confirms. Real school trips have emergency funds and insurance.",
+      "consequences": "Western Union money that you wire is gone instantly and not recoverable. In reality, no school trip problems exist and the grandchild is likely safe at home.",
       "danger_signs": [
         "Grandchild + teacher both call about group emergency.",
         "School demands Western Union for trip issues.",
         "Sudden \"everyone stranded\" pressure.",
-        "No parent contact first."
+        "Contacting a grandparent instead of guardian or school authorities."
       ],
-      "safe_action": "Call grandchild's home phone and school directly. Real emergencies go through the child's designated guardian first. Schools handle trip insurance."
-    },
-    {
-      "id": "27",
-      "title": "Hotel Refund Scam",
-      "summary": "Hotel Refund Scam",
-      "body": "Fake hotel refund requires computer access.",
-      "category": "phone",
-      "icon": "🏨",
-      "scammer_says": "\"Sunset Inn front desk — your recent stay #847392 charged $247 extra. Refund processing requires remote access to verify payment info. Download TeamViewer now.\" \"Share screen ID 928-374-192 for 2 minutes.\"",
-      "the_trick": "Fake hotel refund requires computer access. Malware steals all passwords while \"processing refund.\"",
-      "consequences": "Banking passwords stolen. Accounts drained. No refund issued. Computer infected permanently.",
-      "danger_signs": [
-        "Hotel refund requires computer access.",
-        "TeamViewer or remote desktop requested.",
-        "No reservation confirmation provided.",
-        "Urgent access \"for 2 minutes only.\""
-      ],
-      "safe_action": "Hang up. Check hotel account online directly. Real refunds by check/credit, never computer access.  NEVER give anyone that you don't know access with remote tools like TeamViewer."
+      "safe_action": "Call the grandchild's home phone and school directly. Real emergencies go through the child's designated guardian first. Schools handle trip insurance."
     },
     {
       "id": "28",
@@ -497,34 +479,34 @@
       "body": "Fake church directory sales to members.",
       "category": "phone",
       "icon": "⛪",
-      "scammer_says": "\"Grace Community Church is publishing a directory. Your photo and family listing $125 full page, $89 half page. Provide credit card for professional photographer tomorrow.\" \"All members participating — don't miss out!\"",
-      "the_trick": "Fake church directory sales to members. No directory produced. Church knows nothing about solicitation.",
-      "consequences": "$89-125 charged, no directory. Card used for recurring charges.",
+      "scammer_says": "\"Grace Community Church is publishing a directory. Your photo and family listing is $125 for a full page, $89 for a half page. Provide credit card info to reserve the professional photographer for a session tomorrow. All the other members are participating — don't miss out!\"",
+      "the_trick": "Fake church directory sales to members. No directory is produced. The church knows nothing about the solicitation.",
+      "consequences": "You lose the payment and possibly the card will be used for recurring charges.",
       "danger_signs": [
         "Church directory sales by phone.",
         "No church announcement or bulletin notice.",
         "Payment before seeing proofs.",
         "Multiple family photo packages offered."
       ],
-      "safe_action": "Call church office directly to verify. Real directories announced in services, payment to church treasurer."
+      "safe_action": "Call the church office directly to verify. Real directories are announced in services, and payment is made after proofs are seen."
     },
     {
       "id": "29",
       "title": "Fence Contractor Scam",
       "summary": "Fence Contractor Scam",
-      "body": "Door-to-door claims fence code violations.",
+      "body": "The scammer knocks on the door, claiming you have a code violation with your fence.",
       "category": "phone",
       "icon": "🔨",
-      "scammer_says": "\"Ace Fence Company is canvassing neighborhood. Your fence is leaning dangerously — it's a code violation risk. $2,800 full replacement today, $1,400 half down cash.\" \"County inspector coming next week — beat the fine!\"",
-      "the_trick": "Door-to-door claims fence code violations. Large cash deposit then poor work or disappearance. Real violations get written county notices.",
-      "consequences": "$1,400 cash lost. Shoddy fence fails quickly. Code violation fine actually arrives later.",
+      "scammer_says": "\"Ace Fence Company is canvassing neighborhood. Your fence is leaning dangerously — it's a code violation risk.  I can do it for only $1500 for a full replacement today, or for $750 just for repairs.  We'll need half in cash to get started.  Be aware that the county inspector is coming to this neighborhood next week — avoid the fine by repairing it now!\"",
+      "the_trick": "A door-to-door scammer claims you have fence code violations. Asks for a cash deposit then either does poor work or disappears. Threatens that you will get a fine if you don't repair the fence.  But real violations get written county notices.",
+      "consequences": "Cash is lost and not recoverable.",
       "danger_signs": [
         "Door-to-door fence \"code violation\" warnings.",
-        "Cash deposit half upfront.",
+        "Asking for cash deposit up front.",
         "No written county violation notice.",
         "Inspector \"next week\" pressure."
       ],
-      "safe_action": "Request written violation from county first. Get 3 licensed contractor bids. Never pay cash deposits."
+      "safe_action": "Request written violation from the county first. Get 3 licensed contractor bids. Never pay cash deposits."
     },
     {
       "id": "30",
@@ -533,16 +515,16 @@
       "body": "Fake identity theft alerts demand full personal info access.",
       "category": "phone",
       "icon": "🆔",
-      "scammer_says": "\"IdentityGuard alert — your Social Security number appears on 7 dark web sites. $29.95/month monitoring removes it immediately. Provide SSN to enroll.\" \"First month free if you start now!\"",
+      "scammer_says": "\"IdentityGuard alert — your Social Security number appears on 7 dark web sites.  Protect yourself with a $29.95/month monitoring service that will remove your information from the dark web. Provide your SSN and payment information to enroll. The first month is free if you start now!\"",
       "the_trick": "Fake identity theft alerts demand full personal info access. Real monitoring services let you sign up without sharing your SSN over the phone.",
-      "consequences": "Complete identity portfolio stolen. Multiple account takeovers. Credit destroyed across all bureaus.",
+      "consequences": "Theft of your identity, along with payment information.",
       "danger_signs": [
         "Identity service demands SSN/passwords.",
         "\"Dark web\" alerts requiring full access.",
         "Urgent enrollment pressure.",
         "$29.95 sounds reasonably low."
       ],
-      "safe_action": "Hang up. Check credit at annualcreditreport.com (free). Real services monitor externally, never access accounts. FTC identitytheft.gov for real help."
+      "safe_action": "Hang up. Check your credit at annualcreditreport.com (free). Real services monitor externally, and never access accounts.  Visit the FTC identitytheft.gov official site for real help."
     },
     {
       "id": "31",
@@ -551,34 +533,34 @@
       "body": "Fake tech support demands gift card purchases for \"virus removal fees.\" They drain cards instantly while you watch.",
       "category": "phone",
       "icon": "🏦",
-      "scammer_says": "\"Microsoft technical support here. Your computer has 847 viruses detected. Don't panic — we can clear your computer.  Normally the fix is $249, but we partner with Google for a massive discount - you buy a $100 Google Play gift card from your local pharmacy or grocery store immediately. That gift card will qualify you for the discount.\" \"Scratch off back, read 15-digit numbers to me now, and you can make your computer safe for the discounted price.\"",
+      "scammer_says": "\"Microsoft technical support here. Your computer has 847 viruses detected. Don't panic — we can clear your computer.  Normally the fix is $249, but we partner with Google for a massive discount - you buy a $100 Google Play gift card from your local pharmacy or grocery store immediately. That gift card will qualify you for the discount. Scratch off the back, and read the 15-digit numbers to me now, and you can make your computer safe for the discounted price.\"",
       "the_trick": "Fake tech support demands gift card purchases for \"virus removal fees.\" They drain cards instantly while you watch.",
-      "consequences": "$100 gone in seconds. Gift cards untraceable. Computer never had viruses.",
+      "consequences": "$100 gone in seconds. Gift cards are untraceable. The computer may not have had viruses, but if they did, the scammers won't fix them.",
       "danger_signs": [
         "Tech support encourages gift card payments.",
-        "\"847 viruses detected\" specific scary numbers.",
+        "\"847 viruses detected\" - specific scary numbers.",
         "Microsoft never cold-calls about viruses.",
         "Immediate store purchase pressure."
       ],
-      "safe_action": "Hang up. Run Windows Defender scan (free). Real tech support never requests gift cards. Report to ftc.gov."
+      "safe_action": "Hang up. Run Windows Defender scan (free). Real tech support never requests gift cards. Report the call to ftc.gov."
     },
     {
       "id": "32",
       "title": "Online Car Sale Scam",
       "summary": "Online Car Sale Scam",
-      "body": "Fake car listing with stolen photos.",
+      "body": "Fake car listing requires deposit to steal your money.",
       "category": "online",
       "icon": "🚗",
-      "scammer_says": "\"2019 Toyota Camry 42K miles $12,500 FIRM — moving overseas, must sell fast! Email shipping deposit $1,200 via PayPal Friends & Family to hold car.\" \"Broker arranges delivery to your driveway!\"",
-      "the_trick": "Fake car listing with stolen photos. Takes \"shipping deposits\" then disappears. Car never existed.",
-      "consequences": "$1,200 lost instantly. Real car search restarts. Scammer posts same ad tomorrow.",
+      "scammer_says": "You see an online ad that looks really good: 2019 Toyota Camry 42K miles $12,500 FIRM — moving overseas, must sell fast! Email shipping deposit $1,200 via PayPal Friends & Family to hold car. Broker arranges delivery to your driveway!\"",
+      "the_trick": "There is no car, the listing is fake.  Once you send the 'deposit', you cannot recover that money, and there is no tracing the seller, who disappears with your money.",
+      "consequences": "Scammer takes your deposit, and possibly more depending on how much payment information you provided.",
       "danger_signs": [
-        "Too-good deal on popular car.",
-        "Seller \"moving overseas\" won't meet.",
+        "Too-good deal on a popular car.",
+        "Seller is \"moving overseas\" and won't meet in person to preview the car.",
         "PayPal Friends & Family requested.",
         "Shipping broker handles delivery."
       ],
-      "safe_action": "Always test drive in person. Pay dealer/bank check only. Verify VIN at carfax.com. Never wire money for unseen vehicles."
+      "safe_action": "Always test drive in person. Pay using dealer/bank check only. Verify the car's VIN at carfax.com. Never wire money for unseen vehicles."
     },
     {
       "id": "33",
@@ -587,9 +569,9 @@
       "body": "Fake funeral preplanning steals life savings.",
       "category": "phone",
       "icon": "🏠",
-      "scammer_says": "\"Eternal Rest Planning Services — lock in funeral costs at today's rates! $4,800 prepaid trust fund guarantees mahogany casket, plot, service regardless of inflation.\" \"Transfer to our funeral trust account today.\"",
+      "scammer_says": "\"This is Eternal Rest Planning Services.  Avoid the stress and confusion of your loved ones in the event of your demise.  Prepare by locking in funeral costs at today's rates and protect against inflation!  Set aside $3.700 into a prepaid trust fund which guarantees a mahogany casket, a plot in the cemetery of your choice, and costs of a graveside service regardless of inflation. Let's setup this trust for you today.\"",
       "the_trick": "Fake funeral preplanning steals life savings. No funeral services provided when needed. Real preplanning through licensed funeral homes only.",
-      "consequences": "$4,800 gone when actually needed. No funeral services exist. Family pays double later.",
+      "consequences": "In spite of good intentions to protect your family, your money is put into a trust where you lose control of it, and have no recourse.",
       "danger_signs": [
         "Unsolicited funeral prepayment offers.",
         "Wire transfer to \"funeral trust.\"",
@@ -605,16 +587,16 @@
       "body": "Fake government solar rebates demand processing fees.",
       "category": "phone",
       "icon": "🏠",
-      "scammer_says": "\"Federal Solar Energy Program — $8,500 rebate expires! Qualify now with $995 processing deposit to Energy Department trust. Panels installed for free after approval.\" \"Government pays installation — you keep rebate!\"",
+      "scammer_says": "\"This is the Federal Solar Energy Program.  The Department of Energy is offering an $8,500 rebate on solar panels, but it expires next month! Qualify now with a $995 processing deposit to the Energy Department trust. Panels will be installed for free after approval.  The government pays the installation — you keep rebate!\"",
       "the_trick": "Fake government solar rebates demand processing fees. No panels installed, no rebate issued.",
-      "consequences": "$995 lost to nonexistent program. Real solar incentives through tax credits only. No panels, no savings.",
+      "consequences": "$995 lost to nonexistent program. Real solar incentives are through tax credits only. ",
       "danger_signs": [
         "Government \"rebates\" require upfront fees.",
         "Solar panels promised \"free after approval.\"",
         "Energy Department trust fund payments.",
         "Phone calls, not mailed applications."
       ],
-      "safe_action": "Government rebate programs change, so search official government sites, not depending on a stranger calling to provide the information. Government never demands deposits for rebates."
+      "safe_action": "Government rebate programs change, so search official government sites, not depending on a stranger calling to provide the information. The government never demands deposits for rebates."
     },
     {
       "id": "35",
@@ -623,9 +605,9 @@
       "body": "Two-scammer relay: \"grandchild\" claims lost phone, can't call parents.",
       "category": "phone",
       "icon": "👪",
-      "scammer_says": "\"Grandma it's Alex — I lost my phone at the fair, I'm calling from the Apple store, which is why you don't recognize the number. I need a $300 iPhone deposit at Apple Store or I'm stranded till Dad returns Tuesday.\" \"Put it on your card, I'll repay cash Friday ❤️\"",
-      "the_trick": "Two-scammer relay: \"grandchild\" claims lost phone, can't call parents. Real grandchild has phone, safe at home.",
-      "consequences": "$300 charged to card. Grandchild never lost phone.",
+      "scammer_says": "\"Grandma it's Alex — I lost my phone at the fair, I'm calling from the Apple store, which is why you don't recognize the number. I need a $300 iPhone deposit at Apple Store or I'm stranded till Dad returns Tuesday. Can you put it on your card, and I'll repay cash Friday?  Here's the Apple store salesperson to help with the details...❤️\"",
+      "the_trick": "Two-scammer relay: \"grandchild\" claims they lost their phone, and can't call parents. The real grandchild has phone, and is safe at home.",
+      "consequences": "You lose the payment to the fake Apple store, and possibly future fraudulent purchases made with your credit card information.",
       "danger_signs": [
         "Grandchild calling from \"borrowed phone.\"",
         "Can't call parents, only grandparents.",
@@ -635,40 +617,22 @@
       "safe_action": "Tell them you will call back.  Hang up, and call your grandchild's number. Then verify with their parents or guardian."
     },
     {
-      "id": "36",
-      "title": "Airport Refund Scam",
-      "summary": "Airport Refund Scam",
-      "body": "Fake airline refund steals all identity info.",
-      "category": "phone",
-      "icon": "✈️",
-      "scammer_says": "\"Delta Airlines refund department — cancelled flight #8472 entitles you to $478. Verify identity with credit card, SSN last 4, and mother's maiden name. Refund processes in 48 hours.\" \"No ticket number needed.\"",
-      "the_trick": "Fake airline refund steals all identity info. No flight cancellation occurred.",
-      "consequences": "Complete identity theft portfolio. Credit cards maxed. No refund issued.",
-      "danger_signs": [
-        "Unsolicited airline refund offers.",
-        "SSN, mother's maiden requested.",
-        "No confirmation number provided.",
-        "You didn't fly recently."
-      ],
-      "safe_action": "Hang up. Check airline account online directly. Real refunds auto-deposit to original payment method."
-    },
-    {
       "id": "37",
       "title": "Driveway Sealing Scam",
       "summary": "Driveway Sealing Scam",
       "body": "Door-to-door driveway \"sealing\" with watered-down asphalt.",
       "category": "phone",
       "icon": "🔨",
-      "scammer_says": "\"Neighborhood Seal Coating Special! A government oil embargo was announced, and seal coat prices triple next week. $1,400 cash for double driveway today.\" \"Truck loaded, crews ready now!  Prices go up next week.\"",
-      "the_trick": "Door-to-door driveway \"sealing\" with watered-down asphalt. Peels off in weeks (if they even coat anything at all). Large cash payment upfront.",
-      "consequences": "$1,400 wasted. Real sealing requires proper prep, multiple coats. Driveway cracks worse.",
+      "scammer_says": "\"We mixed more sealant than your neighbor needed, and it's just going to go to waste.  We've got the truck right here, and we can seal coat your driveway right now.  We can give you a huge discount if you pay cash.\"",
+      "the_trick": "The scammer goes door-to-door with watered-down asphalt.  It peels off in weeks (if they even coat anything at all).  ",
+      "consequences": "You lose the cash with no way to recover it.",
       "danger_signs": [
         "Door-to-door driveway sealing offers.",
-        "Too cheap per square foot pricing.",
+        "Claims they have extra which will go to waste.",
         "Cash only, immediate start pressure.",
         "No written contract/estimate."
       ],
-      "safe_action": "Get 3 written bids from licensed pavers. Avoid paying cash deposits."
+      "safe_action": "If you want your driveway sealed, get three written bids from licensed pavers. Avoid paying cash deposits."
     },
     {
       "id": "38",
@@ -677,16 +641,16 @@
       "body": "Fake timeshare cancellation services take escrow fees but never resolve ownership.",
       "category": "phone",
       "icon": "🏖️",
-      "scammer_says": "\"Timeshare Relief Team — we legally dissolve your maintenance fee burden! $4,500 escrow deposit guarantees cancellation within 90 days or full refund.\" \"Deed transfer specialist standing by.\"",
+      "scammer_says": "\"This is the Timeshare Relief Team — we legally dissolve your maintenance fee burden!  Once we receive the $2,500 escrow deposit, we guarantee your timeshare cancellation within 90 days or  you receive a full refund. We have a deed transfer specialist standing by.\"",
       "the_trick": "Fake timeshare cancellation services take escrow fees but never resolve ownership. Timeshare remains, fees continue.",
-      "consequences": "$4,500 lost. Still own timeshare, fees accrue. Foreclosure damages credit.",
+      "consequences": "You lose the 'deposit', and you still have the obligation to the time share dues.",
       "danger_signs": [
         "Timeshare \"cancellation guarantees.\"",
         "Upfront escrow thousands required.",
         "No attorney licensing shown.",
         "90-day miracle promises."
       ],
-      "safe_action": "Contact timeshare developer directly. Licensed real estate attorney only.  No legitimate upfront fees."
+      "safe_action": "Contact your timeshare developer directly, or seek out a Licensed real estate attorney only.  Do not respond to calls initiated by someone else that asks for financial information."
     },
     {
       "id": "39",
@@ -695,34 +659,16 @@
       "body": "Fake IRS audit demands immediate bank access.",
       "category": "phone",
       "icon": "🏛️",
-      "scammer_says": "\"IRS Audit Compliance — return #847392 flagged $8,247 underpayment. Pay penalty via our secure portal or face liens, levies. Provide bank info for direct debit.\" (You may receive a fake letter mailed separately.)",
+      "scammer_says": "\"This is the IRS Audit Compliance Division — your last tax return #847392 was flagged for an underpayment amount of $3,247. You need to pay the penalty via our secure portal or face liens and/or levies. Go to payirsbill.net and use case #45872 to resolve this issue, or face increased legal consequences.\"",
       "the_trick": "Fake IRS audit demands immediate bank access. Real IRS sends certified mail first, never phone demands.",
-      "consequences": "Bank account drained. Credit ruined. Real tax return fine if no audit notice received.",
+      "consequences": "Depending on what information they collect, the scammers can drain your bank accounts to zero.  Never visit a website provided by a stranger to enter payment information.",
       "danger_signs": [
         "IRS demands bank info over phone.",
         "No certified mail received first.",
         "Immediate payment portal pressure.",
         "\"Letter to follow\" excuse."
       ],
-      "safe_action": "Hang up. Real IRS contacts by certified mail only. Check irs.gov account."
-    },
-    {
-      "id": "40",
-      "title": "Extended Car Warranty Scam",
-      "summary": "Extended Car Warranty Scam",
-      "body": "Robocall panic warranty expiration.",
-      "category": "phone",
-      "icon": "🏠",
-      "scammer_says": "\"National Auto Warranty — your VIN #8472JG warranty expires midnight! $2,499 locks 100K miles bumper-to-bumper. All repairs nationwide, $0 deductible.\" \"Enroll now or pay $5K transmission out-of-pocket!\"",
-      "the_trick": "Robocall panic warranty expiration. Useless contract denies all claims. Real warranties through manufacturer/dealer.",
-      "consequences": "$2,499 wasted. Claims denied for \"pre-existing.\" Repairs full price anyway.",
-      "danger_signs": [
-        "\"Warranty expires midnight\" panic.",
-        "$0 deductible promises.",
-        "Robocall, not dealer contact.",
-        "Nationwide service guarantees."
-      ],
-      "safe_action": "Check dealer service records. Real warranties mailed, not called. Manufacturer certified pre-owned only. Hang up on robocalls."
+      "safe_action": "Hang up. The real IRS makes contact by mail. NEVER visit a website provided by a stranger to enter payment information."
     },
     {
       "id": "41",
@@ -740,6 +686,23 @@
         "Urgency to resolve a problem fast, with dire consequences if you hang up."
       ],
       "safe_action": "Hang up and call your bank using a verified, trusted number.  If there is a problem, they will connect you to the right person, and no harm will be done by hanging up on the initial call.  Banks do not initiate calls that then require you to verify yourself."
+    },
+    {
+      "id": "42",
+      "title": "Verification Screen Scam",
+      "summary": "A fake verification screen asks you for a series of keystrokes that installs malware without your knowledge.",
+      "body": "A fake verification screen asks you for a series of keystrokes that installs malware without your knowledge.",
+      "category": "online",
+      "icon": "💻",
+      "scammer_says": "A \"verification window\" pops up on your computer.  It asks you to do a series of keystrokes like 'WIN + R, then CTRL + V, then Enter' to verify.",
+      "the_trick": "The keystrokes requested open a command prompt on your computer, then pastes a bad command in.  They have put a bad command on your clipboard (usually by having you click something on the screen before the popup), then WIN + R opens the command prompt, CTRL + V pastes what they put on the clipboard, and Enter runs it.",
+      "consequences": "Once the command is run, this could install malware that they can use to steal files, banking information, email account information, or lock your computer for ransom.",
+      "danger_signs": [
+        "Pop-up windows for Verification",
+        "Asking for specific commands like WIN + R and CTRL + V",
+        "Any verification that opens another window"
+      ],
+      "safe_action": "Never use that keystroke combination (WIN or Windows Key + R, CTRL or Control + V)."
     }
   ],
   "quizQuestions": [
@@ -1947,12 +1910,12 @@
       "id": "17-1",
       "lesson_id": "17",
       "question_type": "indicator",
-      "question": "Robocall says \"car warranty expires tomorrow.\" What do you do?",
+      "question": "You receive a robocall that says your car warranty expires tomorrow. What do you do?",
       "correct_answer": "hang_up_check_with_deale",
       "options": [
         {
           "id": "hang_up_check_with_deale",
-          "text": "Hang up — check with dealer directly.",
+          "text": "Hang up — check with my car dealership or warranty service directly.",
           "icon": "✅"
         },
         {
@@ -1962,7 +1925,7 @@
         },
         {
           "id": "give_vin_for_verificatio",
-          "text": "Give VIN for verification.",
+          "text": "Give my car's VIN for verification.",
           "icon": "🚫"
         }
       ],
@@ -1972,22 +1935,22 @@
       "id": "17-2",
       "lesson_id": "17",
       "question_type": "danger",
-      "question": "Legitimate car warranties renewed through:",
+      "question": "Legitimate car warranties are renewed through:",
       "correct_answer": "dealership_or_manufactur",
       "options": [
         {
           "id": "dealership_or_manufactur",
-          "text": "Dealership or manufacturer.",
+          "text": "the dealership, manufacturer, or your existing warranty provider.",
           "icon": "✅"
         },
         {
           "id": "robocall_services",
-          "text": "Robocall services.",
+          "text": "robocall services.",
           "icon": "⚠️"
         },
         {
           "id": "third_party_telemarketer",
-          "text": "Third-party telemarketers.",
+          "text": "third-party telemarketers.",
           "icon": "⚠️"
         }
       ],
@@ -2016,13 +1979,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up on any cold-calls about warranties.  They are never legitimate. Check real warranty through car dealer service department or manufacturer's website using VIN. Shop legitimate extended warranties through AAA or dealership only."
+      "explanation": "Hang up on any cold-calls about warranties.  They are never legitimate. Check the real warranty through your car dealership service department or manufacturer's website, or with your own warranty company. Use your existing warranty paperwork to find a verified, trusted phone number.  Remember, no harm will come by hanging up."
     },
     {
       "id": "18-1",
       "lesson_id": "18",
       "question_type": "indicator",
-      "question": "Call from the Social Security Administration saying that your\"Social Security is suspended\", and requests your SSN for verification. What do you do?",
+      "question": "You receive a call from the Social Security Administration saying that your Social Security benefits are suspended, and requests your SSN for verification. What do you do?",
       "correct_answer": "hang_up_check_ssa_gov_yo",
       "options": [
         {
@@ -2032,7 +1995,7 @@
         },
         {
           "id": "verify_ssn_to_prevent_su",
-          "text": "Verify SSN to prevent suspension.",
+          "text": "Verify your SSN to prevent suspension.",
           "icon": "⚠️"
         },
         {
@@ -2047,7 +2010,7 @@
       "id": "18-2",
       "lesson_id": "18",
       "question_type": "danger",
-      "question": "Real Social Security contacts by:",
+      "question": "The real Social Security Administration contacts by:",
       "correct_answer": "mail_letter_only_never_p",
       "options": [
         {
@@ -2077,27 +2040,27 @@
       "options": [
         {
           "id": "caller_provided_website",
-          "text": "Caller-provided website.",
+          "text": "Whatever website the caller provides.",
           "icon": "🚫"
         },
         {
           "id": "ssa_gov_mysocialsecurity",
-          "text": "ssa.gov",
+          "text": "The official ssa.gov website.",
           "icon": "✅"
         },
         {
           "id": "local_ssa_office_walk_in",
-          "text": "Local SSA office walk-in.",
+          "text": "Whatever phone number the caller provides.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Create an account at ssa.gov to check status. Contact SSA at 1-800-772-1213 using known number. Report scam to oig.ssa.gov."
+      "explanation": "Hang up. Create mySocialSecurity account at ssa.gov to check your actual status. Contact the SSA at its known, trusted number (1-800-772-1213). Report scams to oig.ssa.gov."
     },
     {
       "id": "19-1",
       "lesson_id": "19",
       "question_type": "indicator",
-      "question": "Cold call offers \"28% guaranteed returns.\" on an investment (if you act fast!). Verdict?",
+      "question": "You receive a cold call offering \"28% guaranteed returns.\" on an investment (if you act fast!). Verdict?",
       "correct_answer": "scam_no_legitimate_guara",
       "options": [
         {
@@ -2107,12 +2070,12 @@
         },
         {
           "id": "great_investment_opportu",
-          "text": "Could be a great investment opportunity.",
+          "text": "It could be a great investment opportunity.",
           "icon": "⚠️"
         },
         {
           "id": "ask_for_prospectus_first",
-          "text": "Ask for prospectus first.",
+          "text": "Ask for a prospectus first.",
           "icon": "⚠️"
         }
       ],
@@ -2127,7 +2090,7 @@
       "options": [
         {
           "id": "sec_gov_or_finra_org_bro",
-          "text": "adviserinfo.sec.gov or brokercheck.finra.org",
+          "text": "Official sites like adviserinfo.sec.gov or brokercheck.finra.org",
           "icon": "✅"
         },
         {
@@ -2152,7 +2115,7 @@
       "options": [
         {
           "id": "registered_advisor_accou",
-          "text": "Registered advisor account.",
+          "text": "A registered advisor account.",
           "icon": "⚠️"
         },
         {
@@ -2172,22 +2135,22 @@
       "id": "20-1",
       "lesson_id": "20",
       "question_type": "indicator",
-      "question": "\"Jury duty warrant\" demands prepaid card payment for bail to avoid arrest. Is that legitimate?",
+      "question": "A call claims to have a \"Jury duty warrant\" and demands prepaid card payment for bail to avoid arrest. Is that legitimate?",
       "correct_answer": "scam_police_never_take_p",
       "options": [
         {
           "id": "scam_police_never_take_p",
-          "text": "Scam — police never take prepaid cards.",
+          "text": "It is a scam — police never take prepaid cards.",
           "icon": "✅"
         },
         {
           "id": "legitimate_warrant_payme",
-          "text": "Sounds like a legitimate warrant payment.",
+          "text": "It sounds like a legitimate warrant payment.",
           "icon": "🚫"
         },
         {
           "id": "pay_to_avoid_arrest",
-          "text": "Pay to avoid arrest.",
+          "text": "You should pay to avoid arrest.",
           "icon": "🚫"
         }
       ],
@@ -2222,8 +2185,8 @@
       "id": "20-3",
       "lesson_id": "20",
       "question_type": "action",
-      "question": "Verify warrant status by calling:",
-      "correct_answer": "courthouse_via_411_direc",
+      "question": "Verify a possible warrant status by calling:",
+      "correct_answer": "sheriff_s_non_emergency",
       "options": [
         {
           "id": "caller_badge_number",
@@ -2241,13 +2204,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Police arrest in person with uniform/warrant. Call local courthouse using 411 directory assistance number to verify status."
+      "explanation": "Hang up. Police arrest in person with uniform/warrant. Call your local courthouse using 411 directory assistance number to verify status."
     },
     {
       "id": "21-1",
       "lesson_id": "21",
       "question_type": "indicator",
-      "question": "\"$5,000 prize\" demands $495 shipping fee. Truth?",
+      "question": "Caller claims you won a great prize, but just need to pay a small fee to collect.",
       "correct_answer": "scam_real_prizes_never_c",
       "options": [
         {
@@ -2277,37 +2240,37 @@
       "options": [
         {
           "id": "official_mail_from_compa",
-          "text": "Official mail from company.",
+          "text": "Official mail from the company.",
           "icon": "✅"
         },
         {
           "id": "phone_demanding_wire_tra",
-          "text": "Phone demanding wire transfer.",
+          "text": "Phone call requiring wire transfer.",
           "icon": "🚫"
         },
         {
           "id": "email_prize_claim_links",
-          "text": "Email prize claim links.",
+          "text": "Email with links to claim the prize.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "\"Fees\" are not real, and once they have payment information, even for a small amount, they will keep charging your credit card. No prize will be delivered."
+      "explanation": "\"Fees\" are not real, and once they have your payment information, even for a small amount, they will keep charging your credit card. No prize will be delivered."
     },
     {
       "id": "21-3",
       "lesson_id": "21",
       "question_type": "action",
-      "question": "Verify Publisher's Clearing House at:",
+      "question": "You can verify a legitimate prize by:",
       "correct_answer": "pch_com_official_website",
       "options": [
         {
           "id": "caller_provided_number",
-          "text": "Caller-provided number.",
+          "text": "Using the caller-provided number.",
           "icon": "🚫"
         },
         {
           "id": "pch_com_official_website",
-          "text": "pch.com official website.",
+          "text": "Referring to the documents used when I actually entered a contest.",
           "icon": "✅"
         },
         {
@@ -2316,7 +2279,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up and/or delete texts or emails. Real sweepstakes winners are notified by mail, and never pay to collect. Verify at pch.com directly. Report to ftc.gov/complaint."
+      "explanation": "Hang up and/or delete texts or emails claiming you won a prize. Real sweepstakes winners are notified by mail, and those sweepstakes never charge to collect. "
     },
     {
       "id": "22-1",
@@ -2332,12 +2295,12 @@
         },
         {
           "id": "give_card_number_for_tri",
-          "text": "Give card number for trial.",
+          "text": "Give your card number for trial.",
           "icon": "🚫"
         },
         {
           "id": "pay_shipping_fee_only",
-          "text": "Pay shipping fee only.",
+          "text": "Pay the shipping fee only.",
           "icon": "🚫"
         }
       ],
@@ -2347,7 +2310,7 @@
       "id": "22-2",
       "lesson_id": "22",
       "question_type": "danger",
-      "question": "Autoship programs charge:",
+      "question": "Subscription programs after the \"free trial\" will charge:",
       "correct_answer": "monthly_until_cancelled",
       "options": [
         {
@@ -2366,23 +2329,23 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hundreds charged monthly for unwanted products. Cancellation battles fail. Credit card disputes denied for \"recurring billing authorization.\""
+      "explanation": "Hundreds can be charged monthly for unwanted products. Cancellation battles fail. You have to fight with your credit card company to dispute the charges."
     },
     {
       "id": "22-3",
       "lesson_id": "22",
       "question_type": "action",
-      "question": "Safest trial payment method:",
+      "question": "If you initiate a free trial (not in response to a call), the safest payment method is:",
       "correct_answer": "prepaid_debit_or_virtual",
       "options": [
         {
           "id": "credit_card_directly",
-          "text": "Credit card directly.",
+          "text": "Using a credit card directly.",
           "icon": "⚠️"
         },
         {
           "id": "prepaid_debit_or_virtual",
-          "text": "Prepaid debit or virtual card.",
+          "text": "A prepaid debit with a small limit, or a virtual card from your credit card company.",
           "icon": "✅"
         },
         {
@@ -2391,23 +2354,23 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Never give card for \"free trials.\" Use virtual credit cards or prepaid debit for testing. Cancel in writing within 3 days. Dispute charges with bank."
+      "explanation": "Never give your credit card for \"free trials.\" Use virtual credit cards or prepaid debit for testing. Cancel in writing within 3 days. Dispute charges with bank."
     },
     {
       "id": "23-1",
       "lesson_id": "23",
       "question_type": "indicator",
-      "question": "You are out of compliance until you have a \"vaccine certificate\". Supply your Medicare number to become compliant.  What do you do?",
+      "question": "You receive a message or call stating you are out of compliance until you have a \"vaccine certificate\". Supply your Medicare number to become compliant.  What do you do?",
       "correct_answer": "delete_real_docs_free_fr",
       "options": [
         {
           "id": "delete_real_docs_free_fr",
-          "text": "Hang up or Delete — documents are free from doctors directly.",
+          "text": "Hang up or delete the message — documents are free from doctors directly.",
           "icon": "✅"
         },
         {
           "id": "pay_39_95_processing_fee",
-          "text": "Pay $39.95 processing fee.",
+          "text": "Pay the $39.95 processing fee.",
           "icon": "🚫"
         },
         {
@@ -2441,7 +2404,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Your doctor can provide any documentation required.  No need for other companies claiming to offer certificates."
+      "explanation": "Your doctor can provide any documentation required.  There is no need for other companies claiming to offer certificates."
     },
     {
       "id": "23-3",
@@ -2472,17 +2435,17 @@
       "id": "24-1",
       "lesson_id": "24",
       "question_type": "indicator",
-      "question": "\"Neighbor\" offers storage unit contents cheap. What do you do?",
+      "question": "A \"neighbor\" offers his storage unit contents cheap. What do you do?",
       "correct_answer": "verify_with_storage_faci",
       "options": [
         {
           "id": "verify_with_storage_faci",
-          "text": "Verify with storage facility directly.",
+          "text": "Verify the unit with the storage facility directly.",
           "icon": "✅"
         },
         {
           "id": "pay_cash_for_great_deal",
-          "text": "Pay cash for great deal.",
+          "text": "Pay cash for a great deal.",
           "icon": "🚫"
         },
         {
@@ -2537,17 +2500,17 @@
         },
         {
           "id": "credit_card_public_aucti",
-          "text": "Credit card public auction.",
+          "text": "Credit card at public auction.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Call storage facility directly to verify auction. Attend public auctions only. Never buy sight-unseen valuables for cash from strangers."
+      "explanation": "Call storage facility directly to verify the auction. Attend public auctions only. Never buy sight-unseen valuables for cash from strangers."
     },
     {
       "id": "25-1",
       "lesson_id": "25",
       "question_type": "indicator",
-      "question": "\"Toll violation\" demands prepaid card payment. Is it legitmate?",
+      "question": "A call claiming you have a \"toll violation\" demands a prepaid card payment. Is it legitimate?",
       "correct_answer": "scam_real_tolls_mail_inv",
       "options": [
         {
@@ -2557,12 +2520,12 @@
         },
         {
           "id": "legitimate_collection_ca",
-          "text": "Could be a legitimate collection call.",
+          "text": "It could be a legitimate collection call.",
           "icon": "⚠️"
         },
         {
           "id": "pay_to_clear_driving_rec",
-          "text": "I better pay to clear driving record.",
+          "text": "I better pay to clear my driving record.",
           "icon": "🚫"
         }
       ],
@@ -2577,17 +2540,17 @@
       "options": [
         {
           "id": "mail_billing_statements",
-          "text": "Mail billing statements.",
+          "text": "Sending billing statements in the mail.",
           "icon": "✅"
         },
         {
           "id": "phone_prepaid_card_deman",
-          "text": "Phone prepaid card demands.",
+          "text": "Demanding payment over the phone.",
           "icon": "⚠️"
         },
         {
           "id": "text_violation_notices",
-          "text": "Text violation notices.",
+          "text": "Sending texts with the violation notice.",
           "icon": "⚠️"
         }
       ],
@@ -2597,17 +2560,17 @@
       "id": "25-3",
       "lesson_id": "25",
       "question_type": "action",
-      "question": "Check toll balance at:",
+      "question": "Check your toll balance at:",
       "correct_answer": "state_toll_authority_web",
       "options": [
         {
           "id": "caller_website",
-          "text": "Caller website.",
+          "text": "The website provided by a caller.",
           "icon": "⚠️"
         },
         {
           "id": "state_toll_authority_web",
-          "text": "State toll authority website.",
+          "text": "The official toll authority website that you verify with Google.",
           "icon": "✅"
         },
         {
@@ -2616,13 +2579,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Check toll balance at official state website. Real agencies mail bills first."
+      "explanation": "Hang up. Check toll balance at the official state website. Real agencies mail bills first."
     },
     {
       "id": "26-1",
       "lesson_id": "26",
       "question_type": "indicator",
-      "question": "Grandchild and a teacher call about stranded bus and needing some money to help. What do you do?",
+      "question": "Your grandchild and a teacher call about stranded bus and needing some money to help. What do you do?",
       "correct_answer": "call_home_school_directl",
       "options": [
         {
@@ -2632,7 +2595,7 @@
         },
         {
           "id": "wire_money_to_bus_compan",
-          "text": "Wire money to bus company.",
+          "text": "Wire money to the bus company.",
           "icon": "🚫"
         },
         {
@@ -2694,95 +2657,20 @@
       "explanation": "Call your grandchild's home phone and school directly. Real emergencies go through parents/guardians first. Schools handle trip insurance."
     },
     {
-      "id": "27-1",
-      "lesson_id": "27",
-      "question_type": "indicator",
-      "question": "\"Hotel refund\" wants TeamViewer access to process the refund. Why?",
-      "correct_answer": "steal_passwords_with_mal",
-      "options": [
-        {
-          "id": "steal_passwords_with_mal",
-          "text": "TeamViewer allows control of my computer, so they can steal passwords with malware.",
-          "icon": "✅"
-        },
-        {
-          "id": "standard_refund_verifica",
-          "text": "Nothing to worry about.  It is a standard refund verification.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "process_payment_faster",
-          "text": "If I download the software, I can get the refund payment faster.",
-          "icon": "🚫"
-        }
-      ],
-      "explanation": "Never give access or download software from a stranger on the phone."
-    },
-    {
-      "id": "27-2",
-      "lesson_id": "27",
-      "question_type": "danger",
-      "question": "Hotel refunds arrive by:",
-      "correct_answer": "check_or_account_credit",
-      "options": [
-        {
-          "id": "check_or_account_credit",
-          "text": "Check or account credit only.",
-          "icon": "✅"
-        },
-        {
-          "id": "remote_computer_access",
-          "text": "Remote computer access.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "gift_cards",
-          "text": "Gift cards.",
-          "icon": "🚫"
-        }
-      ],
-      "explanation": "Always feel free to hang up and call the hotel directly.  If you didn't stay in a hotel, then there really is no reason to get a refund."
-    },
-    {
-      "id": "27-3",
-      "lesson_id": "27",
-      "question_type": "action",
-      "question": "Only share your computer screen with:",
-      "correct_answer": "your_it_support_company",
-      "options": [
-        {
-          "id": "your_it_support_company",
-          "text": "Your IT support company where you initiated the service call.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "refund_processing_caller",
-          "text": "Cold callers who claim to offer a refund.",
-          "icon": "✅"
-        },
-        {
-          "id": "bank_fraud_department",
-          "text": "My bank's fraud department.",
-          "icon": "⚠️"
-        }
-      ],
-      "explanation": "Never give control of your computer to a stranger."
-    },
-    {
       "id": "28-1",
       "lesson_id": "28",
       "question_type": "indicator",
-      "question": "We need a deposit to hold your place in the \"church directory\". Verify by:",
+      "question": "You receive a call asking for a deposit to hold your place in the \"church directory\". Verify by:",
       "correct_answer": "calling_church_office_di",
       "options": [
         {
           "id": "calling_church_office_di",
-          "text": "Calling church office directly.",
+          "text": "Calling the church office directly.",
           "icon": "✅"
         },
         {
           "id": "giving_credit_card_for_p",
-          "text": "Giving credit card for photos.",
+          "text": "Giving your credit card for photos.",
           "icon": "⚠️"
         },
         {
@@ -2791,7 +2679,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Pressure to act fast or miss out is a common tactic.  Always feel comfortable to hangup and call a number you know to be right."
+      "explanation": "Pressure to act fast or miss out is a common tactic.  Always feel comfortable to hang up and call a number you know to be right."
     },
     {
       "id": "28-2",
@@ -2832,12 +2720,12 @@
         },
         {
           "id": "church_office_treasurer",
-          "text": "Church office/treasurer only.",
+          "text": "the church office/treasurer only.",
           "icon": "✅"
         },
         {
           "id": "photographer_directly",
-          "text": "Photographer directly.",
+          "text": "the photographer directly.",
           "icon": "⚠️"
         }
       ],
@@ -2847,7 +2735,7 @@
       "id": "29-1",
       "lesson_id": "29",
       "question_type": "indicator",
-      "question": "Repairman at the door claiming your fence has a \"code violation.\" First step?",
+      "question": "Repairman at the door is claiming your fence has a \"code violation.\" What is your first step?",
       "correct_answer": "call_county_for_written",
       "options": [
         {
@@ -2872,17 +2760,17 @@
       "id": "29-2",
       "lesson_id": "29",
       "question_type": "danger",
-      "question": "Code violations notified by:",
+      "question": "Code violations are notified by:",
       "correct_answer": "county_written_citation",
       "options": [
         {
           "id": "county_written_citation",
-          "text": "County written citation.",
+          "text": "Mail from the county with a written citation.",
           "icon": "✅"
         },
         {
           "id": "neighbor_contractor_warn",
-          "text": "Neighbor contractor warnings.",
+          "text": "Neighborhood contractor warnings.",
           "icon": "⚠️"
         },
         {
@@ -2891,13 +2779,13 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "There is no advantage in resolving an issue before the written warning.  The county will give time to remediate."
+      "explanation": "There is no advantage in resolving an issue before the written warning.  The county will give you time to remediate."
     },
     {
       "id": "29-3",
       "lesson_id": "29",
       "question_type": "action",
-      "question": "What's the maximum deposit in cash I should give the fence contractor?",
+      "question": "What isthe maximum deposit in cash you should give the fence contractor?",
       "correct_answer": "100_cash_maximum",
       "options": [
         {
@@ -3072,22 +2960,22 @@
       "id": "32-1",
       "lesson_id": "32",
       "question_type": "indicator",
-      "question": "Craigslist car demands PayPal deposit before test drive. Verdict?",
+      "question": "A listing online shows a great deal on a car, but demands PayPal deposit before a test drive. Verdict?",
       "correct_answer": "scam_always_test_drive_f",
       "options": [
         {
           "id": "scam_always_test_drive_f",
-          "text": "Scam — always test drive first.",
+          "text": "It's a scam — always test drive first.",
           "icon": "✅"
         },
         {
           "id": "legitimate_hold_deposit",
-          "text": "Legitimate hold deposit.",
+          "text": "Seems legitimate to ask for a deposit to hold it for me.",
           "icon": "⚠️"
         },
         {
           "id": "send_half_upfront",
-          "text": "Send half upfront.",
+          "text": "Only send half the amount upfront.",
           "icon": "⚠️"
         }
       ],
@@ -3102,7 +2990,7 @@
       "options": [
         {
           "id": "dealer_bank_cashier_s_ch",
-          "text": "Dealer/bank cashier's check (at the bank) after inspection.",
+          "text": "A bank cashier's check (at the bank) after inspection.",
           "icon": "✅"
         },
         {
@@ -3112,7 +3000,7 @@
         },
         {
           "id": "cash_in_parking_lot",
-          "text": "Cash in parking lot.",
+          "text": "Cash in a parking lot.",
           "icon": "⚠️"
         }
       ],
@@ -3127,12 +3015,12 @@
       "options": [
         {
           "id": "test_drive_vin_check_at",
-          "text": "Test drive + VIN check at Carfax.",
+          "text": "Taking an actual test drive +review the VIN at Carfax.",
           "icon": "✅"
         },
         {
           "id": "seller_shipping_photos",
-          "text": "Seller shipping photos.",
+          "text": "Looking at the seller's photos.",
           "icon": "⚠️"
         },
         {
@@ -3147,7 +3035,7 @@
       "id": "33-1",
       "lesson_id": "33",
       "question_type": "indicator",
-      "question": "Phone call offers a big discount on funeral services with a reasonable prepayment. What do you do?",
+      "question": "A phone call offers a big discount on funeral services with a reasonable prepayment. What do you do?",
       "correct_answer": "hang_up_plan_with_local",
       "options": [
         {
@@ -3207,7 +3095,7 @@
         },
         {
           "id": "funerals_org_directory",
-          "text": "Your state or local licensing board",
+          "text": "Your state or local licensing board.",
           "icon": "✅"
         },
         {
@@ -3222,12 +3110,12 @@
       "id": "34-1",
       "lesson_id": "34",
       "question_type": "indicator",
-      "question": "\"Solar rebate\" demands $995 deposit. Is this a good deal?",
+      "question": "\"Solar rebate\" requires a $995 deposit. Is this a good deal?",
       "correct_answer": "scam_government_rebates",
       "options": [
         {
           "id": "scam_government_rebates",
-          "text": "Scam — government rebates do not require deposits.",
+          "text": "It is a scam — government rebates do not require deposits.",
           "icon": "✅"
         },
         {
@@ -3291,7 +3179,7 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Real solar tax credit at irs.gov. Licensed contractors only. Government never demands deposits for rebates."
+      "explanation": "Real solar tax credits are found at irs.gov. Only use licensed, bonded, insured contractors that YOU seek out. The government never demands deposits for rebates."
     },
     {
       "id": "35-1",
@@ -3316,7 +3204,7 @@
           "icon": "🚫"
         }
       ],
-      "explanation": "Never trust personal verification questions, since the scammer may know information from social media accounts.  Hang up and call a verified parent or guardian's number."
+      "explanation": "Never trust that you can verify their identity with personal questions (like \"what is your birthday?\"), since the scammer may know that information from publicly available social media accounts.  Hang up and call a verified parent or guardian's number."
     },
     {
       "id": "35-2",
@@ -3341,23 +3229,23 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "There is never a legitimate reason to buy gift cards and read the numbers over the phone to someone."
+      "explanation": "Always feel comfortable hanging up and calling someone else to verify the situation. "
     },
     {
       "id": "35-3",
       "lesson_id": "35",
       "question_type": "action",
-      "question": "Verify by calling:",
+      "question": "Verify the story by calling:",
       "correct_answer": "parents_known_home_numbe",
       "options": [
         {
           "id": "parents_known_home_numbe",
-          "text": "Parents' or guardians' known home number.",
+          "text": "The child's parents or guardians using a known home number.",
           "icon": "✅"
         },
         {
           "id": "prepaid_emergency_number",
-          "text": "Prepaid emergency number.",
+          "text": "The phone number of the store the caller provides.",
           "icon": "⚠️"
         },
         {
@@ -3366,93 +3254,18 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Call parents' or guardians' home number first. Real emergencies go through them."
-    },
-    {
-      "id": "36-1",
-      "lesson_id": "36",
-      "question_type": "indicator",
-      "question": "\"Airline refund\" requests SSN to process. What do you do?",
-      "correct_answer": "hang_up_check_airline_we",
-      "options": [
-        {
-          "id": "hang_up_check_airline_we",
-          "text": "Hang up — check airline yourself through a verified number.",
-          "icon": "✅"
-        },
-        {
-          "id": "verify_identity_for_proc",
-          "text": "Provide your identity for processing.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "ask_for_confirmation_num",
-          "text": "Ask for a confirmation number.",
-          "icon": "⚠️"
-        }
-      ],
-      "explanation": "A key red flag is being asked to share sensitive information or act immediately without verifying through a trusted number."
-    },
-    {
-      "id": "36-2",
-      "lesson_id": "36",
-      "question_type": "danger",
-      "question": "Airline refunds deposit to:",
-      "correct_answer": "original_payment_method",
-      "options": [
-        {
-          "id": "original_payment_method",
-          "text": "Original payment method automatically.",
-          "icon": "✅"
-        },
-        {
-          "id": "phone_verification_requi",
-          "text": "Phone verification required.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "new_credit_card_provided",
-          "text": "New credit card provided.",
-          "icon": "🚫"
-        }
-      ],
-      "explanation": "Airlines process refunds all the time, without requesting SSNs."
-    },
-    {
-      "id": "36-3",
-      "lesson_id": "36",
-      "question_type": "action",
-      "question": "Never give airlines:",
-      "correct_answer": "social_security_number",
-      "options": [
-        {
-          "id": "ticket_number",
-          "text": "Ticket number.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "social_security_number",
-          "text": "Social Security number.",
-          "icon": "✅"
-        },
-        {
-          "id": "frequent_flyer_number",
-          "text": "Frequent flyer number.",
-          "icon": "⚠️"
-        }
-      ],
-      "explanation": "Hang up. Check airline account online directly. Real refunds auto-deposit to original payment method."
+      "explanation": "Call parents or guardians using a known home number first."
     },
     {
       "id": "37-1",
       "lesson_id": "37",
       "question_type": "indicator",
-      "question": "Door-to-door driveway sealing $29. Verdict?",
+      "question": "You get a knock on your door and an offer of a really good deal since they are ready with extra sealant anyway.  What do you think?",
       "correct_answer": "scam_real_sealing_costs",
       "options": [
         {
           "id": "scam_real_sealing_costs",
-          "text": "Scam — pressure for 'discounts' avoids shopping for comparison.",
+          "text": "It's a scam — pressure to act immediately for 'discounts' avoids shopping for comparison.",
           "icon": "✅"
         },
         {
@@ -3477,7 +3290,7 @@
       "options": [
         {
           "id": "written_contract_3_bids",
-          "text": "Often a scam. Hard to hold accountable.",
+          "text": "Often a scam. They are difficult if not impossible to hold accountable.",
           "icon": "✅"
         },
         {
@@ -3597,22 +3410,22 @@
       "id": "39-1",
       "lesson_id": "39",
       "question_type": "indicator",
-      "question": "\"IRS audit\" demands bank info by phone. What action do you take?",
+      "question": "An \"IRS audit\" demands payment via the portal they provide. What action do you take?",
       "correct_answer": "hang_up_irs_never_calls",
       "options": [
         {
           "id": "hang_up_irs_never_calls",
-          "text": "Hang up — IRS never calls demanding payment.",
+          "text": "Hang up — the IRS never calls demanding payment.",
           "icon": "✅"
         },
         {
           "id": "provide_bank_details_for",
-          "text": "Provide bank details for portal.",
+          "text": "Provide bank details for the portal.",
           "icon": "🚫"
         },
         {
           "id": "ask_for_audit_case_numbe",
-          "text": "Ask for audit case number.",
+          "text": "Ask for an audit case number.",
           "icon": "⚠️"
         }
       ],
@@ -3622,7 +3435,7 @@
       "id": "39-2",
       "lesson_id": "39",
       "question_type": "danger",
-      "question": "IRS official contact method:",
+      "question": "The IRS official contact method:",
       "correct_answer": "certified_mail_only_neve",
       "options": [
         {
@@ -3641,107 +3454,32 @@
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up.  Call the verified number to ask questions."
+      "explanation": "Hang up.  The IRS does not call you.  Ever."
     },
     {
       "id": "39-3",
       "lesson_id": "39",
       "question_type": "action",
-      "question": "Verify IRS contact at:",
+      "question": "Verify IRS issues at:",
       "correct_answer": "irs_gov_account_online",
       "options": [
         {
           "id": "irs_gov_account_online",
-          "text": "irs.gov account online.",
+          "text": "The official irs.gov account online.",
           "icon": "✅"
         },
         {
           "id": "caller_verification_port",
-          "text": "Caller verification portal.",
+          "text": "The verification portal provided by a caller.",
           "icon": "⚠️"
         },
         {
           "id": "local_irs_walk_in",
-          "text": "Local IRS walk-in.",
+          "text": "The local IRS walk-in.",
           "icon": "⚠️"
         }
       ],
-      "explanation": "Hang up. Real IRS contact by certified mail only. Check irs.gov account. Call 1-800-829-1040 or search for a verified number for the IRS."
-    },
-    {
-      "id": "40-1",
-      "lesson_id": "40",
-      "question_type": "indicator",
-      "question": "Robocall claims \"warranty expires midnight.\" What do you do?",
-      "correct_answer": "hang_up_check_dealer_rec",
-      "options": [
-        {
-          "id": "hang_up_check_dealer_rec",
-          "text": "Hang up — check dealer records.",
-          "icon": "✅"
-        },
-        {
-          "id": "enroll_2_499_immediately",
-          "text": "Enroll $2,499 immediately.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "ask_for_vin_verification",
-          "text": "Ask for VIN verification.",
-          "icon": "⚠️"
-        }
-      ],
-      "explanation": "Warranty companies don't call demanding payment."
-    },
-    {
-      "id": "40-2",
-      "lesson_id": "40",
-      "question_type": "danger",
-      "question": "Legitimate warranties are from:",
-      "correct_answer": "car_manufacturer_dealer",
-      "options": [
-        {
-          "id": "car_manufacturer_dealer",
-          "text": "The car manufacturer/dealer only.",
-          "icon": "✅"
-        },
-        {
-          "id": "national_warranty_roboca",
-          "text": "National warranty robocalls.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "0_deductible_telemarkete",
-          "text": "$0 deductible telemarketers.",
-          "icon": "⚠️"
-        }
-      ],
-      "explanation": "Hang up.  No legitimate warranty service will call you and scare you to paying now."
-    },
-    {
-      "id": "40-3",
-      "lesson_id": "40",
-      "question_type": "action",
-      "question": "Check warranty status at:",
-      "correct_answer": "dealer_service_departmen",
-      "options": [
-        {
-          "id": "dealer_service_departmen",
-          "text": "Your local car dealership's service department.",
-          "icon": "✅"
-        },
-        {
-          "id": "robocall_verification_li",
-          "text": "The phone number the Robocall provided.",
-          "icon": "⚠️"
-        },
-        {
-          "id": "national_warranty_websit",
-          "text": "National warranty website.",
-          "icon": "⚠️"
-        }
-      ],
-      "explanation": "Check dealer service records. Real warranties mailed, not called. Manufacturer certified pre-owned only. Hang up on robocalls."
+      "explanation": "Hang up. The real IRS contacts you by certified mail only. Check status of your account at the official irs.gov website, or call 1-800-829-1040 (the official IRS number) or search for a verified number for the IRS."
     },
     {
       "id": "new-1771897797602",
@@ -3817,6 +3555,81 @@
         }
       ],
       "explanation": "There are never any problems that automatically get worse if you hang up.  If it's a real problem, it will be there when you call back."
+    },
+    {
+      "id": "42-1",
+      "lesson_id": "42",
+      "question_type": "indicator",
+      "question": "You get a popup asking you to press WIN + R.  What do you do?",
+      "correct_answer": "opt_3",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "Follow the instructions to verify my authenticity.",
+          "icon": "🚫"
+        },
+        {
+          "id": "opt_2",
+          "text": "Close the browser and then follow the instructions.",
+          "icon": "✅"
+        },
+        {
+          "id": "opt_3",
+          "text": "Close out of the window without using those keystrokes.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Never use WIN (Windows) + R in response to instructions on your screen."
+    },
+    {
+      "id": "42-2",
+      "lesson_id": "42",
+      "question_type": "danger",
+      "question": "What can happen if you follow the keystrokes provided on the pop up?",
+      "correct_answer": "opt_2",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "Your authenticity will be verified.",
+          "icon": "🚫"
+        },
+        {
+          "id": "opt_2",
+          "text": "You will paste and run a command on your computer that will install malware.",
+          "icon": "✅"
+        },
+        {
+          "id": "opt_3",
+          "text": "You will need to clear your cache.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "They try to trick you into running bad commands since they can't sit at your computer and run them directly."
+    },
+    {
+      "id": "42-3",
+      "lesson_id": "42",
+      "question_type": "action",
+      "question": "Sometimes verification windows are real.  How do I know if it's a bad one?",
+      "correct_answer": "opt_2",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "When it asks you to use Windows + R, then CTRL + V.",
+          "icon": "🚫"
+        },
+        {
+          "id": "opt_2",
+          "text": "If it doesn't have a shadow behind the border.",
+          "icon": "✅"
+        },
+        {
+          "id": "opt_3",
+          "text": "It's always safe to follow the instructions on the screen.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "They are taking advantage of shortcuts that many people do not know to get the user to run malware installation."
     }
   ]
 }
