@@ -1,5 +1,5 @@
 {
-  "version": "1.0.13",
+  "version": "1.0.14",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -3611,7 +3611,7 @@
       "lesson_id": "42",
       "question_type": "action",
       "question": "Sometimes verification windows are real.  How do I know if it's a bad one?",
-      "correct_answer": "opt_2",
+      "correct_answer": "opt_1",
       "options": [
         {
           "id": "opt_1",
