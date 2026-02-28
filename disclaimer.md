@@ -1,4 +1,6 @@
-# Disclaimer
+# Disclaimer & Terms of Service
+
+**Effective: February 5, 2026**
 
 ## Educational Information Only
 

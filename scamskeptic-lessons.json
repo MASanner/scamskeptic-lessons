@@ -1,5 +1,5 @@
 {
-  "version": "1.0.14",
+  "version": "1.0.15",
   "latestAppVersion": "1.0.0",
   "androidStoreUrl": "https://play.google.com/store/apps/details?id=YOUR_PACKAGE",
   "iosStoreUrl": "https://apps.apple.com/app/idYOUR_APP_ID",
@@ -30,13 +30,13 @@
       "category": "phone",
       "icon": "🩺",
       "scammer_says": "\"Good morning, this is Mark from Medicare Services. Our records show your Medicare coverage expires next week because your card number didn't match our database. To reactivate it before you lose doctor visits and prescriptions, press 1 now and give us your Medicare number and Social Security number.\" \"Don't worry, this takes just 2 minutes. Without this, you'll pay full price for all medical care.\"",
-      "the_trick": "The scammer pretends your Medicare benefits are about to expire to get your Medicare ID and Social Security number. They use an automated recording or live caller to create panic about losing healthcare coverage.",
+      "the_trick": "The scammer pretends your Medicare benefits are about to expire to get your Medicare ID and Social Security number. They use an automated recording or live caller to create panic about losing healthcare coverage.  It is easy for them to fake a Caller ID that says Medicare, so you can't rely on that to know if the call is real.",
       "consequences": "With your Medicare and Social Security numbers, they can file fake medical claims, steal your identity for loans, or sell your info on the dark web. This could lead to ruined credit and years of identity theft problems.",
       "danger_signs": [
         "Medicare never calls asking for your ID numbers.",
         "They threaten to cancel benefits unless you act immediately.",
         "Automated message asks you to \"press 1\" or provide personal info.",
-        "No official Medicare caller ID or reference number provided."
+        "They call you without you calling them first"
       ],
       "safe_action": "Hang up or ignore the call. Contact Medicare directly at 1-800-MEDICARE (1-800-633-4227) using a known good number to verify your coverage status. Your Medicare card never expires."
     },
@@ -785,22 +785,22 @@
       "id": "2-1",
       "lesson_id": "2",
       "question_type": "indicator",
-      "question": "Medicare will never contact you by phone to ask for what?",
+      "question": "When should you give Medicare ID information over the phone?",
       "correct_answer": "your_medicare_id_or_soci",
       "options": [
         {
           "id": "your_doctor_s_name",
-          "text": "Your doctor's name.",
+          "text": "When the Caller ID says Medicare.",
           "icon": "⚠️"
         },
         {
           "id": "your_coverage_details",
-          "text": "Your coverage details.",
+          "text": "When the caller knows my name.",
           "icon": "⚠️"
         },
         {
           "id": "your_medicare_id_or_soci",
-          "text": "Your Medicare ID or Social Security number.",
+          "text": "Never.  Medicare will never ask for it.",
           "icon": "✅"
         }
       ],
