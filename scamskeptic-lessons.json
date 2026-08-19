@@ -793,6 +793,114 @@
         "It claims “failed” and pushes you to retry immediately."
       ],
       "safe_action": "Do not scan random QR stickers. Use the official parking app name shown on the meter/sign, or type the official website yourself. If you already entered card info, contact your bank and monitor transactions."
+    },
+    {
+      "id": "48",
+      "title": "Fake Bill-Payment Search Result Scam",
+      "summary": "A fake search result sends you to a lookalike bill-payment website.",
+      "body": "You search online for a utility, phone, internet, medical lab, or toll bill payment page. A paid search result looks like the real company, but the website may be controlled by a scammer or an intermediary that is not the biller. You may pay unexpected fees, give away payment information, or think you paid the real company when you did not.",
+      "category": "online",
+      "icon": "💻",
+      "scammer_says": "\"Pay your bill quickly here — official online payment center.\" \"You're in the right place. Just enter your account number, card number, and billing information to make your payment.\"",
+      "the_trick": "Scammers use paid search ads, copied logos, and lookalike websites to appear connected to a real biller. The search result can look convincing even though the website is not the company's official payment channel. An intermediary may also collect the payment and add fees or misrepresent its relationship with the biller.",
+      "consequences": "Your payment is stolen by the scammer, and not applied to your actual bill.  Late fees may be charged, or your payment and personal information may be exposed. You could also believe a bill was paid when the real biller never received the money.",
+      "danger_signs": [
+        "The search result is a paid ad or unfamiliar website instead of the biller's known website.",
+        "The website address is slightly different from the company's official address.",
+        "The site does not clearly explain who is actually receiving the payment.",
+        "Unexpected fees or extra charges appear before you can pay."
+      ],
+      "safe_action": "Do not assume the first search result is the official payment site. Type the biller's known website yourself or use its official app, then pay from your account there. Check your statement afterward to confirm the payment went to the correct company."
+    },
+    {
+      "id": "49",
+      "title": "Scam Recovery or Refund Assistance",
+      "summary": "A scammer promises to recover money you already lost, then asks for more money or personal information.",
+      "body": "After someone loses money to a scam, the victim may be contacted by a person claiming they can recover the funds, locate a missing prize, or get a refund for undelivered merchandise. The supposed helper may pretend to be from a government agency, consumer group, or law firm. They then demand an upfront processing or administrative fee or ask for banking and identity information.",
+      "category": "phone",
+      "icon": "💰",
+      "scammer_says": "\"We found your missing money and can recover it for you.\" \"There is a small $450 administrative fee before we can release the funds. We also need your bank account and identification information to verify the recovery.\"",
+      "the_trick": "The scammer targets people who have already been hurt by fraud. They use the promise of getting the lost money back to gain trust, then collect another payment or sensitive information. The recovery offer is simply another scam.",
+      "consequences": "You can lose even more money after already being scammed. Banking and identity information can also be used for account theft or identity fraud.",
+      "danger_signs": [
+        "Someone contacts you unexpectedly about recovering money you lost.",
+        "They demand an upfront processing, administrative, or legal fee.",
+        "They promise recovery before explaining how they verified your claim.",
+        "They ask for banking or identity information to receive the supposed recovery."
+      ],
+      "safe_action": "Do not pay a recovery fee or give sensitive information to an unexpected caller. Contact the original company, payment provider, or government agency yourself using a trusted official number or website. Treat an unsolicited promise to recover lost money as another possible scam."
+    },
+    {
+      "id": "50",
+      "title": "Fake FBI or IC3 Recovery Scam",
+      "summary": "A scammer impersonates the FBI or IC3 and claims your stolen money has been found.",
+      "body": "A scammer contacts someone who has already been victimized by fraud and pretends to be from the FBI or the Internet Crime Complaint Center (IC3). They may use a phone call, email, social media, messaging app, fake website, or convincing video. They claim your money has been found or that your IC3 complaint needs to be updated, then try to obtain money or sensitive information.",
+      "category": "online",
+      "icon": "🏛️",
+      "scammer_says": "\"This is an IC3 recovery specialist. We located the funds that were stolen from you.\" \"To update your complaint and release the recovered funds, send the processing fee and confirm your bank and identity information.\"",
+      "the_trick": "The scammer uses the authority of the FBI or IC3 to make the victim believe the recovery is official. The FBI says IC3 has no social-media presence and does not recover funds through social platforms or messaging apps. The goal is to exploit a person who has already lost money.",
+      "consequences": "You can lose additional money, expose your bank or identity information, and give scammers more information about your previous fraud victimization.",
+      "danger_signs": [
+        "Someone claiming to be IC3 contacts you through social media or a messaging app.",
+        "They say your stolen money has been found and requires a fee to release.",
+        "They ask for banking, identity, or authentication information.",
+        "They pressure you to update a complaint through a link or contact method they provide."
+      ],
+      "safe_action": "Do not pay or provide sensitive information to the person who contacted you. Do not trust social-media or messaging accounts claiming to represent IC3. If you need to report or follow up on a cybercrime, use the official FBI or IC3 website that you locate yourself."
+    },
+    {
+      "id": "51",
+      "title": "Fake Social-Media Shopping Ad",
+      "summary": "A convincing social-media ad offers a popular product at an unusually low price.",
+      "body": "You see an attractive ad while scrolling through social media. It may use a familiar brand name, a dramatic discount, a countdown timer, or a limited-time offer. The ad can lead to a fake store that sends counterfeit or inferior goods, sends nothing at all, or collects your payment information. An ad appearing in a social-media feed is not proof that the seller is legitimate.",
+      "category": "online",
+      "icon": "🛍️",
+      "scammer_says": "\"Today only! Name-brand products are 80% off while supplies last.\" \"Click now before the sale ends — thousands of customers have already ordered.\"",
+      "the_trick": "Scammers use paid social-media advertising to reach shoppers and make fake stores look trustworthy. They use desirable products, brand names, steep discounts, and urgency to get buyers to order before checking the seller.",
+      "consequences": "You may receive a counterfeit or poor-quality product, receive nothing, or expose your credit card information to a fraudulent seller. The money may be difficult to recover.",
+      "danger_signs": [
+        "The price is dramatically lower than normal for a desirable brand-name product.",
+        "The ad uses strong urgency such as a countdown or \"today only\" offer.",
+        "The seller or website has little verifiable history outside the social-media ad.",
+        "The ad makes the product or seller look legitimate without giving you a reliable way to verify the business."
+      ],
+      "safe_action": "Do not treat a social-media ad as proof that a seller is legitimate. Before buying, research the seller independently and go to the brand's known website if you want that product. Use a payment method with buyer protections when possible, and avoid rushing because of a countdown or limited-time claim."
+    },
+    {
+      "id": "52",
+      "title": "Social-Media Investment Training Scam",
+      "summary": "A social-media promotion promises that simple trading training can quickly lead to wealth.",
+      "body": "A post or advertisement promises that ordinary people can quickly learn trading, quit their jobs, or live a luxury lifestyle. The promotion minimizes financial risk and may steer people toward expensive training, misleading investment arrangements, or requests for money and financial information. The polished lifestyle shown in the promotion is part of the sales pitch.",
+      "category": "online",
+      "icon": "📈",
+      "scammer_says": "\"I learned this simple trading system and now I make more in a week than I used to make in a month.\" \"Join my training today and learn how to quit your job. The risk is minimal if you follow my system.\"",
+      "the_trick": "The promotion uses social media, success stories, and luxury-lifestyle claims to make quick wealth appear easy. Once interested, the person may be pushed into expensive training or fraudulent investment opportunities and asked for money or financial details.",
+      "consequences": "You can lose money on expensive training or a fraudulent investment arrangement. Sharing financial information can create additional risks, and unrealistic expectations can encourage you to take financial risks you would not otherwise take.",
+      "danger_signs": [
+        "The promotion promises quick wealth or suggests you can easily quit your job.",
+        "Financial risk is minimized or described as almost nonexistent.",
+        "The pitch relies on luxury lifestyles, success stories, or pressure to join.",
+        "You are pushed toward expensive training, an investment arrangement, or requests for financial information."
+      ],
+      "safe_action": "Do not invest or pay for training because of a social-media promise of easy wealth. Research the person and company independently, understand the risks and total costs, and never share banking information simply to qualify for an opportunity."
+    },
+    {
+      "id": "53",
+      "title": "Tax-Debt Relief Scam",
+      "summary": "A company promises to settle your tax debt for pennies on the dollar before checking whether you qualify.",
+      "body": "A company advertises that it can settle tax debts for \"pennies on the dollar.\" The pitch may sound like a guaranteed solution, but the company may not first determine whether you actually qualify for meaningful tax relief. Consumers can end up paying large service fees while little or no useful work is done, leaving the underlying tax problem unresolved.",
+      "category": "phone",
+      "icon": "🏛️",
+      "scammer_says": "\"We can settle your IRS tax debt for pennies on the dollar.\" \"Pay our enrollment fee today and we'll take care of the IRS for you. Don't worry about whether you qualify — our program is designed to save you thousands.\"",
+      "the_trick": "The company sells the promise of dramatic tax savings before evaluating whether the consumer qualifies. The consumer may pay substantial fees while receiving little useful assistance, while the actual tax debt remains unresolved.",
+      "consequences": "You can lose money on service fees while still owing the original tax debt. Delaying attention to the real tax problem can make the situation worse.",
+      "danger_signs": [
+        "The company promises to settle tax debt for \"pennies on the dollar\" before evaluating your situation.",
+        "You are asked to pay substantial fees before knowing whether you qualify.",
+        "The salesperson focuses on a dramatic savings promise instead of your actual tax circumstances.",
+        "The company does not clearly explain what specific work it will perform for the fee."
+      ],
+      "safe_action": "Do not pay based only on a promise of huge tax savings. Get the facts about your tax debt directly from the IRS and understand whether you qualify for any relief before paying a company to help. Be especially cautious about large upfront fees and guaranteed-sounding claims."
     }
   ],
   "quizQuestions": [
@@ -4095,6 +4203,456 @@
         }
       ],
       "explanation": "Fast action with your bank can reduce losses and prevent additional unauthorized charges."
+    },
+    {
+      "id": "48-1",
+      "lesson_id": "48",
+      "question_type": "indicator",
+      "question": "You search for your electric company's payment page and the first result is an unfamiliar website. What should you do?",
+      "correct_answer": "use_known_official_site",
+      "options": [
+        {
+          "id": "pay_through_first_result",
+          "text": "Pay through the first result because it appeared at the top.",
+          "icon": "🚫"
+        },
+        {
+          "id": "use_known_official_site",
+          "text": "Use the utility's known official website or app instead.",
+          "icon": "✅"
+        },
+        {
+          "id": "enter_card_to_test",
+          "text": "Enter your card information first and check the company name afterward.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Search results can include paid ads or lookalike payment sites. Go directly to the biller's known website or official app rather than assuming the first result is official."
+    },
+    {
+      "id": "48-2",
+      "lesson_id": "48",
+      "question_type": "danger",
+      "question": "Which is a red flag on an online bill-payment site?",
+      "correct_answer": "unexpected_payment_fee",
+      "options": [
+        {
+          "id": "normal_bill_amount",
+          "text": "The amount matches the bill you already received.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "unexpected_payment_fee",
+          "text": "An unexpected fee is added before payment.",
+          "icon": "✅"
+        },
+        {
+          "id": "official_app_payment",
+          "text": "The payment is made through the biller's official app.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Unexpected fees can indicate that you are dealing with an intermediary or a site that is misrepresenting its relationship with the actual biller."
+    },
+    {
+      "id": "48-3",
+      "lesson_id": "48",
+      "question_type": "action",
+      "question": "What is the safest way to pay a bill online?",
+      "correct_answer": "type_known_address",
+      "options": [
+        {
+          "id": "click_paid_ad",
+          "text": "Click the first paid search ad that looks official.",
+          "icon": "🚫"
+        },
+        {
+          "id": "type_known_address",
+          "text": "Type the biller's known website yourself or use its official app.",
+          "icon": "✅"
+        },
+        {
+          "id": "use_social_link",
+          "text": "Use a payment link posted in a social-media comment.",
+          "icon": "🚫"
+        }
+      ],
+      "explanation": "Using a known official website or app helps avoid lookalike payment sites. Do not rely on an ad, comment, or link supplied by someone else."
+    },
+    {
+      "id": "49-1",
+      "lesson_id": "49",
+      "question_type": "indicator",
+      "question": "Someone unexpectedly says they can recover money you previously lost to a scam. What is the biggest red flag?",
+      "correct_answer": "upfront_recovery_fee",
+      "options": [
+        {
+          "id": "upfront_recovery_fee",
+          "text": "They demand an upfront processing or administrative fee.",
+          "icon": "✅"
+        },
+        {
+          "id": "asks_for_case_details",
+          "text": "They ask what happened in the original scam.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "offers_to_explain",
+          "text": "They offer to explain how their service works.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Recovery scammers target people who have already lost money. An upfront fee is a major warning sign that the supposed recovery is another scam."
+    },
+    {
+      "id": "49-2",
+      "lesson_id": "49",
+      "question_type": "danger",
+      "question": "Why might a recovery scammer ask for your bank information?",
+      "correct_answer": "to_steal_or_abuse_info",
+      "options": [
+        {
+          "id": "to_speed_real_refund",
+          "text": "Because every legitimate recovery service must have it.",
+          "icon": "🚫"
+        },
+        {
+          "id": "to_steal_or_abuse_info",
+          "text": "To obtain sensitive information that can be used for theft or identity fraud.",
+          "icon": "✅"
+        },
+        {
+          "id": "to_verify_their_license",
+          "text": "To verify that the recovery company is licensed.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Scammers may use banking and identity information for account theft or identity fraud. Do not provide sensitive information to an unexpected recovery offer."
+    },
+    {
+      "id": "49-3",
+      "lesson_id": "49",
+      "question_type": "action",
+      "question": "You receive an unsolicited call promising to recover money from a previous scam. What should you do?",
+      "correct_answer": "verify_independently",
+      "options": [
+        {
+          "id": "pay_small_fee",
+          "text": "Pay the fee because recovering the larger amount is worth it.",
+          "icon": "🚫"
+        },
+        {
+          "id": "give_bank_info",
+          "text": "Give your bank information so they can locate the funds.",
+          "icon": "🚫"
+        },
+        {
+          "id": "verify_independently",
+          "text": "Hang up.  No legitimate agency to help in recovering funds would call you unsolicited.",
+          "icon": "✅"
+        }
+      ],
+      "explanation": "Do not trust the contact information supplied by an unexpected recovery caller. Independently contact the organization that handled the original transaction or the relevant official agency."
+    },
+    {
+      "id": "50-1",
+      "lesson_id": "50",
+      "question_type": "indicator",
+      "question": "Someone on social media says they are with IC3 and can recover your stolen money. What is the key red flag?",
+      "correct_answer": "ic3_no_social_presence",
+      "options": [
+        {
+          "id": "they_use_formal_language",
+          "text": "They use formal government-sounding language.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "ic3_no_social_presence",
+          "text": "They claim to represent IC3 through social media.",
+          "icon": "✅"
+        },
+        {
+          "id": "they_know_your_name",
+          "text": "They know your name and details about your earlier complaint.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "The FBI says IC3 has no social-media presence and does not recover funds through social platforms or messaging apps. A social-media recovery contact claiming to be IC3 is a major red flag."
+    },
+    {
+      "id": "50-2",
+      "lesson_id": "50",
+      "question_type": "danger",
+      "question": "A person claiming to be from IC3 says your money has been found but asks for a release fee. What should you think?",
+      "correct_answer": "possible_recovery_scam",
+      "options": [
+        {
+          "id": "possible_recovery_scam",
+          "text": "It may be another recovery scam targeting someone who already lost money.",
+          "icon": "✅"
+        },
+        {
+          "id": "pay_to_release",
+          "text": "Pay quickly because recovered money is always held for a fee.",
+          "icon": "🚫"
+        },
+        {
+          "id": "send_bank_details",
+          "text": "Send your bank details so the money can be released.",
+          "icon": "🚫"
+        }
+      ],
+      "explanation": "Scammers can impersonate law enforcement and claim that stolen money has been recovered. An unexpected fee or request for sensitive information is a warning sign."
+    },
+    {
+      "id": "50-3",
+      "lesson_id": "50",
+      "question_type": "action",
+      "question": "How should you follow up on an IC3 complaint?",
+      "correct_answer": "use_official_site",
+      "options": [
+        {
+          "id": "reply_to_social_account",
+          "text": "Reply to the social-media account that contacted you.",
+          "icon": "🚫"
+        },
+        {
+          "id": "use_official_site",
+          "text": "Use the official FBI or IC3 website that you locate yourself.",
+          "icon": "✅"
+        },
+        {
+          "id": "pay_the_recovery_fee",
+          "text": "Pay the requested recovery fee first.",
+          "icon": "🚫"
+        }
+      ],
+      "explanation": "Use official channels you locate yourself. Do not rely on links, social-media accounts, or messaging contacts that claim to represent IC3."
+    },
+    {
+      "id": "51-1",
+      "lesson_id": "51",
+      "question_type": "indicator",
+      "question": "You see a social-media ad offering a popular brand-name product for 80% off. What should make you cautious?",
+      "correct_answer": "extreme_discount",
+      "options": [
+        {
+          "id": "extreme_discount",
+          "text": "The unusually steep discount is a warning sign.",
+          "icon": "✅"
+        },
+        {
+          "id": "social_feed_exists",
+          "text": "It appeared while you were scrolling through your feed.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "product_has_photos",
+          "text": "The ad includes photographs of the product.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Steep discounts on desirable products can be used to make fake stores attractive. A social-media ad does not prove that the seller is legitimate."
+    },
+    {
+      "id": "51-2",
+      "lesson_id": "51",
+      "question_type": "danger",
+      "question": "Why is a social-media advertisement not proof that a seller is legitimate?",
+      "correct_answer": "ads_do_not_prove_legitimacy",
+      "options": [
+        {
+          "id": "ads_do_not_prove_legitimacy",
+          "text": "An ad appearing in your feed does not prove the advertiser is trustworthy.",
+          "icon": "✅"
+        },
+        {
+          "id": "platform_guarantees_seller",
+          "text": "The social-media platform guarantees every seller.",
+          "icon": "🚫"
+        },
+        {
+          "id": "brand_names_are_verified",
+          "text": "Using a brand name automatically verifies the seller.",
+          "icon": "🚫"
+        }
+      ],
+      "explanation": "Scammers can place convincing advertisements in social feeds. Research the seller independently instead of treating the ad itself as proof."
+    },
+    {
+      "id": "51-3",
+      "lesson_id": "51",
+      "question_type": "action",
+      "question": "What is a safer way to buy a product you saw in a social-media ad?",
+      "correct_answer": "research_seller_independently",
+      "options": [
+        {
+          "id": "buy_before_sale_ends",
+          "text": "Buy immediately before the countdown ends.",
+          "icon": "🚫"
+        },
+        {
+          "id": "research_seller_independently",
+          "text": "Research the seller independently and visit the brand's known website when appropriate.",
+          "icon": "✅"
+        },
+        {
+          "id": "trust_comments_only",
+          "text": "Trust positive comments under the advertisement.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Independent research can reveal whether the seller has a real business history. Do not let a countdown or social-media comments replace verification."
+    },
+    {
+      "id": "52-1",
+      "lesson_id": "52",
+      "question_type": "indicator",
+      "question": "A social-media post says you can learn trading quickly and quit your job. What is the biggest warning sign?",
+      "correct_answer": "quick_wealth_promise",
+      "options": [
+        {
+          "id": "quick_wealth_promise",
+          "text": "It suggests you can quickly become wealthy or quit your job.",
+          "icon": "✅"
+        },
+        {
+          "id": "trading_is_discussed",
+          "text": "The post discusses trading.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "training_has_a_name",
+          "text": "The training program has a name.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Promises of quick wealth and easy financial success are classic warning signs. Real investing involves risk and does not guarantee a lifestyle transformation."
+    },
+    {
+      "id": "52-2",
+      "lesson_id": "52",
+      "question_type": "danger",
+      "question": "What should make you skeptical of an investment-training promotion?",
+      "correct_answer": "risk_minimized",
+      "options": [
+        {
+          "id": "risk_minimized",
+          "text": "It makes financial risk sound very small or almost nonexistent.",
+          "icon": "✅"
+        },
+        {
+          "id": "mentions_learning",
+          "text": "It says the program teaches a skill.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "uses_online_video",
+          "text": "The promotion includes an online video.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "Investment always involves risk. A promotion that minimizes or dismisses that risk can be trying to make a risky or fraudulent opportunity appear safe."
+    },
+    {
+      "id": "52-3",
+      "lesson_id": "52",
+      "question_type": "action",
+      "question": "Before paying for social-media investment training, what should you do?",
+      "correct_answer": "research_independently",
+      "options": [
+        {
+          "id": "trust_luxury_lifestyle",
+          "text": "Trust the lifestyle shown in the advertisements.",
+          "icon": "🚫"
+        },
+        {
+          "id": "research_independently",
+          "text": "Research the person and company independently and understand the costs and risks.",
+          "icon": "✅"
+        },
+        {
+          "id": "send_financial_details",
+          "text": "Send financial information to prove you are ready to invest.",
+          "icon": "🚫"
+        }
+      ],
+      "explanation": "A polished social-media promotion is not proof of a legitimate opportunity. Research independently and understand exactly what you are paying for before sharing money or financial information."
+    },
+    {
+      "id": "53-1",
+      "lesson_id": "53",
+      "question_type": "indicator",
+      "question": "A company promises to settle your tax debt for \"pennies on the dollar\" before reviewing your situation. What is the red flag?",
+      "correct_answer": "promise_before_evaluation",
+      "options": [
+        {
+          "id": "promise_before_evaluation",
+          "text": "They promise dramatic savings before determining whether you qualify.",
+          "icon": "✅"
+        },
+        {
+          "id": "tax_debt_can_be_serious",
+          "text": "Tax debt can be a serious problem.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "they_offer_help",
+          "text": "They offer to help communicate about your tax debt.",
+          "icon": "⚠️"
+        }
+      ],
+      "explanation": "A legitimate assessment should determine whether you qualify for relief before promising a dramatic settlement. A blanket \"pennies on the dollar\" promise is a major warning sign."
+    },
+    {
+      "id": "53-2",
+      "lesson_id": "53",
+      "question_type": "danger",
+      "question": "What can happen if you pay a tax-debt relief company large fees without checking the actual tax situation?",
+      "correct_answer": "debt_remains",
+      "options": [
+        {
+          "id": "debt_remains",
+          "text": "You may lose money in fees while the underlying tax debt remains unresolved.",
+          "icon": "✅"
+        },
+        {
+          "id": "irs_deletes_debt",
+          "text": "The IRS automatically deletes the debt once a company is paid.",
+          "icon": "🚫"
+        },
+        {
+          "id": "fees_guarantee_settlement",
+          "text": "Paying a large fee guarantees a tax settlement.",
+          "icon": "🚫"
+        }
+      ],
+      "explanation": "Consumers can pay service fees while receiving little or no useful work. The underlying tax issue can remain unresolved."
+    },
+    {
+      "id": "53-3",
+      "lesson_id": "53",
+      "question_type": "action",
+      "question": "What should you do before paying a company that promises major tax-debt relief?",
+      "correct_answer": "check_with_irs_first",
+      "options": [
+        {
+          "id": "pay_enrollment_fee",
+          "text": "Pay the enrollment fee so the company can begin immediately.",
+          "icon": "🚫"
+        },
+        {
+          "id": "trust_guarantee",
+          "text": "Trust the guarantee because the company specializes in tax debt.",
+          "icon": "🚫"
+        },
+        {
+          "id": "check_with_irs_first",
+          "text": "Get the facts about your tax debt directly from the IRS and understand your options first.",
+          "icon": "✅"
+        }
+      ],
+      "explanation": "Start with the actual tax situation and available options rather than relying on a sales pitch. Be especially cautious about large upfront fees and guaranteed-sounding claims."
     }
   ]
 }
